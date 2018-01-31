@@ -23,3 +23,12 @@
   padding-bottom: 10px;
   padding-left: 5%;
 }
+.coluna {
+  width: 14.4%;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
