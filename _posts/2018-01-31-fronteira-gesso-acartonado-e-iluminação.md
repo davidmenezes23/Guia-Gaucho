@@ -3,7 +3,7 @@ layout: post
 title: Fronteira gesso acartonado e iluminação
 feature-img: "assets/img/pexels/desk-messy.jpeg"
 thumbnail: "assets/img/thumbnails/fronteira-gesso-acartonado-e-iluminação.jpg"
-permalink: /:categories/:title.html
+permalink: /:title.html
 categories: [Construcao]
 excerpt_separator: <!--more-->
 ---
