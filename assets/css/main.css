@@ -44,10 +44,11 @@ body {
   box-shadow: 1px 1px 6px #00000057;
 }
 .post-teaser1 {
-  padding-bottom: 10px;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 .posts {
   background-color: #fff;
+  padding-top: 20px;
 }
