@@ -78,3 +78,22 @@ body {
   color: #fff;
   text-align: center;
 }
+.coluna2titulo {
+  font-size: larger;
+  color: #00ab3a;
+  text-align: center;
+  display: inline-block;
+  width: 14.4%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 20px;
+}
+.conteudotitulo {
+  font-size: larger;
+  color: #00ab3a;
+  text-align: center;
+  display: inline-block;
+  width: 70%;
+  padding-top: 20px;
+  padding-left: 5%;
+}
