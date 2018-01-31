@@ -16,3 +16,10 @@
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
 }
+.conteudo {
+  width: 70%;
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5%;
+}
