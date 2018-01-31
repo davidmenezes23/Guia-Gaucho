@@ -8,6 +8,7 @@ categories: [Construcao]
 ---
 <img class="imagemminiatura" alt="Fronteira gesso acartonado e iluminação logotipo" src="https://i.imgur.com/LRJvVJU.jpg" />
 Materiais em gesso acartonado e iluminação em geral.<br />
+<!--more-->
 <b>Endereço: </b>Quinze de Novembro, 2746.<br />
 <b>Cidade: </b>Uruguaiana<br />
 <b>E-mail: </b>front.canabarro@gmail.com<br />
