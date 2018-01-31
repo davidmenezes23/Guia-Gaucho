@@ -5,6 +5,7 @@ feature-img: "assets/img/pexels/desk-messy.jpeg"
 thumbnail: "assets/img/thumbnails/fronteira-gesso-acartonado-e-iluminação.jpg"
 permalink: /:categories/:title.html
 categories: [Construcao]
+excerpt_separator: <!--more-->
 ---
 <img class="imagemminiatura" alt="Fronteira gesso acartonado e iluminação logotipo" src="https://i.imgur.com/LRJvVJU.jpg" />
 Materiais em gesso acartonado e iluminação em geral.<br />
