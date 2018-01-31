@@ -5,7 +5,7 @@ body {
   background-repeat-y: no-repeat;
   font-family: arial;
   padding: 0px;
-  border: 0px;
+  margin: 0px;
 }
 .postthumb {
   width: 20%;
