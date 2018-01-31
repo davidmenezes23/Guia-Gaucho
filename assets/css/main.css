@@ -6,4 +6,5 @@
 .tituloedescricao {
   width: 60%;
   padding: 2%;
+  display: inline-block;
 }
