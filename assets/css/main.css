@@ -19,6 +19,12 @@ body {
   display: inline-block;
   vertical-align: top;
 }
+.tituloedescricao2 {
+  width: 96%;
+  padding: 2%;
+  display: inline-block;
+  vertical-align: top;
+}
 .conteudo {
   width: 70%;
   display: inline-block;
