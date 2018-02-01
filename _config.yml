@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
-baseurl: "/uruguaiana"
-url: "https://guiagaucho.com"
+baseurl: ""
+url: "https://www.guiagaucho.com"
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
