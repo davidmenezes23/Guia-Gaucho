@@ -1,7 +1,6 @@
 # SITE CONFIGURATION
 baseurl: ""
 url: "https://www.guiagaucho.com"
-layouts: uruguaiana/uruguaiana/__layouts
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
@@ -66,7 +65,7 @@ theme_settings:
 
 # PAGINATION
 paginate: 5
-paginate_path: "urugiana/page:num"
+paginate_path: "blog/page:num"
 
 # PORTFOLIO
 collections:
