@@ -156,3 +156,41 @@ body {
   font-weight: bold;
   padding-bottom: 10px;
 }
+.escolhabotao {
+    background-color: #00ab3a;
+    color: white;
+    width: 100%;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.escolha {
+	width: 60%;
+}
+
+.escolha-content {
+    display: none;
+	background-color: #f9f9f9;
+	width: 60%;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.escolha-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.escolha-content a:hover {background-color: #f1f1f1}
+
+.escolha:hover .escolha-content {
+    display: block;
+}
+
+.escolha:hover .escolhabotao {
+    background-color: #3e8e41;
+}
