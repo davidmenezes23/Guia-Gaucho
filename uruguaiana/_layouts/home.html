@@ -1,14 +1,6 @@
-<!DOCTYPE html>
-<html>
-  {% include head.html %}
-  <body>
-    {% include navbar.html %}
-    <div class="content">
-      {{ content }}
-    </div>
-    {% include footer.html %}
-  </body>
-</html>
+---
+layout: default
+---
 <h2 class="conteudotitulo"><b>Destaques</b></h2>
 <h2 class="coluna2titulo"><b>Anúncio</b></h2>
 <div class="conteudo">
@@ -41,7 +33,7 @@
           </div>
       </span>
     </div></div>
-   {% endfor %}
+    {% endfor %}
   </div>
 
   {% if paginator.total_pages > 1 %}
