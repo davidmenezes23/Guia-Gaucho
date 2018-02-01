@@ -1,5 +1,5 @@
 # SITE CONFIGURATION
-baseurl: "/uruguaiana"
+baseurl: ""
 url: "https://www.guiagaucho.com"
 layouts: uruguaiana/uruguaiana/__layouts
 
