@@ -1,22 +1,26 @@
-<header class="site-header">
-<div class="wrapper">
-<nav class="site-nav">         
-        <span class="menu-bar" onclick="openNav()">
-            <svg id="i-menu" viewBox="0 0 32 32" width="28" height="28" fill="none" stroke="#eee" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%"><path d="M4 8 L28 8 M4 16 L28 16 M4 24 L28 24" /></svg>
-        </span>
-</nav> 
+<header id="header" class="parent justify-spaceBetween">
+  <div class="inner w100 relative">
+    <span class="f-left">  
+      <a href="{{ site.baseurl }}/">
+        <h1>
+          <span>mono</span>chrome
+        </h1>
+      </a>
+    </span>
+    <span id="nav-links" class="absolute right bottom">
+      <!-- Nav pages -->
+	    {% for page in site.pages %}
+	      {% if page.layout == "page" %}
+	        <a href="{% if site.baseurl == "/" %}{{ page.url }}{% else %}{{ page.url | prepend: site.baseurl }}{% endif %}" title="{{ page.title }}">{{ page.title }}</a>
+	      {% endif %}
+	    {% endfor %}
+      
+      <!-- Nav links -->
+	    {% include link.html %}
 
-<div class="profile">
-<a href="{{site.baseurl}}/">
-<img class="author-image" alt="site-title" src="{{site.baseurl}}/images/{{site.author.image}}">
-</a>
-<h1 class="author-about">{{site.author.name}}</h1>
-</div>
-<div class="menu-category">
-<div class="menu-item"><a class="{% if page.url == '/design/' %}active{% endif %} menu-link" href="{{site.baseurl}}/design/">Design</a></div>
-<div class="menu-item"><a class="{% if page.url == '/code/' %}active{% endif %}  menu-link" href="{{site.baseurl}}/code/">Code</a></div>
-<div class="menu-item"><a class="{% if page.url == '/life/' %}active{% endif %}  menu-link" href="{{site.baseurl}}/life/">Life</a></div>
-</div>
-</div>
+    </span>
+  </div>
 </header>
+
+
 

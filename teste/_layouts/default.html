@@ -1,49 +1,72 @@
----
-layout: compress
----
-
 <!DOCTYPE html>
 <html>
+
 {% include head.html %}
 
 <body>
-   <div class="container">
-       
-    {% include sidebar.html %}
+	<div id="wrap">
+	  	
+	  	<!-- Navigation -->
+	  	{% include menu.html %}
+    
+    <!-- Icon menu -->
+	  <a {% if site.reverse == true %}id="nav-menu-left"{% else %}id="nav-menu"{% endif %}>
+	  	<div id="menu"></div>
+	  </a>
 
-    <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->   
-        <div id="main">
+      <!-- Header -->
+      {% if site.custom_header == true %}
+        {% include header-custom.html %}
+      {% else %}
+        {% include header.html %}
+      {% endif %}
 
-             {% include header.html %}
-                    <div class="page-content">
-                        <div class="wrapper">
-                            {{ content }}
-                        </div>
-                    {% include footer.html %}
-                    </div>
-                {% if site.analytics %}
-                    {% include analytics.html %}
-                {% endif %}  
+    <!-- Main content -->
+	  <div id="container">
+		  
+		<main>
+
+			{{ content }}
+
+	  </main>
+		
+		  <!-- Pagination links -->
+      {% if paginator.total_pages > 1 %}
+        <div class="pagination">
+          {% if paginator.previous_page == 1 %}
+            <a href="{{ '/' | prepend: site.baseurl | replace: '//', '/' }}" class="page-item">&laquo;</a>
+          {% elsif paginator.previous_page%}
+            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="page-item">&laquo;</a>
+          {% else %}
+            <span class="page-item">&laquo;</span>
+          {% endif %}
+        
+          {% for page in (1..paginator.total_pages) %}
+            {% if page == paginator.page %}
+              <span class="page-item">{{ page }}</span>
+            {% elsif page == 1 %}
+              <a href="{{ '/' | prepend: site.baseurl | replace: '//', '/' }}" class="page-item">{{ page }}</a>
+            {% else %}
+              <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}" class="page-item">{{ page }}</a>
+            {% endif %}
+          {% endfor %}
+        
+          {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="page-item">&raquo;</a>
+          {% else %}
+            <span class="page-item">&raquo;</span>
+          {% endif %}
         </div>
-        
-        
-        
-        
-        
-<script>
-    /* Set the width of the side navigation to 250px */
-    function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-    }
+        {% endif %}
 
-    /* Set the width of the side navigation to 0 */
-    function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-    }
-</script>
-        
-        
-</div>            
-        
+	  </div>
+	    
+	    <!-- Footer -->
+	    {% include footer.html %}
+
+	    <!-- Script -->
+      {% include script.html %}
+
+	</div>
 </body>
 </html>
