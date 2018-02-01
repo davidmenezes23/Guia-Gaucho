@@ -129,10 +129,13 @@ body {
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
   -webkit-padding-start: 0px;
-  background-color: #fff;
+  background-color: #00ab3af;
   font-size: larger;
 }
 .searchlink {
   text-decoration: none;
-  color: #00ab3a;
+  color: #fff;
+}
+.searchli {
+  padding: 5px;
 }
