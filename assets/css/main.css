@@ -107,11 +107,13 @@ body {
   border-radius: 2px;
   font-size: larger;
   padding-left: 10px;
+  border-radius: 5px;
 }
 .pesquisatermo2 {
   width: 60%;
   height: 100%;
   display: inline-block;
+  box-shadow: 1px 1px 6px #00000057;
 }
 .pesquisatermo3 {
   width: 100%;
