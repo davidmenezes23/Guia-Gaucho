@@ -209,3 +209,7 @@ body {
   display: inline-block;
   width: 100%;
 }
+.escolhadiv {
+  text-align: center;
+  padding-top: 120px;
+}
