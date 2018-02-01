@@ -37,6 +37,7 @@ body {
 }
 .post-teaser {
   box-shadow: 1px 1px 6px #00000057;
+  border-radius: 5px;
 }
 .post-teaser1 {
   padding-bottom: 20px;
@@ -46,6 +47,7 @@ body {
 .posts {
   background-color: #fff;
   padding-top: 20px;
+  border-radius: 5px;
 }
  .headercabecalho {
   width: 100%;
