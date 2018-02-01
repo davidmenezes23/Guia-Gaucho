@@ -74,6 +74,7 @@ collections:
     permalink: /:collection/:name
 
 # BUILD SETTINGS
+excerpt_separator: <!--more-->
 markdown: kramdown
 highlighter: rouge
 sass:
