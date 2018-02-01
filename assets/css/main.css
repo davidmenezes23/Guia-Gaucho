@@ -140,3 +140,8 @@ body {
 .searchli {
   padding: 5px;
 }
+.post-link {
+  font-size: larger;
+  text-decoration: none;
+  color: #00ab3a;
+}
