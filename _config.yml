@@ -1,11 +1,11 @@
 # SITE CONFIGURATION
-baseurl: "/Type-on-Strap"
+baseurl: "/uruguaiana"
 url: "https://guiagaucho.com"
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Guia Gaúcho Uruguaiana
+  title:Guia Gaúcho Uruguaiana
   avatar: assets/img/triangle.svg
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
