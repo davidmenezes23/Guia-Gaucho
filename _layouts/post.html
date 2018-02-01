@@ -1,0 +1,28 @@
+---
+layout: default
+---
+  <h2 class="conteudotitulo"><b>Destaques</b></h2>
+<h2 class="coluna2titulo"><b>Anúncio</b></h2>
+<div class="conteudo">
+    <div class="posts">
+    <div class="post-teaser1"><div class="post-teaser">
+<article>
+             <img class="postthumb" src="{{ site.baseurl }}/{{ page.feature-img }}">
+      <span class="tituloedescricao2">
+    <h1 id="{{ page.title | cgi_escape }}" class="post-link">{{ page.title }}</h1>
+  <section class="post-content">{{ content }}</section>
+  </span>
+   <!-- Tag list -->
+  {% capture tag_list %}{{ page.tags | join: "|"}}{% endcapture %}
+  {% include tags_list.html tags=tag_list %}
+    
+</article>
+</div>
+
+</div>
+</div>
+</div>
+<div class="coluna">
+  Anuncio
+</div>
+</div>
