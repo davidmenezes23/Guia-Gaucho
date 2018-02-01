@@ -129,7 +129,8 @@ body {
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
   -webkit-padding-start: 0px;
-  background-color: #00ab3af;
+  background-color: #00ab3a;
+  border-radius: 5px;
   font-size: larger;
 }
 .searchlink {
