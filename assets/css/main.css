@@ -132,3 +132,7 @@ body {
   background-color: #fff;
   font-size: larger;
 }
+.searchlink {
+  text-decoration: none;
+  color: #00ab3a;
+}
