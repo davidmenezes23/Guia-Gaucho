@@ -12,8 +12,7 @@ layout: default
   {% endif %}
 
   <div class="posts">
-
-    
+{% for post in site.categories.uruguaiana %}
     <div class="post-teaser1"><div class="post-teaser">
       {% if post.thumbnail %} 
          <img class="postthumb" src="{{ site.baseurl }}/{{ post.thumbnail }}">
@@ -34,8 +33,7 @@ layout: default
           </div>
       </span>
     </div></div>
-
-  
+{% endfor %}
   </div>
 
   {% if paginator.total_pages > 1 %}
@@ -58,10 +56,3 @@ layout: default
 <div class="coluna">
   Anuncio
 </div>
-
-
-
-
-{% for post in site.categories.uruguaiana %}
- <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
