@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://www.guiagaucho.com/</loc> 
   </url>
@@ -8,23 +9,37 @@
   </url>
   <url>
     <loc>https://www.guiagaucho.com/uruguaiana/Tele-Moto-Parceria.html</loc> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/tele-moto-parceria.jpg</image:loc>
+    </image:image>    
   </url>
   <url>
     <loc>https://www.guiagaucho.com/uruguaiana/J-A-PISCINAS-Uruguaiana-e-Regiao.html</loc> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/sem-logo.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://www.guiagaucho.com/uruguaiana/Imoveis-DEFERRARI.html</loc> 
   </url>
   <url>
     <loc>https://www.guiagaucho.com/uruguaiana/Consultorio-Odontologico-Dra-Heidi-Catarin-Braun.html</loc> 
-  </url>
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/Consultorio-Odontologico-Dra-Heidi.png</image:loc>
+    </image:image>  </url>
   <url>
     <loc>https://www.guiagaucho.com/uruguaiana/Atual-Comercio-de-Baterias-Pecas-e-Acessorios-Automotivos-EIRELI-ME.html</loc> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/atual-baterias.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://www.guiagaucho.com/uruguaiana/Alfaro-advocacia-e-consultoria-juridica-Aisla-Judaiba-Signoretti-Alfaro-Pizino.html</loc> 
   </url>
   <url>
     <loc>https://www.guiagaucho.com/uruguaiana/fronteira-gesso-acartonado-e-iluminacao.html</loc> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/fronteira-gesso-acartonado-e-ilumina%C3%A7%C3%A3o.jpg</image:loc>
+    </image:image>
   </url>
 </urlset>
