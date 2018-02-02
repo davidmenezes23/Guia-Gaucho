@@ -218,7 +218,10 @@ body {
 .conteudopost2 {
   padding: 2%;
   width: 96%;
-	display: inline-block;
+  display: inline-block;
+}
+.ligar {
+  display: none;
 }
 @media only screen and (max-width: 500px) {
 body {
@@ -255,7 +258,7 @@ body {
   padding: 2%;
 }
 .headercabecalho {
-    height: auto;
+  height: auto;
 }
 .coluna {
   width: 100%;
@@ -265,5 +268,11 @@ body {
   vertical-align: none;
   padding-top: 0px;
   padding-bottom: 0px;
+}
+.ligar {
+  display: inline-block;
+  background-color: #00ab3a;
+  color: #fff;
+  border-width: 0px;
 }
 }
