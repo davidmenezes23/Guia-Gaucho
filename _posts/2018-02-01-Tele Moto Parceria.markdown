@@ -7,7 +7,7 @@ permalink: /:categories/:title.html
 categories: [uruguaiana]
 ---
 Motociclistas Habilitados Brasil e Argentina, concorra a brindes mensalmente, aceitamos ligação a cobrar.<br/>
-<!--more-->
+<!-- more -->
 <b>Endereço: </b>Rua General Hipólito, 2996<br />
 <b>Cidade: </b>Uruguaiana<br />
 <b>Telefone:</b> <span style="color: #00ab3a;">+55 3402-2515</span><br />
