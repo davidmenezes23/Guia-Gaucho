@@ -212,3 +212,8 @@ body {
   display: inline-block;
   width: 100%;
 }
+.conteudopost2 {
+  padding: 2%;
+  width: 96%;
+	display: inline-block;
+}
