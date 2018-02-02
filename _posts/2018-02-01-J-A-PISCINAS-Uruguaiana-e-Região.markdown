@@ -25,7 +25,6 @@ Venda de piscinas retangulares e spa redondo de fibra e demais acessórios;.<br 
 <div style="font-size: larger; text-align: center;">
 Localização</div>
 <div id="map">
-</div>
 <script>
       function initMap() {
         var uluru = {lat: -29.7479217, lng: -57.0769178};
@@ -41,3 +40,4 @@ Localização</div>
     </script>
     <script async="" defer="" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDc8SHLmOesJRaXCW0fZ2ST09W4s0ME5g&amp;callback=initMap">
     </script>
+</div>
