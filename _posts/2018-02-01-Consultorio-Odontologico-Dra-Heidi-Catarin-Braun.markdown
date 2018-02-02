@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Consultorio Odontológico Dra. Heidi Catarin Braun
-feature-img: "assets/img/thumbnails/sem-logo.png"
-thumbnail: "assets/img/thumbnails/sem-logo.png"
+feature-img: "assets/img/thumbnails/Consultorio-Odontologico-Dra-Heidi.png"
+thumbnail: "assets/img/thumbnails/Consultorio-Odontologico-Dra-Heidi.png"
 permalink: /:categories/:title.html
 categories: [uruguaiana]
 ---
