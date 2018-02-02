@@ -1,8 +1,8 @@
 ---
 layout: post
 title: J.A PISCINAS (Uruguaiana e Região)
-feature-img: "assets/img/thumbnails/sem-logo.jpg"
-thumbnail: "assets/img/thumbnails/sem-logo.jpg"
+feature-img: "assets/img/thumbnails/sem-logo.png"
+thumbnail: "assets/img/thumbnails/sem-logo.png"
 permalink: /:categories/:title.html
 categories: [uruguaiana]
 ---
