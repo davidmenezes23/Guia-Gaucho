@@ -3,6 +3,7 @@ baseurl: ""
 url: "https://www.guiagaucho.com"
 
 # THEME-SPECIFIC CONFIGURATION
+include: ["_pages"]
 theme_settings:
   # Meta
   title: Guia Gaúcho - O seu guia cidade local
