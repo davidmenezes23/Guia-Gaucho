@@ -257,4 +257,13 @@ body {
 .headercabecalho {
     height: auto;
 }
+.coluna {
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+  display: inline-block;
+  vertical-align: none;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
 }
