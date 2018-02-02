@@ -70,6 +70,9 @@ paginate_path: "blog/page:num"
 
 # PORTFOLIO
 collections:
+  category:
+    output: true
+collections:
   portfolio:
     output: true
     permalink: /:collection/:name
