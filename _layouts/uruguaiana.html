@@ -1,5 +1,6 @@
 ---
 layout: default
+categories: [uruguaiana]
 ---
 <h2 class="conteudotitulo"><b>Destaques</b></h2>
 <h2 class="coluna2titulo"><b>Anúncio</b></h2>
@@ -12,7 +13,7 @@ layout: default
   {% endif %}
 
   <div class="posts">
-{% for post in site.categories.uruguaiana %}
+{% for post in site.categories.[page.category] %}
     <div class="post-teaser1"><div class="post-teaser">
       {% if post.thumbnail %} 
          <img class="postthumb" src="{{ site.baseurl }}/{{ post.thumbnail }}">
