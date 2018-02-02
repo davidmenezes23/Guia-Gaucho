@@ -244,6 +244,7 @@ body {
 }
 .coluna2titulo {
   display: none;
+}
 .conteudo {
   width: 70%;
   display: inline-block;
@@ -253,4 +254,5 @@ body {
 }
 .headercabecalho {
     height: auto;
+}
 }
