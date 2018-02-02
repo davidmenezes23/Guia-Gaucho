@@ -2,7 +2,7 @@
 layout: null
 ---
 [
-{% for post in page.categories %}    {
+{% for post in site.[page.categories] %}    {
       "title"    : "{{ post.title | escape }}",
       "category" : "{{ post.category }}",
       "tags"     : "{{ post.tags | array_to_sentence_string }}",
