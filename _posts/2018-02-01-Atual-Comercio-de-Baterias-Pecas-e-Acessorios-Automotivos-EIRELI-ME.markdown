@@ -12,8 +12,8 @@ Atual Comercio de Baterias, Peças e Acessórios Automotivos - EIRELI ME<br/>
 <b>Endereço: </b>Rua Dr. Maia, 4170 (frente aos blocos Coronel Fideles)<br />
 <b>Cidade: </b>Uruguaiana<br />
 <b>E-mail: </b>atual-baterias@hotmail.com<br />
-<b>Telefone: </b><span style="color: #00ab3a;">+55 3412-4087</span><br />
-<b>Telefone: </b><span style="color: #00ab3a;">+55 999458082</span><br />
+<b>Telefone: </b><span style="color: #00ab3a;">+55 3412-4087</span> <a href="tel:5534124087"><button class="ligar">Ligar</button></a><br />
+<b>Telefone: </b><span style="color: #00ab3a;">+55 999458082</span> <a href="tel:55999458082"><button class="ligar">Ligar</button></a><br />
 <br />
 <style>
       #map {
