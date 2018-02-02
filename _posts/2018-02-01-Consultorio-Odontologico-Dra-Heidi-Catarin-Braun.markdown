@@ -7,7 +7,7 @@ permalink: /:categories/:title.html
 categories: [uruguaiana]
 ---
 CRO: 15.555<br/>
-<!--more-->
+<!-- more -->
 <b>Endereço: </b>Rua treze de maio, 2348 - Bairro Centro<br />
 <b>Cidade: </b>Uruguaiana - RS<br />
 <b>E-mail: </b>deferrari.rs@gmail.com<br />
