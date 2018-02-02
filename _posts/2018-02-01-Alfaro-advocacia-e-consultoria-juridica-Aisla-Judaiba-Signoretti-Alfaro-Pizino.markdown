@@ -15,8 +15,8 @@ Desta forma, teremos o prazer em atendê-lo seja pessoa física, jurídica ou em
 <b>Endereço: </b>Rua Flores da cunha, 2676. Sala: 401. Bairro: São Miguel. Cep: 97502-732.<br />
 <b>Cidade: </b>Uruguaiana/RS<br />
 <b>E-mail: </b>front.canabarro@gmail.com<br />
-<b>Telefone: </b><span style="color: #00ab3a;">+55 3402-8002</span><br />
-<b>Telefone: </b><span style="color: #00ab3a;">+55 9 9961-8002</span><br />
+<b>Telefone: </b><span style="color: #00ab3a;">+55 3402-8002</span> <a href="tel:5534028002"><button class="ligar">Ligar</button></a><br />
+<b>Telefone: </b><span style="color: #00ab3a;">+55 9 9961-8002</span> <a href="tel:55999618002"><button class="ligar">Ligar</button></a><br />
 <br />
 <style>
       #map {
