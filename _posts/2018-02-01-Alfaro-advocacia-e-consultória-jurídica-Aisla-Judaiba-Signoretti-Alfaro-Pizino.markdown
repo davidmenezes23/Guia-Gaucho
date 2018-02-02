@@ -28,7 +28,6 @@ Desta forma, teremos o prazer em atendê-lo seja pessoa física, jurídica ou em
 <div style="font-size: larger; text-align: center;">
 Localização</div>
 <div id="map">
-</div>
 <script>
       function initMap() {
         var uluru = {lat: -29.7634247, lng: -57.0799602};
