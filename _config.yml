@@ -5,7 +5,7 @@ url: "https://www.guiagaucho.com"
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Guia Gaúcho
+  title: Guia Gaúcho - O seu guia cidade local
   avatar: assets/img/triangle.svg
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
