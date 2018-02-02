@@ -7,7 +7,7 @@ permalink: /:categories/:title.html
 categories: [uruguaiana]
 ---
 OAB/RS: 75.945<br />
-ALFARO ADVOCACIA E CONSULTORIA JURÍDICA traz à Uruguaiana e região da Fronteira Oeste do Rio Grande do Sul o conceito de escritório boutique, onde a massificação das grandes bancas de advocacia dá espaço ao atendimento persolnalizado, distinguindo-se pela qualidade exclusividade do serviço prestado e altamente especializado.<br/>
+ALFARO ADVOCACIA E CONSULTORIA JURÍDICA traz à Uruguaiana e região da Fronteira Oeste do Rio Grande do Sul o conceito de escritório boutique, onde a massificação das grandes bancas de advocacia dá espaço ao atendimento persolnalizado, distinguindo-se pela qualidade exclusividade do serviço prestado e altamente especializado.<br/><!-- more -->
 Como forma de ampliar a abrangência de atuação e atender a clientes com atividades disseminadas nas demais regiões do estado, fortaleceram-se parcerias nas cidades de Itaqui, São Borja, Santiago, São Vicente do Sul, São Francisco de Assis, Santo Ângelo, Quaraí, Jaguari, Alegrete, Bagé, Herval, Marcelino Ramos, Pelotas e Rio Grande.<br/>
 Contamos com uma equipe treinada para atender com eficiência e qualidade quaisquer de nossos clientes, com o devido zelo e deferência.<br/>
 Desta forma, teremos o prazer em atendê-lo seja pessoa física, jurídica ou empresários do agronegócio.<br />
