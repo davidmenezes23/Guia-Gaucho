@@ -39,4 +39,3 @@ Localização</div>
     </script>
     <script async="" defer="" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDc8SHLmOesJRaXCW0fZ2ST09W4s0ME5g&amp;callback=initMap">
     </script>
-</div>
