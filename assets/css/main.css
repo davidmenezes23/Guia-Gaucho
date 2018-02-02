@@ -220,3 +220,37 @@ body {
   width: 96%;
 	display: inline-block;
 }
+@media only screen and (max-width: 500px) {
+body {
+  background-size: 200%;
+}
+.imagelogo {
+  height: auto;
+  width: 100%;
+  padding-top: 10px;
+  display: inline-block;
+}
+.menuheader {
+  display: none;
+}
+.conteudotitulo {
+  color: #00ab3a;
+  text-align: center;
+  display: inline-block;
+  width: 96%;
+  padding: 2%;
+  padding-top: 0px;
+  padding-left: 0px;
+}
+.coluna2titulo {
+  display: none;
+.conteudo {
+  width: 70%;
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5%;
+}
+.headercabecalho {
+    height: auto;
+}
