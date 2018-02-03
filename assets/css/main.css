@@ -55,7 +55,7 @@ body {
 .post-teaserdestaque {
   box-shadow: 1px 1px 6px #00000057;
   border-radius: 5px;
-  background-color: #fff;
+  background-color: #ff8f00;
 }
 .post-teaser1 {
   padding-bottom: 20px;
@@ -162,7 +162,7 @@ body {
 .post-linkdestaque {
   font-size: larger;
   text-decoration: none;
-  color: #ff8f00;
+  color: #fff;
 }
 .titulopost {
   font-size: larger;
