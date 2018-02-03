@@ -76,7 +76,6 @@
   <p>E-mail <span style="color: #f00;">*</span></p>
     <input type="email" name="Email"/>
   <input type="hidden" name="_subject" value="Guia Gaúcho Cadastro" />
-  <div class="g-recaptcha" data-sitekey="6Lf6IkQUAAAAAC--K_CwejN29oZy8vx2s_wunN_8"></div>
   <input type="hidden" name="_next" value="//www.guiagaucho.com/obrigado/" />
     <input type="submit" value="Enviar"/>
 </form>
@@ -85,10 +84,8 @@
     var contactform =  document.getElementById('contactform');
     contactform.setAttribute('action', '//formspree.io/contato@guiagaucho.com');
 </script>
-      <script src='https://www.google.com/recaptcha/api.js'></script>
     </div></div>
   </div>
-
   {% if paginator.total_pages > 1 %}
   <div class="pagination">
     {% if paginator.previous_page %}
