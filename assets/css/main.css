@@ -254,11 +254,30 @@ body {
   width: 50%;
   padding-top: 20px;
 }
+.Coluna1 {
+  width: 14.4%;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 .Coluna1conteudo {
-     width: 92%;
-     border-radius: 5px;
-     background-color: #ffffff;
-     padding: 4%;
+  width: 92%;
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 4%;
+}
+.coluna1titulo {
+  font-size: larger;
+  color: #00ab3a;
+  text-align: center;
+  display: inline-block;
+  width: 14.4%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 20px;
 }
 @media only screen and (max-width: 500px) {
 body {
