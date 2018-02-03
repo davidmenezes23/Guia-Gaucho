@@ -147,6 +147,11 @@ body {
   text-decoration: none;
   color: #00ab3a;
 }
+.post-linkdestaque {
+  font-size: larger;
+  text-decoration: none;
+  color: #ff8f00;
+}
 .titulopost {
   font-size: larger;
   -webkit-margin-before: 0;
