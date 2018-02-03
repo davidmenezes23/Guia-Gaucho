@@ -56,8 +56,8 @@
   {% endif %}
 
   <div class="posts">
-   {% for post in site.categories[page.tag] %}
    {% for post in site.categories.destaque %}
+   {% for post in site.categories[page.tag] %}
     <div class="post-teaser1"><div class="post-teaserdestaque">
       {% if post.thumbnail %} 
          <img class="postthumb" src="{{ site.baseurl }}/{{ post.thumbnail }}">
