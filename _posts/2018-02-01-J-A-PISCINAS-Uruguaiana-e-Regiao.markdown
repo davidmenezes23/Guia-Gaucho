@@ -5,6 +5,7 @@ feature-img: "assets/img/thumbnails/sem-logo.png"
 thumbnail: "assets/img/thumbnails/sem-logo.png"
 permalink: /:categories/:title.html
 categories: [uruguaiana]
+tags: uruguaiana
 ---
 Venda de piscinas retangulares e spa redondo de fibra e demais acessórios;.<br />
 <!-- more -->
