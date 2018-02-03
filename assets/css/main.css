@@ -240,6 +240,26 @@ body {
 .ligar {
   display: none;
 }
+.conteudocidade {
+  width: 50%;
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.conteudotitulocidade {
+  font-size: larger;
+  color: #00ab3a;
+  text-align: center;
+  display: inline-block;
+  width: 50%;
+  padding-top: 20px;
+}
+.Coluna1conteudo {
+     width: 92%;
+     border-radius: 5px;
+     background-color: #ffffff;
+     padding: 4%;
+}
 @media only screen and (max-width: 500px) {
 body {
   background-size: 220%;
