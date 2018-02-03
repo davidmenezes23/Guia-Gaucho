@@ -81,4 +81,19 @@
   <url>
     <loc>https://www.guiagaucho.com/uruguaiana/turismo/</loc> 
   </url>
+  <url>
+    <loc>https://www.guiagaucho.com/cadastro/</loc> 
+  </url>
+  <url>
+    <loc>https://www.guiagaucho.com/sobre/</loc> 
+  </url>
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/images/cadastro-exemplo.png</image:loc>
+    </image:image> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/images/destaque-exemplo.png</image:loc>
+    </image:image> 
+  <url>
+    <loc>https://www.guiagaucho.com/contato/</loc> 
+  </url>
 </urlset>
