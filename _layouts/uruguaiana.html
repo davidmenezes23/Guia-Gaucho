@@ -102,7 +102,6 @@
 {% endfor %}
   </div>
 
-  {% if paginator.total_pages > 1 %}
   <div class="pagination">
     {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button" >
@@ -117,7 +116,6 @@
     </a>
     {% endif %}
   </div>
-  {% endif %}
 </div>
 <div class="coluna">
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
