@@ -5,6 +5,7 @@ feature-img: "assets/img/thumbnails/tele-moto-parceria.jpg"
 thumbnail: "assets/img/thumbnails/tele-moto-parceria.jpg"
 permalink: /:categories/:title.html
 categories: [uruguaiana]
+tags: destaque
 ---
 Motociclistas Habilitados Brasil e Argentina, concorra a brindes mensalmente, aceitamos ligação a cobrar.<br/>
 <!-- more -->
