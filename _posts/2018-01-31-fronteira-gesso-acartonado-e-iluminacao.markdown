@@ -5,6 +5,7 @@ feature-img: "assets/img/thumbnails/fronteira-gesso-acartonado-e-iluminação.jp
 thumbnail: "assets/img/thumbnails/fronteira-gesso-acartonado-e-iluminação.jpg"
 permalink: /:categories/:title.html
 categories: [uruguaiana]
+tags: uruguaiana
 ---
 Materiais em gesso acartonado e iluminação em geral.<br />
 <!-- more -->
