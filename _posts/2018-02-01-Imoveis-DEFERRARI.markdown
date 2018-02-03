@@ -5,6 +5,7 @@ feature-img: "assets/img/thumbnails/sem-logo.png"
 thumbnail: "assets/img/thumbnails/sem-logo.png"
 permalink: /:categories/:title.html
 categories: [uruguaiana]
+tags: uruguaiana
 ---
 CRECI: 35.641<br />
 TERRENOS, CASAS, SITIOS, CHÁCARAS, FAZENDAS E CASAS PRÉ FABRICADAS (melhor preço de oferta da região).<br/>
