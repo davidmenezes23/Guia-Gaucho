@@ -4,7 +4,8 @@ title: Tele Moto Parceria
 feature-img: "assets/img/thumbnails/tele-moto-parceria.jpg"
 thumbnail: "assets/img/thumbnails/tele-moto-parceria.jpg"
 permalink: /:categories/:title.html
-categories: [uruguaiana, destaque]
+categories: [uruguaiana]
+tags: uruguaianadestaque
 ---
 Motociclistas Habilitados Brasil e Argentina, concorra a brindes mensalmente, aceitamos ligação a cobrar.<br/>
 <!-- more -->
