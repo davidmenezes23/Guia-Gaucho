@@ -5,6 +5,7 @@ feature-img: "assets/img/thumbnails/Consultorio-Odontologico-Dra-Heidi.png"
 thumbnail: "assets/img/thumbnails/Consultorio-Odontologico-Dra-Heidi.png"
 permalink: /:categories/:title.html
 categories: [uruguaiana]
+tags: uruguaiana
 ---
 CRO: 15.555<br/>
 <!-- more -->
