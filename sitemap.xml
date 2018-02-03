@@ -86,13 +86,13 @@
   </url>
   <url>
     <loc>https://www.guiagaucho.com/sobre/</loc> 
-  </url>
     <image:image>
       <image:loc>https://www.guiagaucho.com/assets/img/images/cadastro-exemplo.png</image:loc>
     </image:image> 
     <image:image>
       <image:loc>https://www.guiagaucho.com/assets/img/images/destaque-exemplo.png</image:loc>
     </image:image> 
+  </url>
   <url>
     <loc>https://www.guiagaucho.com/contato/</loc> 
   </url>
