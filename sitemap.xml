@@ -141,4 +141,10 @@
   <url>
     <loc>https://www.guiagaucho.com/santa-maria/turismo/</loc> 
   </url>
+  <url>
+    <loc>https://www.guiagaucho.com/uruguaiana/Bio-Sante-Ambulancias.html</loc> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/Flyer-Bio.jpg</image:loc>
+    </image:image> 
+  </url>
 </urlset>
