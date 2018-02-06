@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+<header class="site-header">
+<div class='headercabecalho'>
+<a href='{{ site.url }}'><img alt='Guia Gaúcho Logotipo' class='imagelogo' src='https://i.imgur.com/P8wTcJM.png'/></a>
+<div class='menuheader'>
+<div class='menuitem'>
+<a href='{{ site.url }}' style='text-decoration:none;color:#fff;'>Inicio</a>
+  </div>
+<div class='menuitem'>
+<a href='{{ site.baseurl }}/cadastro/' style='text-decoration:none;color:#fff;'>Cadastro</a>
+  </div>
+<div class='menuitem'>
+<a href='{{ site.baseurl }}/sobre/' style='text-decoration:none;color:#fff;'>Sobre</a>
+  </div>
+<div class='menuitem'>
+<a href='{{ site.baseurl }}/contato/' style='text-decoration:none;color:#fff;'>Contato</a>
+  </div>
+  </div>
+</div>
+  
+  
+  <div class="pesquisatermo3">
+      <div class="pesquisatermo2" id="search-demo-container">
+      <input type="text" class="pesquisatermo" id="search-input" placeholder="Buscar...">
+      <ul class="resultados" id="results-container"></ul>
+    </div>
+  </div>
+    <script>
+      window.simpleJekyllSearch = new SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        json: '{{ site.baseurl }}/_pages/santamaria.json',
+        searchResultTemplate: '<a class="searchlink" href="{url}"><li class="searchli">{title}</li></a>',
+        noResultsText: 'No results found',
+        limit: 10,
+        fuzzy: false,
+        exclude: ['Welcome']
+      })
+    </script>
+  
+</header>
+<div class="content">
+      {{ content }}
+    </div>
+    {% include footer.html %}
+  </body>
+</html>
+<h2 class='coluna1titulo'><b>Categorias</b></h2>
+<h2 class="conteudotitulocidade"><b>Destaques</b></h2>
+<h2 class="coluna2titulo"><b>Anúncio</b></h2>
+<div class='Coluna1'>
+    <div class='Coluna1conteudo'>
+<table width='100%'>
+<tr><th><a class='categorialink' href="{{ site.url }}/santa-maria/automovel/"><div class='categoriaitem'>Automóvel</div></a></th></tr>
+<tr><th><a class='categorialink' href="{{ site.url }}/santa-maria/construcao/"><div class='categoriaitem'>Construção</div></a></th></tr>
+<tr><th><a class='categorialink' href="{{ site.url }}/santa-maria/cultura/"><div class='categoriaitem'>Cultura</div></a></th></tr>
+<tr><th><a class='categorialink' href="{{ site.url }}/santa-maria/alimentacao/"><div class='categoriaitem'>Alimentação</div></a></th></tr>
+<tr><th><a class='categorialink' href="{{ site.url }}/santa-maria/industria-e-maquinas/"><div class='categoriaitem'>Indústria e Máquinas</div></a></th></tr>
+<tr><th><a class='categorialink' href="{{ site.url }}/santa-maria/juridico-e-contabil/"><div class='categoriaitem'>Jurídico e Contábil</div></a></th></tr>
+<tr><th><a class='categorialink' href="{{ site.url }}/santa-maria/moda-e-beleza/"><div class='categoriaitem'>Moda e Beleza</div></a></th></tr>
+<tr><th><a class='categorialink' href="{{ site.url }}/santa-maria/moveis/"><div class='categoriaitem'>Móveis</div></a></th></tr>
+<tr><th><a class='categorialink' href="{{ site.url }}/santa-maria/entreterimento/"><div class='categoriaitem'>Entreterimento</div></a></th></tr>
+<tr><th><a class='categorialink' href="{{ site.url }}/santa-maria/rural/"><div class='categoriaitem'>Rural</div></a></th></tr>
+<tr><th><a class='categorialink' href="{{ site.url }}/santa-maria/saude/"><div class='categoriaitem'>Saúde</div></a></th></tr>
+<tr><th><a class='categorialink' href="{{ site.url }}/santa-maria/tecnologia/"><div class='categoriaitem'>Tecnologia</div></a></th></tr>
+<tr><th><a class='categorialink' href="{{ site.url }}/santa-maria/turismo/"><div class='categoriaitem'>Turismo</div></a></th></tr>
+</table>
+    </div>
+  </div>
+<div class="conteudocidade">
+  {% if site.theme_settings.header_text %}
+  <div id="main" class="call-out"
+  style="background-image: url('{{ site.baseurl }}/{{ site.theme_settings.header_text_feature_image }}')">
+    {{ site.theme_settings.header_text }}
+  </div>
+  {% endif %}
+
+  <div class="posts">
+   {% for post in site.tags.santamariamodaebelezadestaque %}
+    <div class="post-teaser1"><div class="post-teaserdestaque">
+      {% if post.thumbnail %} 
+         <img class="postthumb" src="{{ site.baseurl }}/{{ post.thumbnail }}">
+      {% endif %}
+      <span class="tituloedescricaodestaque ">
+          <header>
+            <h1 class="titulopost">
+              <a class="post-linkdestaque" href="{{ post.url | prepend: site.baseurl }}">
+                {{ post.title }}
+              </a>
+            </h1>
+          </header>
+          <div class="excerpt">
+            {{ post.excerpt }}
+            <!--<a class="button" href="{{ post.url | prepend: site.baseurl }}">
+              {{ site.theme_settings.str_continue_reading }}
+            </a>-->
+          </div>
+      </span>
+    </div></div>
+{% endfor %}
+{% for post in site.tags.santamariamodaebeleza %}
+    <div class="post-teaser1"><div class="post-teaser">
+      {% if post.thumbnail %} 
+         <img class="postthumb" src="{{ site.baseurl }}/{{ post.thumbnail }}">
+      {% endif %}
+      <span class="tituloedescricao">
+          <header>
+            <h1 class="titulopost">
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                {{ post.title }}
+              </a>
+            </h1>
+          </header>
+          <div class="excerpt">
+            {{ post.excerpt }}
+            <!--<a class="button" href="{{ post.url | prepend: site.baseurl }}">
+              {{ site.theme_settings.str_continue_reading }}
+            </a>-->
+          </div>
+      </span>
+    </div></div>
+{% endfor %}
+  </div>
+
+  <div class="pagination">
+    {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button" >
+      <i class="fa fa-chevron-left"></i>
+      {{ site.theme_settings.str_previous_page }}
+    </a>
+    {% endif %}
+    {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button" >
+      {{ site.theme_settings.str_next_page }}
+      <i class="fa fa-chevron-right"></i>
+    </a>
+    {% endif %}
+  </div>
+</div>
+<div class="coluna">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- guiagaucho -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2816982644079927"
+     data-ad-slot="5558915229"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
