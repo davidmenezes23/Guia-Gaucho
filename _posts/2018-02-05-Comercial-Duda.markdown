@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Comercial Duda
-feature-img: "assets/img/thumbnails/sem-logo.png"
-thumbnail: "assets/img/thumbnails/sem-logo.png"
+feature-img: "assets/img/thumbnails/comercial-duda.jpg"
+thumbnail: "assets/img/thumbnails/comercial-duda.jpg"
 permalink: /:categories/:title.html
 categories: [uruguaiana]
 tags: uruguaiana uruguaianaalimentacao
