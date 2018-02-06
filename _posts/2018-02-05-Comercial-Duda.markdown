@@ -1,0 +1,44 @@
+---
+layout: post
+title: Comercial Duda
+feature-img: "assets/img/thumbnails/sem-logo.png"
+thumbnail: "assets/img/thumbnails/sem-logo.png"
+permalink: /:categories/:title.html
+categories: [uruguaiana]
+tags: uruguaiana uruguaianaalimentacao
+---
+BALÕES BEXIGAS BOMBONS E BALAS CARNAVAL - ARTIGOS CHOCOLATE CHOCOLATE - ATACADO E FABRICAÇÃO COPOS COPOS DE PLÁSTICO DECORAÇÕES - ARTIGOS DESCARTÁVEIS DOCES - FABRICAÇÃO ATACADO E DISTRIBUIÇÃO EMBALAGENS EMBALAGENS - ARTIGOS E EQUIPAMENTOS EMBALAGENS DE ALUMÍNIO EMBALAGENS ESPECIAIS ENFEITES ENFEITES PARA BOLOS FESTAS - ARTIGOS E MÓVEIS PRODUTOS DESCARTÁVEIS.<br />
+<!-- more -->
+<b>Endereço: </b>R Gen João Manoel, 2763, - Centro<br />
+<b>Cidade: </b>Uruguaiana, RS<br />
+<b>E-mail: </b>rodrigoegeovana@icloud.com<br />
+<b>Telefone: </b><span style="color: #00ab3a;">+55 3402-3667</span> <a href="tel:5534023667"><button class="ligar">Ligar</button></a><br />
+<b>Telefone: </b><span style="color: #00ab3a;">+55 99645-6807</span> <a href="tel:55996456807"><button class="ligar">Ligar</button></a><br />
+<b>Telefone: </b><span style="color: #00ab3a;">+55 99973-4517</span> <a href="tel:55999734517"><button class="ligar">Ligar</button></a><br />
+<br />
+<style>
+      #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+
+<div style="font-size: larger; text-align: center;">
+Localização</div>
+<div id="map">
+<script>
+      function initMap() {
+        var uluru = {lat: -29.7506194, lng: -57.0860491};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 17,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async="" defer="" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDc8SHLmOesJRaXCW0fZ2ST09W4s0ME5g&amp;callback=initMap">
+    </script>
+</div>
