@@ -11,11 +11,7 @@ layout: default
       <span class="tituloedescricao2">
     <h1 id="{{ page.title | cgi_escape }}" class="post-link">{{ page.title }}</h1>
   <section class="post-content">{{ content }}</section>
-  </span>
-   <!-- Tag list -->
-  {% capture tag_list %}{{ page.tags | join: "|"}}{% endcapture %}
-  {% include tags_list.html tags=tag_list %}
-    
+  </span>    
 </article>
 </div>
 
