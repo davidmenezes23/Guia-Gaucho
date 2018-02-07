@@ -125,6 +125,78 @@
 {% endfor %}
   </div>
 
+  
+  
+  <script type="text/javascript">
+
+    var postsHREF = [{% for post in site.posts %}"{{ post.url }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+
+    var postsTitle = [{% for post in site.posts %}"{{ post.title }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+
+    var postThumbnail = [{% if post.thumbnail %}"{{ post.thumbnail }}"{% unless forloop.last %},{% endunless %}{% endif %}];
+
+    var postSiteurl = [{% if post.thumbnail %}"{{ post.thumbnail }}"{% unless forloop.last %},{% endunless %}{% endif %}];
+
+    var postExcerpt = [{{ post.excerpt }}]
+</script>
+
+
+<script type="text/javascript">
+
+    var randomIndexUsed = [];
+    var counter = 0;
+    var numberOfPosts = 5;
+
+    while (counter < numberOfPosts)
+    {
+        var randomIndex;
+        var postHREF;
+        var postTitle;
+        var postThumbnail;
+        var postSiteurl;
+	var postExcerpt;
+
+        randomIndex = Math.floor(Math.random() * postsHREF.length);
+
+        if (randomIndexUsed.indexOf(randomIndex) == "-1")
+        {
+            postHREF = postsHREF[randomIndex];
+            postTitle = postsTitle[randomIndex];
+            postThumbnail = postThumbnail[randomIndex];
+            postSiteurl = postSiteurl[randomIndex];
+	    postExcerpt = postExcerpt[randomIndex];
+
+            if (counter == (numberOfPosts - 1))
+            {
+                document.write('<div class="post-teaser1"><div class="post-teaser">
+<img class="postthumb" src="' + postSiteurl + '/">
+' + postThumbnail + '<span class="tituloedescricao">
+<header><h1 class="titulopost"><a class="post-link" href="' + postHREF + '">' + postTitle + '</a>
+</h1></header><div class="excerpt">' + postExcerpt + '
+</div></span></div></div>');
+            }
+            else
+            {
+                document.write('<p><a href="' + postHREF + '">' + postTitle + '</a></p><hr />');
+            }
+
+            randomIndexUsed.push(randomIndex);
+
+            counter++;
+        }
+    }
+
+</script>
+
+
+
+
+  
+  
+  
+  
+  
+  
   <div class="pagination">
     {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button" >
