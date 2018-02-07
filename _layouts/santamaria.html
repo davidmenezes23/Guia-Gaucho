@@ -147,7 +147,28 @@
 
             if (counter == (numberOfPosts - 1))
             {
-                document.write('<p><a href="' + postHREF + '">' + postTitle + '</a></p>');
+                document.write('{% for post in site.tags.santamaria %}
+    <div class="post-teaser1"><div class="post-teaser">
+      {% if post.thumbnail %} 
+         <img class="postthumb" src="{{ site.baseurl }}/{{ post.thumbnail }}">
+      {% endif %}
+      <span class="tituloedescricao">
+          <header>
+            <h1 class="titulopost">
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                {{ post.title }}
+              </a>
+            </h1>
+          </header>
+          <div class="excerpt">
+            {{ post.excerpt }}
+            <!--<a class="button" href="{{ post.url | prepend: site.baseurl }}">
+              {{ site.theme_settings.str_continue_reading }}
+            </a>-->
+          </div>
+      </span>
+    </div></div>
+{% endfor %}');
             }
             else
             {
