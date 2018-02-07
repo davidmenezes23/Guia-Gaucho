@@ -147,7 +147,7 @@
 
             if (counter == (numberOfPosts - 1))
             {
-                document.write('{% for post in site.tags.santamaria %}
+                document.write('
     <div class="post-teaser1"><div class="post-teaser">
       {% if post.thumbnail %} 
          <img class="postthumb" src="{{ site.baseurl }}/{{ post.thumbnail }}">
@@ -167,8 +167,7 @@
             </a>-->
           </div>
       </span>
-    </div></div>
-{% endfor %}');
+    </div></div>');
             }
             else
             {
