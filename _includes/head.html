@@ -71,7 +71,7 @@
 
     var postsTitle = [{% for post in site.posts %}"{{ post.title }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
 
-    var postThumbnail = [{% for post in site.posts %}{% if post.thumbnail %}"{{ post.thumbnail }}{% unless forloop.last %}",{% endunless %}{% endif %}{% endfor %}];;
+    var postThumbnail = [{% for post in site.posts %}{% if post.thumbnail %}"{{ post.thumbnail }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}];;
 
     var postExcerpt = [{{ post.excerpt }}];
 </script>
