@@ -142,7 +142,6 @@
         var postHREF;
         var postTitle;
         var postThumbnail;
-        var postSiteurl;
 	var postExcerpt;
 
         randomIndex = Math.floor(Math.random() * postsHREF.length);
@@ -157,12 +156,7 @@
 
             if (counter == (numberOfPosts - 1))
             {
-                document.write('<div class="post-teaser1"><div class="post-teaser">
-<img class="postthumb" src="' + postSiteurl + '/">
-' + postThumbnail + '<span class="tituloedescricao">
-<header><h1 class="titulopost"><a class="post-link" href="' + postHREF + '">' + postTitle + '</a>
-</h1></header><div class="excerpt">' + postExcerpt + '
-</div></span></div></div>');
+                document.write('<div class="post-teaser1"><div class="post-teaser"><img class="postthumb" src="' + postThumbnail + '"><span class="tituloedescricao"><header><h1 class="titulopost"><a class="post-link" href="' + postHREF + '">' + postTitle + '</a></h1></header><div class="excerpt">' + postExcerpt + '</div></span></div></div>');
             }
             else
             {
@@ -176,6 +170,9 @@
     }
 
 </script>
+
+
+
 
 
 
