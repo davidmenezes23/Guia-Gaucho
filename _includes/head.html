@@ -69,7 +69,6 @@
     var postsHREF = [{% for post in site.posts %}"{{ post.url }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
 
     var postsTitle = [{% for post in site.posts %}"{{ post.title }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
-      var postThumbpost = [{% if post.thumbnail %}];
-    var postEnd = [{% endif %}];
+      var postCorpo = [<div class="post-teaser1"><div class="post-teaserdestaque">{% if post.thumbnail %}<img class="postthumb" src="{{ site.baseurl }}/{{ post.thumbnail }}">{% endif %}<span class="tituloedescricaodestaque "><header><h1 class="titulopost"><a class="post-linkdestaque" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1></header><div class="excerpt">{{ post.excerpt }}</div></span></div></div>];
 </script>
 </head>
