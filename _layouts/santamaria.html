@@ -159,7 +159,7 @@
 
             if (counter == (numberOfPosts - 1))
             {
-                document.write('<div class="post-teaser1"><div class="post-teaserdestaque"><img class="postthumb" src="' + postSiteurl + '/' + postThumbmail + '"><span class="tituloedescricaodestaque "><header><h1 class="titulopost"><a class="post-linkdestaque" href="{{ post.url | prepend: site.baseurl }}">' + postsTitle + '</a></h1></header><div class="excerpt">' + postExcerpt + '</div></span></div></div>');
+                document.write('<div class="post-teaser1"><div class="post-teaserdestaque"><img class="postthumb" src="{{ site.baseurl }}/' + postThumbmail + '"><span class="tituloedescricaodestaque "><header><h1 class="titulopost"><a class="post-linkdestaque" href="{{ post.url | prepend: site.baseurl }}">' + postsTitle + '</a></h1></header><div class="excerpt">' + postExcerpt + '</div></span></div></div>');
             }
             else
             {
