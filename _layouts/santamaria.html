@@ -131,11 +131,11 @@
 
     var postsTitle = [{% for post in site.posts %}"{{ post.title }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
     
-    var postThumbmail = [{% if post.thumbnail %}"{{ post.thumbnail }}",{% endif %}];
+    var postThumbmail = [{% if post.thumbnail %}"{{ post.thumbnail }}"{% unless forloop.last %},{% endunless %}{% endif %}];
     
-    var postSiteurl = [{{ site.baseurl }}];
+    var postSiteurl = ["{{ site.baseurl }}"{% unless forloop.last %},{% endunless %}];
     
-    var postExcerpt = [{{ post.excerpt }}];
+    var postExcerpt = ["{{ post.excerpt }}"{% unless forloop.last %},{% endunless %}];
     
   </script>
   <script type="text/javascript">
