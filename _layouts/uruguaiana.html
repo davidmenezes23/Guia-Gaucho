@@ -141,8 +141,6 @@
         var randomIndex;
         var postHREF;
         var postTitle;
-        var postThumbnail;
-	var postExcerpt;
 
         randomIndex = Math.floor(Math.random() * postsHREF.length);
 
@@ -150,13 +148,10 @@
         {
             postHREF = postsHREF[randomIndex];
             postTitle = postsTitle[randomIndex];
-            postThumbnail = postThumbnail[randomIndex];
-            postSiteurl = postSiteurl[randomIndex];
-	    postExcerpt = postExcerpt[randomIndex];
 
             if (counter == (numberOfPosts - 1))
             {
-                document.write('<div class="post-teaser1"><div class="post-teaser"><img class="postthumb" src="XXXXX"><span class="tituloedescricao"><header><h1 class="titulopost"><a class="post-link" href="' + postHREF + '">' + postTitle + '</a></h1></header><div class="excerpt">XXXXXX</div></span></div></div>');
+                document.write('<p><a href="' + postHREF + '">' + postTitle + '</a></p>');
             }
             else
             {
