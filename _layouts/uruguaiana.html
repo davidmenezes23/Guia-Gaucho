@@ -129,53 +129,6 @@
   
 
 
-
-<script type="text/javascript">
-
-    var randomIndexUsed = [];
-    var counter = 0;
-    var numberOfPosts = 5;
-
-    while (counter < numberOfPosts)
-    {
-        var randomIndex;
-        var postHREF;
-        var postTitle;
-        var postThumbnail;
-	var postExcerpt;
-
-        randomIndex = Math.floor(Math.random() * postsHREF.length);
-
-        if (randomIndexUsed.indexOf(randomIndex) == "-1")
-        {
-            postHREF = postsHREF[randomIndex];
-            postTitle = postsTitle[randomIndex];
-            postThumbnail = postThumbnail[randomIndex];
-	    postExcerpt = postExcerpt[randomIndex];
-
-            if (counter == (numberOfPosts - 1))
-            {
-                document.write('<div class="post-teaser1"><div class="post-teaser"><img class="postthumb" src="' + postThumbnail + '"><span class="tituloedescricao"><header><h1 class="titulopost"><a class="post-link" href="' + postHREF + '">' + postTitle + '</a></h1></header><div class="excerpt">' + postExcerpt + '</div></span></div></div>');
-            }
-            else
-            {
-                document.write('<div class="post-teaser1"><div class="post-teaser"><img class="postthumb" src="' + postThumbnail + '"><span class="tituloedescricao"><header><h1 class="titulopost"><a class="post-link" href="' + postHREF + '">' + postTitle + '</a></h1></header><div class="excerpt">' + postExcerpt + '</div></span></div></div>');
-            }
-
-            randomIndexUsed.push(randomIndex);
-
-            counter++;
-        }
-    }
-
-</script>
-
-
-  
-  
-  
-  
-  
   
   <div class="pagination">
     {% if paginator.previous_page %}
