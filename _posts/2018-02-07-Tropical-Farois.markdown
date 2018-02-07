@@ -1,0 +1,42 @@
+---
+layout: post
+title: Tropical Faróis
+feature-img: "assets/img/thumbnails/sem-logo.png"
+thumbnail: "assets/img/thumbnails/sem-logo.png"
+permalink: /:categories/:title.html
+categories: [santamaria]
+tags: santamaria santamariasaude
+---
+Recuperadora de Faróis e Acessórios <br/> <!-- more -->
+ <br/>
+<b>Endereço: </b>Duque de Caxias, 2845<br />
+<b>Cidade: </b>Santa Maria, RS<br />
+<b>E-mail: </b>vighna@gmail.com<br />
+<b>Telefone: </b><span style="color: #00ab3a;">+55 3222-3500</span> <a href="tel:5532223500"><button class="ligar">Ligar</button></a><br />
+<br />
+<style>
+      #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+
+<div style="font-size: larger; text-align: center;">
+Localização</div>
+<div id="map">
+<script>
+      function initMap() {
+        var uluru = {lat: -29.7028011, lng: -53.8060908};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 17,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async="" defer="" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDc8SHLmOesJRaXCW0fZ2ST09W4s0ME5g&amp;callback=initMap">
+    </script>
+</div>
