@@ -67,12 +67,12 @@
 
 <script type="text/javascript">
 
-    var postsHREF = ["{{ post.url }}"{% unless forloop.last %},{% endunless %}];
+    var postsHREF = [{% for post in site.posts %}"{{ post.url }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
 
-    var postsTitle = ["{{ post.title }}"{% unless forloop.last %},{% endunless %}];
+    var postsTitle = [{% for post in site.posts %}"{{ post.title }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
 
-    var postThumbnail = [{% if post.thumbnail %}"{{ post.thumbnail }}"{% unless forloop.last %},{% endunless %}{% endif %}];
+    var postThumbnail = [{% if post.thumbnail %}"{{ post.thumbnail }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}];
 
-    var postExcerpt = [{{ post.excerpt }}];
+    var postExcerpt = [{% for post in site.posts %}"{{ post.excerpt }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
 </script>
 </head>
