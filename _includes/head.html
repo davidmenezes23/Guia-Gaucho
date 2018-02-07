@@ -64,11 +64,4 @@
     <!-- Manual seo tags -->
     <title>{% if page.title %}{{ page.title }} |{% endif %} {{ site.theme_settings.title }}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.theme_settings.description }}{% endif %}">
-<script type="text/javascript">
-
-    var postsHREF = [{% for post in site.posts %}"{{ post.url }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
-
-    var postsTitle = [{% for post in site.posts %}"{{ post.title }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
-      var postCorpo = [<div class="post-teaser1"><div class="post-teaserdestaque">{% if post.thumbnail %}<img class="postthumb" src="{{ site.baseurl }}/{{ post.thumbnail }}">{% endif %}<span class="tituloedescricaodestaque "><header><h1 class="titulopost"><a class="post-linkdestaque" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1></header><div class="excerpt">{{ post.excerpt }}</div></span></div></div>];
-</script>
 </head>
