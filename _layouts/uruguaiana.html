@@ -127,18 +127,7 @@
 
   
   
-  <script type="text/javascript">
 
-    var postsHREF = [{% for post in site.posts %}"{{ post.url }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
-
-    var postsTitle = [{% for post in site.posts %}"{{ post.title }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
-
-    var postThumbnail = [{% if post.thumbnail %}"{{ post.thumbnail }}"{% unless forloop.last %},{% endunless %}{% endif %}];
-
-    var postSiteurl = [{% if post.thumbnail %}"{{ post.thumbnail }}"{% unless forloop.last %},{% endunless %}{% endif %}];
-
-    var postExcerpt = [{{ post.excerpt }}]
-</script>
 
 
 <script type="text/javascript">
