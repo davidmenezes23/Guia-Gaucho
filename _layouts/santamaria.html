@@ -125,7 +125,19 @@
     </div></div>
 {% endfor %}
   </div>
+<script type="text/javascript">
 
+    var postsHREF = [{% for post in site.posts %}"{{ post.url }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+
+    var postsTitle = [{% for post in site.posts %}"{{ post.title }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+    
+    var postThumbmail = [{% if post.thumbnail %}"{{ post.thumbnail }}",{% endif %}];
+    
+    var postSiteurl = [{{ site.baseurl }}];
+    
+    var postExcerpt = [{{ post.excerpt }}];
+    
+  </script>
   <script type="text/javascript">
 
     var randomIndexUsed = [];
@@ -147,8 +159,23 @@
 
             if (counter == (numberOfPosts - 1))
             {
-                document.write('postCorpo');
-            }
+                document.write('<div class="post-teaser1">
+<div class="post-teaserdestaque">
+<img class="postthumb" src="' + postSiteurl + '/' + postThumbmail + '">
+<span class="tituloedescricaodestaque ">
+<header>
+<h1 class="titulopost">
+<a class="post-linkdestaque" href="{{ post.url | prepend: site.baseurl }}">
+' + postsTitle + '
+</a>
+</h1>
+</header>
+<div class="excerpt">
+' + postExcerpt + '
+</div>
+</span>
+</div>
+</div>');            }
             else
             {
                 document.write('<div class="post-teaser1"><div class="post-teaserdestaque">{% if post.thumbnail %}<img class="postthumb" src="{{ site.baseurl }}/{{ post.thumbnail }}">{% endif %}<span class="tituloedescricaodestaque "><header><h1 class="titulopost"><a class="post-linkdestaque" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1></header><div class="excerpt">{{ post.excerpt }}</div></span></div></div>');
