@@ -300,6 +300,7 @@ body {
 .caixainfo {
   background-color: #00ab3a;
   width: 100%;
+  height: 50px;
 }
 .infobuton {
   padding: 5px;
@@ -308,12 +309,13 @@ body {
   text-align: center;
   background-color: #fff;
   margin: 10px;
-  text-decoration: none;
   font-size: larger;
-  color: black;
   border-radius: 5px;
 }
-@media only screen and (max-width: 500px) {
+.infobutona {
+  text-decoration: none;
+  color: black;
+}@media only screen and (max-width: 500px) {
 body {
   background-size: 220%;
 }
