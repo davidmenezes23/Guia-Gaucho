@@ -11,8 +11,8 @@ Serviços de Ambulâncias, Remoções e Eventos<!-- more --> <br/>
 <b>Endereço: </b>Benjamin Constant, 1189, Centro<br />
 <b>Cidade: </b>Santa Maria, RS<br />
 <b>Site: </b>www.biosantesm.com.br<br />
-<b>Telefone: </b><span style="color: #00ab3a;">+55 3026-2631</span> <a href="tel:5530262631"><button class="ligar">Ligar</button></a><br />
-<b>Telefone: </b><span style="color: #00ab3a;">+55 99654-5444</span> <a href="tel:55996545444"><button class="ligar">Ligar</button></a><br />
+<b>Telefone: <span style="color: #00ab3a;">+55 3026-2631</span> <a href="tel:5530262631"><button class="ligar">Ligar</button></a></b><br />
+<b>Telefone: <span style="color: #00ab3a;">+55 99654-5444</span> <a href="tel:55996545444"><button class="ligar">Ligar</button></a></b><br />
 <br />
 <style>
       #map {
