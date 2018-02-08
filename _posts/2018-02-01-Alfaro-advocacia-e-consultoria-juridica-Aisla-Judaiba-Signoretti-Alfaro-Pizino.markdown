@@ -15,7 +15,7 @@ Desta forma, teremos o prazer em atendê-lo seja pessoa física, jurídica ou em
 <br />
 <b>Endereço: </b>Rua Flores da cunha, 2676. Sala: 401. Bairro: São Miguel. Cep: 97502-732.<br />
 <b>Cidade: </b>Uruguaiana/RS<br />
-<b>E-mail: </b>front.canabarro@gmail.com<br />
+<b>E-mail: </b>secretaria@alfaro.adv.br e aisla@alfaro.adv.br<br />
 <b>Telefone: <span style="color: #00ab3a;">+55 3402-8002</span> <a href="tel:5534028002"><button class="ligar">Ligar</button></a></b><br />
 <b>Telefone: <span style="color: #00ab3a;">+55 9 9961-8002</span> <a href="tel:55999618002"><button class="ligar">Ligar</button></b></a><br />
 <br />
