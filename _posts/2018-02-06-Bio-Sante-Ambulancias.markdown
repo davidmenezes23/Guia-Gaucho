@@ -4,7 +4,7 @@ title: Bio Santé - Ambulâncias
 feature-img: "assets/img/thumbnails/Flyer-Bio.jpg"
 thumbnail: "assets/img/thumbnails/Flyer-Bio.jpg"
 permalink: /:categories/:title.html
-categories: [uruguaiana]
+categories: [santa-maria]
 tags: santamaria santamariasaude
 ---
 Serviços de Ambulâncias, Remoções e Eventos<!-- more --> <br/>
