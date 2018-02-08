@@ -5,7 +5,7 @@ feature-img: "assets/img/thumbnails/sem-logo.png"
 thumbnail: "assets/img/thumbnails/sem-logo.png"
 permalink: /:categories/:title.html
 categories: [santamaria]
-tags: santamaria santamariasaude
+tags: santa-maria santamariasaude
 ---
 Recuperadora de Faróis e Acessórios <br/> <!-- more -->
  <br/>
