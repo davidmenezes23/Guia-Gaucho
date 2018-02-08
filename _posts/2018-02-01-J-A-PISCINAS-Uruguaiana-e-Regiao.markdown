@@ -12,9 +12,9 @@ Venda de piscinas retangulares e spa redondo de fibra e demais acessórios;.<br 
 <b>Endereço: </b>Rua Benjamin Constant, 624, ao lado da Quero-Quero da Setembrino.<br />
 <b>Cidade: </b>Uruguaiana<br />
 <b>E-mail: </b>portoadriana03@hotmail.com<br />
-<b>Telefone: </b><span style="color: #00ab3a;">+55 3413-5083</span> <a href="tel:5534135083"><button class="ligar">Ligar</button></a><br />
-<b>Telefone: </b><span style="color: #00ab3a;">+55 99923-5922</span> <a href="tel:55999235922"><button class="ligar">Ligar</button></a><br />
-<b>Telefone: </b><span style="color: #00ab3a;">+55 99713-6133</span> <a href="tel:55997136133"><button class="ligar">Ligar</button></a><br />
+<b>Telefone: <span style="color: #00ab3a;">+55 3413-5083</span> <a href="tel:5534135083"><button class="ligar">Ligar</button></a></b><br />
+<b>Telefone: <span style="color: #00ab3a;">+55 99923-5922</span> <a href="tel:55999235922"><button class="ligar">Ligar</button></b></a><br />
+<b>Telefone: <span style="color: #00ab3a;">+55 99713-6133</span> <a href="tel:55997136133"><button class="ligar">Ligar</button></b></a><br />
 <br />
 <style>
       #map {
