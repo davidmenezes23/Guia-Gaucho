@@ -304,7 +304,7 @@ body {
 }
 .infobuton {
   padding: 5px;
-  vertical-align: center;
+  vertical-align: middle;
   box-shadow: 1px 1px 6px #00000017;
   text-align: center;
   background-color: #fff;
