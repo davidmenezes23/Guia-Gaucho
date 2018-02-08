@@ -297,6 +297,15 @@ body {
   text-decoration: none;
   color: black;
 }
+.caixainfo {
+  background-color: #00ab3a;
+  width: 100%;
+}
+.infobuton {
+  padding: 4%;
+  box-shadow: 1px 1px 6px #00000017;
+  text-align: center;
+}
 @media only screen and (max-width: 500px) {
 body {
   background-size: 220%;
