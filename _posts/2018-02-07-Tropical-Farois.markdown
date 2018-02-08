@@ -4,8 +4,8 @@ title: Tropical Faróis
 feature-img: "assets/img/thumbnails/sem-logo.png"
 thumbnail: "assets/img/thumbnails/sem-logo.png"
 permalink: /:categories/:title.html
-categories: [santamaria]
-tags: santa-maria santamariasaude
+categories: [santa-maria]
+tags: santamaria santamariasaude
 ---
 Recuperadora de Faróis e Acessórios <br/> <!-- more -->
  <br/>
