@@ -13,8 +13,8 @@ CRO: 15.555<br/>
 <b>Cidade: </b>Uruguaiana - RS<br />
 <b>E-mail: </b>deferrari.rs@gmail.com<br />
 <b>Site: </b><a href="https://www.imoveisdeferrari.com.br">www.imoveisdeferrari.com.br</a><br />
-<b>Telefone: </b><span style="color: #00ab3a;">+55 3411-7556 </span> <a href="tel:5534117556"><button class="ligar">Ligar</button></a><br />
-<b>Telefone: </b><span style="color: #00ab3a;">+55 9 9635-3637</span> <a href="tel:5534117556"><button class="ligar">Ligar</button></a><br />
+<b>Telefone: <span style="color: #00ab3a;">+55 3411-7556 </span> <a href="tel:5534117556"><button class="ligar">Ligar</button></b></a><br />
+<b>Telefone: <span style="color: #00ab3a;">+55 9 9635-3637</span> <a href="tel:5534117556"><button class="ligar">Ligar</button></b></a><br />
 <br />
 <style>
       #map {
