@@ -12,8 +12,8 @@ Materiais em gesso acartonado e iluminação em geral.<br />
 <b>Endereço: </b>Quinze de Novembro, 2746.<br />
 <b>Cidade: </b>Uruguaiana<br />
 <b>E-mail: </b>front.canabarro@gmail.com<br />
-<b>Telefone: </b> <span style="color: #00ab3a;">+55 3402-0562</span> <a href="tel:5534020562"><button class="ligar">Ligar</button></a><br />
-<b>Telefone: </b> <span style="color: #00ab3a;">+55 98439-7160</span> <a href="tel:55984397160"><button class="ligar">Ligar</button></a><br />
+<b>Telefone: <span style="color: #00ab3a;">+55 3402-0562</span> <a href="tel:5534020562"><button class="ligar">Ligar</button></a></b><br />
+<b>Telefone: <span style="color: #00ab3a;">+55 98439-7160</span> <a href="tel:55984397160"><button class="ligar">Ligar</button></a></b><br />
 <br />
 <style>
       #map {
