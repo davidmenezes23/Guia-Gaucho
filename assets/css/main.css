@@ -302,9 +302,16 @@ body {
   width: 100%;
 }
 .infobuton {
-  padding: 4%;
+  padding: 5px;
+  vertical-align: center;
   box-shadow: 1px 1px 6px #00000017;
   text-align: center;
+  background-color: #fff;
+  margin: 10px;
+  text-decoration: none;
+  font-size: larger;
+  color: black;
+  border-radius: 5px;
 }
 @media only screen and (max-width: 500px) {
 body {
