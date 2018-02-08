@@ -17,7 +17,7 @@ Desta forma, teremos o prazer em atendê-lo seja pessoa física, jurídica ou em
 <b>Cidade: </b>Uruguaiana/RS<br />
 <b>E-mail: </b>secretaria@alfaro.adv.br e aisla@alfaro.adv.br<br />
 <b>Telefone: <span style="color: #00ab3a;">+55 3402-8002</span> <a href="tel:5534028002"><button class="ligar">Ligar</button></a></b><br />
-<b>Telefone: <span style="color: #00ab3a;">+55 9 9961-8002</span> <a href="tel:55999618002"><button class="ligar">Ligar</button></b></a><br />
+<b>Telefone: <span style="color: #00ab3a;">+55 9 9961-8002</span> <a href="tel:55999618002"><button class="ligar">Ligar</button></a></b><br />
 <br />
 <style>
       #map {
