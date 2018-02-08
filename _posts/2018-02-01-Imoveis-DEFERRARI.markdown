@@ -14,8 +14,8 @@ TERRENOS, CASAS, SITIOS, CHÁCARAS, FAZENDAS E CASAS PRÉ FABRICADAS (melhor pre
 <b>Cidade: </b>Uruguaiana<br />
 <b>E-mail: </b>deferrari.rs@gmail.com<br />
 <b>Site: </b><a href="https://www.imoveisdeferrari.com.br">www.imoveisdeferrari.com.br</a><br />
-<b>Telefone: <span style="color: #00ab3a;">+55 99999-9037 </span> <a href="tel:55999999037"><button class="ligar">Ligar</button></b></a><br />
-<b>Telefone: <span style="color: #00ab3a;">+55 3402 1027</span> <a href="tel:5534021027"><button class="ligar">Ligar</button></a></b><br />
+<b>Telefone: <span style="color: #00ab3a;">(55) 99999-9037 </span> <a href="tel:55999999037"><button class="ligar">Ligar</button></b></a><br />
+<b>Telefone: <span style="color: #00ab3a;">(55) 3402 1027</span> <a href="tel:5534021027"><button class="ligar">Ligar</button></a></b><br />
 <br />
 <style>
       #map {
