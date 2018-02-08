@@ -5,7 +5,7 @@ feature-img: "assets/img/thumbnails/chama-trina.png"
 thumbnail: "assets/img/thumbnails/chama-trina.png"
 permalink: /:categories/:title.html
 categories: [santamaria]
-tags: santamaria santamariasaude
+tags: santa-maria santamariasaude
 ---
 TERAPEUTAS TERAPIA ALTERNATIVA TERAPIA OCUPACIONAL TERAPIA ORGANIZACIONAL TERAPIA HOLÍSTICA FLORAIS<!-- more -->
  <br/>
