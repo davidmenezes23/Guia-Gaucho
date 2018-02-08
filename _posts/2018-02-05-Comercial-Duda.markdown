@@ -12,9 +12,9 @@ BALÕES BEXIGAS BOMBONS E BALAS CARNAVAL - ARTIGOS CHOCOLATE CHOCOLATE - ATACADO
 <b>Endereço: </b>R Gen João Manoel, 2763, - Centro<br />
 <b>Cidade: </b>Uruguaiana, RS<br />
 <b>E-mail: </b>rodrigoegeovana@icloud.com<br />
-<b>Telefone: </b><span style="color: #00ab3a;">+55 3402-3667</span> <a href="tel:5534023667"><button class="ligar">Ligar</button></a><br />
-<b>Telefone: </b><span style="color: #00ab3a;">+55 99645-6807</span> <a href="tel:55996456807"><button class="ligar">Ligar</button></a><br />
-<b>Telefone: </b><span style="color: #00ab3a;">+55 99973-4517</span> <a href="tel:55999734517"><button class="ligar">Ligar</button></a><br />
+<b>Telefone: <span style="color: #00ab3a;">+55 3402-3667</span> <a href="tel:5534023667"><button class="ligar">Ligar</button></a></b><br />
+<b>Telefone: <span style="color: #00ab3a;">+55 99645-6807</span> <a href="tel:55996456807"><button class="ligar">Ligar</button></a></b><br />
+<b>Telefone: <span style="color: #00ab3a;">+55 99973-4517</span> <a href="tel:55999734517"><button class="ligar">Ligar</button></a></b><br />
 <br />
 <style>
       #map {
