@@ -8,13 +8,13 @@ categories: [uruguaiana]
 tags: uruguaiana uruguaianaindustriaemaquinas
 ---
 Atual Comercio de Baterias, Peças e Acessórios Automotivos - EIRELI ME<br/>
-<!-- more -->
-<img src="https://i.imgur.com/48FZDfO.jpg" width="100%"/>
+<!-- more --><br/>
 <b>Endereço: </b>Rua Dr. Maia, 4170 (frente aos blocos Coronel Fideles)<br />
 <b>Cidade: </b>Uruguaiana<br />
 <b>E-mail: </b>atual-baterias@hotmail.com<br />
-<b>Telefone: <span style="color: #00ab3a;">+55 3412-4087</span> <a href="tel:5534124087"><button class="ligar">Ligar</button></a></b><br />
-<b>Telefone: <span style="color: #00ab3a;">+55 999458082</span> <a href="tel:55999458082"><button class="ligar">Ligar</button></b></a><br />
+<b>Telefone: <span style="color: #00ab3a;">(55) 3412-4087</span> <a href="tel:5534124087"><button class="ligar">Ligar</button></a></b><br />
+<b>Telefone: <span style="color: #00ab3a;">(55) 999458082</span> <a href="tel:55999458082"><button class="ligar">Ligar</button></b></a><br />
+<img src="https://i.imgur.com/48FZDfO.jpg" width="100%"/>
 <br />
 <style>
       #map {
