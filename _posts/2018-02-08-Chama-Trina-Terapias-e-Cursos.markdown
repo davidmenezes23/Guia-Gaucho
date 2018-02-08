@@ -13,8 +13,8 @@ TERAPEUTAS TERAPIA ALTERNATIVA TERAPIA OCUPACIONAL TERAPIA ORGANIZACIONAL TERAPI
 <b>Endereço: </b>R Venâncio Aires, 1093, - Centro<br />
 <b>Cidade: </b>Santa Maria, RS<br />
 <b>E-mail: </b>chamatrinaterapias@gmail.com<br />
-<b>Telefone: <span style="color: #00ab3a;">+55 99989-4600</span> <a href="tel:55999894600"><button class="ligar">Ligar</button></a></b><br />
-<b>Telefone: <span style="color: #00ab3a;">+55 3026-3639</span> <a href="tel:5530263639"><button class="ligar">Ligar</button></a></b><br />
+<b>Telefone: <span style="color: #00ab3a;">(55) 99989-4600</span> <a href="tel:55999894600"><button class="ligar">Ligar</button></a></b><br />
+<b>Telefone: <span style="color: #00ab3a;">(55) 3026-3639</span> <a href="tel:5530263639"><button class="ligar">Ligar</button></a></b><br />
 <br />
 <style>
       #map {
