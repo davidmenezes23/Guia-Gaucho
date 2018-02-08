@@ -156,4 +156,14 @@
   <url>
     <loc>https://www.guiagaucho.com/santa-maria/Tropical-Farois.html</loc> 
   </url>
+  </url>
+  <url>
+    <loc>https://www.guiagaucho.com/santa-maria/Chama-Trina-Terapias-e-Cursos.html</loc> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/chama-trina.png</image:loc>
+    </image:image> 
+  </url>
+  <url>
+    <loc>https://www.guiagaucho.com/santa-maria/MARMOGRAN-MARMORES-E-GRANITOS.html</loc> 
+  </url>
 </urlset>
