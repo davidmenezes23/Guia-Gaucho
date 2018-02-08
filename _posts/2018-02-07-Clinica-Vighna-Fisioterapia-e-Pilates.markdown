@@ -4,7 +4,7 @@ title: Clínica Vighna Fisioterapia e Pilates
 feature-img: "assets/img/thumbnails/vighna-logo.png"
 thumbnail: "assets/img/thumbnails/vighna-logo.png"
 permalink: /:categories/:title.html
-categories: [santamaria]
+categories: [santa-maria]
 tags: santamaria santamariasaude
 ---
 Pilates Clássico e Funcional;<br/>
