@@ -16,7 +16,7 @@ Nutricionista.<br/>
 <b>Endereço: </b>Rua Visconde de Pelotas, 1522<br />
 <b>Cidade: </b>Santa Maria, RS<br />
 <b>E-mail: </b>vighna@gmail.com<br />
-<b>Telefone: <span style="color: #00ab3a;">+55 3028-1522</span> <a href="tel:5530281522"><button class="ligar">Ligar</button></a></b><br />
+<b>Telefone: <span style="color: #00ab3a;">(55) 3028-1522</span> <a href="tel:5530281522"><button class="ligar">Ligar</button></a></b><br />
 <br />
 <style>
       #map {
