@@ -4,8 +4,8 @@ title: Chama Trina Terapias e Cursos
 feature-img: "assets/img/thumbnails/chama-trina.png"
 thumbnail: "assets/img/thumbnails/chama-trina.png"
 permalink: /:categories/:title.html
-categories: [santamaria]
-tags: santa-maria santamariasaude
+categories: [santa-maria]
+tags: santamaria santamariasaude
 ---
 TERAPEUTAS TERAPIA ALTERNATIVA TERAPIA OCUPACIONAL TERAPIA ORGANIZACIONAL TERAPIA HOLÍSTICA FLORAIS<!-- more -->
  <br/>
