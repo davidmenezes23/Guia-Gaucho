@@ -12,7 +12,7 @@ Recuperadora de Faróis e Acessórios <br/> <!-- more -->
 <b>Endereço: </b>Duque de Caxias, 2845<br />
 <b>Cidade: </b>Santa Maria, RS<br />
 <b>E-mail: </b>vighna@gmail.com<br />
-<b>Telefone: </b><span style="color: #00ab3a;">+55 3222-3500</span> <a href="tel:5532223500"><button class="ligar">Ligar</button></a><br />
+<b>Telefone: <span style="color: #00ab3a;">+55 3222-3500</span> <a href="tel:5532223500"><button class="ligar">Ligar</button></a></b><br />
 <br />
 <style>
       #map {
