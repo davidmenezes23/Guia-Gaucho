@@ -1,0 +1,2 @@
+<div class="caixainfo"><div class="infobuton1"><div class="infobuton"><a class="infobutona" href="{{ post.url | prepend: site.baseurl }}">Informações</a></div></div></div>
+<br/>
