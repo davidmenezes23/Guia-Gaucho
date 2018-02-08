@@ -11,8 +11,8 @@ CRO: 15.555<br/>
 <!-- more -->
 <b>Endereço: </b>Rua treze de maio, 2348 - Bairro Centro<br />
 <b>Cidade: </b>Uruguaiana - RS<br />
-<b>Telefone: <span style="color: #00ab3a;">(55) 3411-7556 </span> <a href="tel:5534117556"><button class="ligar">Ligar</button></b></a><br />
-<b>Telefone: <span style="color: #00ab3a;">(55) 9 9635-3637</span> <a href="tel:5534117556"><button class="ligar">Ligar</button></b></a><br />
+<b>Telefone: <span style="color: #00ab3a;">(55) 3411-7556 </span> <a href="tel:5534117556"><button class="ligar">Ligar</button></a></b><br />
+<b>Telefone: <span style="color: #00ab3a;">(55) 99635-3637</span> <a href="tel:5534117556"><button class="ligar">Ligar</button></a></b><br />
 <br />
 <style>
       #map {
