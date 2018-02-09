@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Vitral
-feature-img: "assets/img/thumbnails/sem-logo.png"
-thumbnail: "assets/img/thumbnails/sem-logo.png"
+feature-img: "assets/img/thumbnails/vitral-vidracaria.png"
+thumbnail: "assets/img/thumbnails/vitral-vidracaria.png"
 permalink: /:categories/:title.html
 categories: [santa-maria]
 tags: santamaria santamariaconstrucao
