@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Alfaro advocacia e consultória jurídica - Aislã Judaiba Signoretti Alfaro Pizino
-feature-img: "assets/img/thumbnails/sem-logo.png"
-thumbnail: "assets/img/thumbnails/sem-logo.png"
+feature-img: "assets/img/thumbnails/alfaro.png"
+thumbnail: "assets/img/thumbnails/alfaro.png"
 permalink: /:categories/:title.html
 categories: [uruguaiana]
 tags: uruguaiana uruguaianajuridicoecontabil
