@@ -7,7 +7,7 @@ permalink: /:categories/:title.html
 categories: [santa-maria]
 tags: santamaria santamariaconstrucao
 ---
-<!-- more -->
+Redes de Proteção e Telas Mosquiteiras.<!-- more -->
  <br/>
  <br/>
 <b>Endereço: </b>Rua Dário Prates Rodrigues Casa 11 Quadra 70<br />
