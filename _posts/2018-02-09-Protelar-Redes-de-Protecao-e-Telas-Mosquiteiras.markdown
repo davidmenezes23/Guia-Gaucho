@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Protelar - Redes de Proteção e Telas Mosquiteiras
-feature-img: "assets/img/thumbnails/sem-logo.png"
-thumbnail: "assets/img/thumbnails/sem-logo.png"
+feature-img: "assets/img/thumbnails/protelar-redes.png"
+thumbnail: "assets/img/thumbnails/protelar-redes.png"
 permalink: /:categories/:title.html
 categories: [santa-maria]
 tags: santamaria santamariaconstrucao
