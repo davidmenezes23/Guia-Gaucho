@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Imóveis DEFERRARI 
-feature-img: "assets/img/thumbnails/sem-logo.png"
-thumbnail: "assets/img/thumbnails/sem-logo.png"
+feature-img: "assets/img/thumbnails/deferrari.png"
+thumbnail: "assets/img/thumbnails/deferrari.png"
 permalink: /:categories/:title.html
 categories: [uruguaiana]
 tags: uruguaiana uruguaianajuridicoecontabil
