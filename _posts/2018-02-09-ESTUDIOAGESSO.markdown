@@ -1,8 +1,8 @@
 ---
 layout: post
 title: ESTUDIOAGESSO
-feature-img: "assets/img/thumbnails/sem-logo.png"
-thumbnail: "assets/img/thumbnails/sem-logo.png"
+feature-img: "assets/img/thumbnails/estudioagesso.png"
+thumbnail: "assets/img/thumbnails/estudioagesso.png"
 permalink: /:categories/:title.html
 categories: [santa-maria]
 tags: santamaria santamariaconstrucao
