@@ -21,6 +21,9 @@
   </url>
   <url>
     <loc>https://www.guiagaucho.com/uruguaiana/Imoveis-DEFERRARI.html</loc> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/deferrari.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://www.guiagaucho.com/uruguaiana/Consultorio-Odontologico-Dra-Heidi-Catarin-Braun.html</loc> 
@@ -35,7 +38,10 @@
   </url>
   <url>
     <loc>https://www.guiagaucho.com/uruguaiana/Alfaro-advocacia-e-consultoria-juridica-Aisla-Judaiba-Signoretti-Alfaro-Pizino.html</loc> 
-  </url>
+      <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/alfaro.png</image:loc>
+    </image:image>
+</url>
   <url>
     <loc>https://www.guiagaucho.com/uruguaiana/fronteira-gesso-acartonado-e-iluminacao.html</loc> 
     <image:image>
@@ -98,6 +104,9 @@
   </url>
   <url>
     <loc>https://www.guiagaucho.com/uruguaiana/Comercial-Duda.html</loc> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/comercial-duda.jpg</image:loc>
+    </image:image> 
   </url>
   <url>
     <loc>https://www.guiagaucho.com/santa-maria/</loc> 
@@ -155,6 +164,9 @@
   </url>
   <url>
     <loc>https://www.guiagaucho.com/santa-maria/Tropical-Farois.html</loc> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/tropical-farois.png</image:loc>
+    </image:image> 
   </url>
   <url>
     <loc>https://www.guiagaucho.com/santa-maria/Chama-Trina-Terapias-e-Cursos.html</loc> 
@@ -164,14 +176,26 @@
   </url>
   <url>
     <loc>https://www.guiagaucho.com/santa-maria/MARMOGRAN-MARMORES-E-GRANITOS.html</loc> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/mormagran.png</image:loc>
+    </image:image> 
   </url>
   <url>
     <loc>https://www.guiagaucho.com/santa-maria/ESTUDIOAGESSO.html</loc> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/estudioagesso.png</image:loc>
+    </image:image> 
   </url>
   <url>
     <loc>https://www.guiagaucho.com/santa-maria/Vitral.html</loc> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/vitral-vidracaria.png</image:loc>
+    </image:image> 
   </url>
   <url>
     <loc>https://www.guiagaucho.com/santa-maria/Protelar-Redes-de-Protecao-e-Telas-Mosquiteiras.html</loc> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/protelar-redes.png</image:loc>
+    </image:image> 
   </url>
 </urlset>
