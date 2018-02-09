@@ -12,7 +12,7 @@ Redes de Proteção e Telas Mosquiteiras.<!-- more -->
  <br/>
 <b>Endereço: </b>Rua Dário Prates Rodrigues Casa 11 Quadra 70<br />
 <b>Cidade: </b>Santa Maria, RS<br />
-<b>Site: </b><a href="WWW.PROTELARSM.COM.BR">WWW.PROTELARSM.COM.BR</a><br />
+<b>Site: </b><a href="https://WWW.PROTELARSM.COM.BR">WWW.PROTELARSM.COM.BR</a><br />
 <b>E-mail: </b>CONTATO@PROTELARSM.COM.BR<br />
 <b>Telefone: <span style="color: #00ab3a;">(55) 99909-3137</span> <a href="tel:55999093137"><button class="ligar">Ligar</button></a></b><br />
 <b>Telefone: <span style="color: #00ab3a;">(55) 99176-7960</span> <a href="tel:55991767960"><button class="ligar">Ligar</button></a></b><br />
