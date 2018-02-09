@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Tropical Faróis
-feature-img: "assets/img/thumbnails/sem-logo.png"
-thumbnail: "assets/img/thumbnails/sem-logo.png"
+feature-img: "assets/img/thumbnails/tropical-farois.png"
+thumbnail: "assets/img/thumbnails/tropical-farois.png"
 permalink: /:categories/:title.html
 categories: [santa-maria]
 tags: santamaria santamariasaude
