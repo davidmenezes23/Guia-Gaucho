@@ -1,8 +1,8 @@
 ---
 layout: post
 title: MARMOGRAN - MÁRMORES E GRANITOS
-feature-img: "assets/img/thumbnails/sem-logo.png"
-thumbnail: "assets/img/thumbnails/sem-logo.png"
+feature-img: "assets/img/thumbnails/mormagran.png"
+thumbnail: "assets/img/thumbnails/mormagran.png"
 permalink: /:categories/:title.html
 categories: [santa-maria]
 tags: santamaria santamariaconstrucao
