@@ -80,10 +80,48 @@
 
   <div class="posts">
    {% for post in site.tags.santamariaculturadestaque %}
-{% include postagemdestaque.html %}
+    <div class="post-teaser1"><div class="post-teaserdestaque">
+      {% if post.thumbnail %} 
+         <img class="postthumb" alt="{{ post.title }} Logo" src="{{ site.baseurl }}/{{ post.thumbnail }}">
+      {% endif %}
+      <span class="tituloedescricaodestaque ">
+          <header>
+            <h1 class="titulopost">
+              <a class="post-linkdestaque" href="{{ post.url | prepend: site.baseurl }}">
+                {{ post.title }}
+              </a>
+            </h1>
+          </header>
+          <div class="excerpt">
+            {{ post.excerpt }}
+            <!--<a class="button" href="{{ post.url | prepend: site.baseurl }}">
+              {{ site.theme_settings.str_continue_reading }}
+            </a>-->
+          </div>
+      </span>
+    </div></div>
 {% endfor %}
 {% for post in site.tags.santamariacultura %}
-{% include postagem.html %}
+    <div class="post-teaser1"><div class="post-teaser">
+      {% if post.thumbnail %} 
+         <img class="postthumb" alt="{{ post.title }} Logo" src="{{ site.baseurl }}/{{ post.thumbnail }}">
+      {% endif %}
+      <span class="tituloedescricao">
+          <header>
+            <h1 class="titulopost">
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                {{ post.title }}
+              </a>
+            </h1>
+          </header>
+          <div class="excerpt">
+            {{ post.excerpt }}
+            <!--<a class="button" href="{{ post.url | prepend: site.baseurl }}">
+              {{ site.theme_settings.str_continue_reading }}
+            </a>-->
+          </div>
+      </span>
+    </div></div>
 {% endfor %}
   </div>
 
