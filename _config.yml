@@ -2,7 +2,7 @@
 baseurl: ""
 url: "https://www.guiagaucho.com"
 
-paginate_per_category: true
+pagination: true
 
 # THEME-SPECIFIC CONFIGURATION
 include: ["_pages"]
