@@ -16,7 +16,7 @@
   <url>
     <loc>https://www.guiagaucho.com/uruguaiana/J-A-PISCINAS-Uruguaiana-e-Regiao.html</loc> 
     <image:image>
-      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/sem-logo.png</image:loc>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/j-a-piscinas.png</image:loc>
     </image:image>
   </url>
   <url>
@@ -196,6 +196,12 @@
     <loc>https://www.guiagaucho.com/santa-maria/Protelar-Redes-de-Protecao-e-Telas-Mosquiteiras.html</loc> 
     <image:image>
       <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/protelar-redes.png</image:loc>
+    </image:image> 
+  </url>
+  <url>
+    <loc>https://www.guiagaucho.com/santa-maria/Matos-Estruturas-Metalicas-e-Serralheria.html</loc> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/matos-estruturas-metalicas.png</image:loc>
     </image:image> 
   </url>
 </urlset>
