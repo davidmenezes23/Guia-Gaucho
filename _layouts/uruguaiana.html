@@ -33,7 +33,7 @@
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
         json: '{{ site.baseurl }}/_pages/search.json',
-        searchResultTemplate: '<a class="searchlink" href="{url}"><li class="searchli">{title}</li></a>',
+        searchResultTemplate: '{% for post in site.tags.uruguaianadestaque %}<a class="searchlink" href="{url}"><li class="searchli">{title}</li></a>{% endfor %}',
         noResultsText: 'No results found',
         limit: 10,
         fuzzy: false,
