@@ -1,80 +1,126 @@
----
-layout: html
----
-<body class="index categories">
-
-
-<div id="middle">
-
-  <div class="container">
-    
-    <div class="row">
-    
-      <div class="span8">
-        <div id="main">
-        
-          <div class="title">{{ page.title }}</div>
-
-          <div class="content">			
-
-					{% for post in paginator.posts %}
-
-{% if post.images %}
-  
-  <div class="teaser">
-    <div class="row">
-      <div class="span2">
-        <div class="image"><a href="{{ post.url }}" title="{{ post.title }}"><img src="{{ post.images[0] | format_teaser_image }}" /></a></div>
-      </div>
-      <div class="span6">
-        <div class="title"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></div>
-        <div class="description">{% if post.description %}{{ post.description }}{% else %}{{ post.content }}{% endif %}</div>
-        <div class="read-more"><a href="{{ post.url }}" title="{{ post.title }}">There's more? Yes! Let's go. »</a></div>
-      </div>
-    </div>
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+<header class="site-header">
+<div class='headercabecalho'>
+<a href='{{ site.url }}'><img alt='Guia Gaúcho Logotipo' class='imagelogo' src='{{ site.url }}/assets/img/images/Guia-Gaucho-logo.png'/></a>
+<div class='menuheader'>
+<div class='menuitem'>
+<a href='{{ site.url }}' style='text-decoration:none;color:#fff;'>Inicio</a>
   </div>
-
-{% else %}
-
-  <div class="teaser">
-    <div class="row">
-      <div class="span8">
-        <div class="title"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></div>
-        <div class="description">{% if post.description %}{{ post.description }}{% else %}{{ post.content }}{% endif %}</div>
-        <div class="read-more"><a href="{{ post.url }}" title="{{ post.title }}">There's more? Yes! Let's go. »</a></div>
-      </div>
-    </div>
+<div class='menuitem'>
+<a href='{{ site.baseurl }}/cadastro/' style='text-decoration:none;color:#fff;'>Cadastro</a>
   </div>
-
-{% endif %}
-
-					{% endfor %}
-										
-					{{ paginator | pager_links }}
-					
-          </div>
-          					
-        </div>
-      </div>
-
-			<div class="span4">
-			  <div id="sidebar">
-
-
-
-          <div id="popular-tags">
-            <div class="header">Popular Tags</div>
-            
-            {{ site.tags | popular_tags }}
-            
-          </div>
-
-        </div>
-			</div>
-
-		</div>		
-	</div>
+<div class='menuitem'>
+<a href='{{ site.baseurl }}/sobre/' style='text-decoration:none;color:#fff;'>Sobre</a>
+  </div>
+<div class='menuitem'>
+<a href='{{ site.baseurl }}/contato/' style='text-decoration:none;color:#fff;'>Contato</a>
+  </div>
+  </div>
 </div>
+  
+  
+  <div class="pesquisatermo3">
+      <div class="pesquisatermo2" id="search-demo-container">
+      <input type="text" class="pesquisatermo" id="search-input" placeholder="Buscar...">
+      <ul class="resultados" id="results-container"></ul>
+    </div>
+  </div>
+    <script>
+      window.simpleJekyllSearch = new SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        json: '{{ site.baseurl }}/_pages/uruguaiana.json',
+        searchResultTemplate: '<a class="searchlink" href="{url}"><li class="searchli">{title}</li></a>',
+        noResultsText: 'No results found',
+        limit: 10,
+        fuzzy: false,
+        exclude: ['Welcome']
+      })
+    </script>
+  
+</header>
+<div class="content">
+      {{ content }}
+    </div>
+    {% include footer.html %}
+  </body>
+</html>
+<h2 class='coluna1titulo'><b>Categorias</b></h2>
+<h2 class="conteudotitulocidade"><b>Destaques</b></h2>
+<h2 class="coluna2titulo"><b>Anúncio</b></h2>
+<div class='Coluna1'>
+    <div class='Coluna1conteudo'>
+<table width='100%'>
+<tr><th><a class='categorialink' href="{{ site.url }}/uruguaiana/automovel/"><div class='categoriaitem'>Automóvel</div></a></th></tr>
+<tr><th><a class='categorialink' href="{{ site.url }}/uruguaiana/construcao/"><div class='categoriaitem'>Construção</div></a></th></tr>
+<tr><th><a class='categorialink' href="{{ site.url }}/uruguaiana/cultura/"><div class='categoriaitem'>Cultura</div></a></th></tr>
+<tr><th><a class='categorialink' href="{{ site.url }}/uruguaiana/alimentacao/"><div class='categoriaitem'>Alimentação</div></a></th></tr>
+<tr><th><a class='categorialink' href="{{ site.url }}/uruguaiana/industria-e-maquinas/"><div class='categoriaitem'>Indústria e Máquinas</div></a></th></tr>
+<tr><th><a class='categorialink' href="{{ site.url }}/uruguaiana/juridico-e-contabil/"><div class='categoriaitem'>Jurídico e Contábil</div></a></th></tr>
+<tr><th><a class='categorialink' href="{{ site.url }}/uruguaiana/moda-e-beleza/"><div class='categoriaitem'>Moda e Beleza</div></a></th></tr>
+<tr><th><a class='categorialink' href="{{ site.url }}/uruguaiana/moveis/"><div class='categoriaitem'>Móveis</div></a></th></tr>
+<tr><th><a class='categorialink' href="{{ site.url }}/uruguaiana/entreterimento/"><div class='categoriaitem'>Entreterimento</div></a></th></tr>
+<tr><th><a class='categorialink' href="{{ site.url }}/uruguaiana/rural/"><div class='categoriaitem'>Rural</div></a></th></tr>
+<tr><th><a class='categorialink' href="{{ site.url }}/uruguaiana/saude/"><div class='categoriaitem'>Saúde</div></a></th></tr>
+<tr><th><a class='categorialink' href="{{ site.url }}/uruguaiana/tecnologia/"><div class='categoriaitem'>Tecnologia</div></a></th></tr>
+<tr><th><a class='categorialink' href="{{ site.url }}/uruguaiana/turismo/"><div class='categoriaitem'>Turismo</div></a></th></tr>
+</table>
+    </div>
+  </div>
+<div class="conteudocidade">
+  {% if site.theme_settings.header_text %}
+  <div id="main" class="call-out"
+  style="background-image: url('{{ site.baseurl }}/{{ site.theme_settings.header_text_feature_image }}')">
+    {{ site.theme_settings.header_text }}
+  </div>
+  {% endif %}
 
-
-</body>
+  <div class="posts">
+   {% for post in site.tags.uruguaianadestaque %}
+    <div class="post-teaser1"><div class="post-teaserdestaque">
+      {% if post.thumbnail %} 
+         <img class="postthumb" alt="{{ post.title }} Logo" src="{{ site.baseurl }}/{{ post.thumbnail }}">
+      {% endif %}
+      <span class="tituloedescricaodestaque ">
+          <header>
+            <h1 class="titulopost">
+              <a class="post-linkdestaque" href="{{ post.url | prepend: site.baseurl }}">
+                {{ post.title }}
+              </a>
+            </h1>
+          </header>
+          <div class="excerpt">
+            {{ post.excerpt }}
+            <!--<a class="button" href="{{ post.url | prepend: site.baseurl }}">
+              {{ site.theme_settings.str_continue_reading }}
+            </a>-->
+          </div>
+      </span>
+    </div></div>
+{% endfor %}
+{% for post in site.tags.uruguaiana %}
+    <div class="post-teaser1"><div class="post-teaser">
+      {% if post.thumbnail %} 
+         <img class="postthumb" alt="{{ post.title }} Logo" src="{{ site.baseurl }}/{{ post.thumbnail }}">
+      {% endif %}
+      <span class="tituloedescricao">
+          <header>
+            <h1 class="titulopost">
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                {{ post.title }}
+              </a>
+            </h1>
+          </header>
+          <div class="excerpt">
+            {{ post.excerpt }}
+            <!--<a class="button" href="{{ post.url | prepend: site.baseurl }}">
+              {{ site.theme_settings.str_continue_reading }}
+            </a>-->
+          </div>
+      </span>
+    </div></div>
+{% endfor %}
+  </div>
