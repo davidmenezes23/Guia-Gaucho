@@ -25,14 +25,14 @@
   <div class="pesquisatermo3">
       <div class="pesquisatermo2" id="search-demo-container">
       <input type="text" class="pesquisatermo" id="search-input" placeholder="Buscar...">
-      {% for post in site.tags.uruguaianadestaque %}<ul class="resultados" id="results-container"></ul>{% endfor %}
+      <ul class="resultados" id="results-container"></ul>
     </div>
   </div>
     <script>
       window.simpleJekyllSearch = new SimpleJekyllSearch({
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
-        json: '{{ site.baseurl }}/_pages/search.json',
+        json: '{{ site.baseurl }}/_pages/uruguaiana.json',
         searchResultTemplate: '<a class="searchlink" href="{url}"><li class="searchli">{title}</li></a>',
         noResultsText: 'No results found',
         limit: 10,
