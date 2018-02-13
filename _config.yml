@@ -2,7 +2,15 @@
 baseurl: ""
 url: "https://www.guiagaucho.com"
 
-pagination: true
+gems: [jekyll-paginate, jekyll-paginate-category]
+
+paginate: 5
+paginate_path: "page:num"
+
+category_dir: "categories"
+category_layout: "index.html"
+
+
 
 # THEME-SPECIFIC CONFIGURATION
 include: ["_pages"]
