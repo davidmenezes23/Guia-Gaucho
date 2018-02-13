@@ -79,7 +79,7 @@
   {% endif %}
 
   <div class="posts">
-   {% for post in site.tags.santamariamodaebelezadestaque %}
+   {% for post in site.tags.[page.tag]destaque %}
     <div class="post-teaser1"><div class="post-teaserdestaque">
       {% if post.thumbnail %} 
          <img class="postthumb" alt="{{ post.title }} Logo" src="{{ site.baseurl }}/{{ post.thumbnail }}">
@@ -101,7 +101,7 @@
       </span>
     </div></div>
 {% endfor %}
-{% for post in site.tags.santamariamodaebeleza %}
+   {% for post in site.tags.[page.tag] %}
     <div class="post-teaser1"><div class="post-teaser">
       {% if post.thumbnail %} 
          <img class="postthumb" alt="{{ post.title }} Logo" src="{{ site.baseurl }}/{{ post.thumbnail }}">
