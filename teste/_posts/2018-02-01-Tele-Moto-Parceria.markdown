@@ -4,6 +4,7 @@ title: Tele Moto Parceria
 feature-img: "assets/img/thumbnails/tele-moto-parceria.jpg"
 thumbnail: "assets/img/thumbnails/tele-moto-parceria.jpg"
 permalink: /:categories/:title.html
+published: true
 categories: [uruguaiana]
 tags: uruguaianadestaque uruguaianaautomoveldestaque
 ---
