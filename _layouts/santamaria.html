@@ -125,20 +125,7 @@
     </div></div>
 {% endfor %}
   </div>
-  <div class="pagination">
-    {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button" >
-      <i class="fa fa-chevron-left"></i>
-      {{ site.theme_settings.str_previous_page }}
-    </a>
-    {% endif %}
-    {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button" >
-      {{ site.theme_settings.str_next_page }}
-      <i class="fa fa-chevron-right"></i>
-    </a>
-    {% endif %}
-  </div>
+  <button onClick="document.getElementById('conteudocidade').style.height='100%';">Ver Mais</button>
 </div>
 <div class="coluna">
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
