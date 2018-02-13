@@ -5,7 +5,7 @@ feature-img: "assets/img/thumbnails/confeccoes-modelari.png"
 thumbnail: "assets/img/thumbnails/confeccoes-modelari.png"
 permalink: /:categories/:title.html
 categories: [santa-maria]
-tags: santamaria santamariaconstrucao
+tags: santamaria santamariamodaebeleza
 ---
 CONFECÇÕES DE ROUPAS - ATACADO E FABRICAÇÃO<!-- more --><br />
  <br/>
