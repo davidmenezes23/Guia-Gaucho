@@ -78,7 +78,7 @@
   </div>
   {% endif %}
 
-  <div class="posts">
+  <div class="posts">   
    {% for post in paginator.posts %}
     <div class="post-teaser1"><div class="post-teaserdestaque">
       {% if post.thumbnail %} 
@@ -100,5 +100,12 @@
           </div>
       </span>
     </div></div>
+{% endfor %}
+    {% if page.paginator %}
+{% assign paginator = page.paginator %}
+{% endif %}
+
+{% for post in paginator.posts %}
+...
 {% endfor %}
   </div>
