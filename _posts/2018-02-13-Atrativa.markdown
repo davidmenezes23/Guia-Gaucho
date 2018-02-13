@@ -5,7 +5,7 @@ feature-img: "assets/img/thumbnails/atrativa.png"
 thumbnail: "assets/img/thumbnails/atrativa.png"
 permalink: /:categories/:title.html
 categories: [santa-maria]
-tags: santamaria santamariaconstrucao
+tags: santamaria santamariamodaebeleza
 ---
 Confecções Femininas, Tamanhos Grandes Moda,<!-- more --><br />
  <br/>
