@@ -36,7 +36,7 @@ body{background-image:url(https://i.imgur.com/v0fcWrZ.png);background-color:#efe
 .coluna2titulo2{font-size:larger;color:#00ab3a;text-align:center;display:inline-block;width:100%;}
 .conteudopost2{padding:2%;width:96%;display:inline-block;}
 .ligar{display:none;}
-.conteudocidade{width:50%;display:inline-block;padding-top:10px;padding-bottom:10px;}
+.conteudocidade{width:50%;display:inline-block;padding-top:10px;padding-bottom:10px;height:750px;overflow: hidden !important;}
 .conteudotitulocidade{font-size:larger;color:#00ab3a;text-align:center;display:inline-block;width:50%;padding-top:20px;}
 .Coluna1{width:14.4%;padding-left:5%;padding-right:5%;display:inline-block;vertical-align:top;padding-top:10px;padding-bottom:10px;}
 .Coluna1conteudo{width:92%;border-radius:5px;background-color:#ffffff;padding:4%;}
