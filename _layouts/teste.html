@@ -1,123 +1,183 @@
-<!DOCTYPE html>
-<html>
-  {% include head.html %}
-  <body>
-<header class="site-header">
-<div class='headercabecalho'>
-<a href='{{ site.url }}'><img alt='Guia Gaúcho Logotipo' class='imagelogo' src='{{ site.url }}/assets/img/images/Guia-Gaucho-logo.png'/></a>
-<div class='menuheader'>
-<div class='menuitem'>
-<a href='{{ site.url }}' style='text-decoration:none;color:#fff;'>Inicio</a>
-  </div>
-<div class='menuitem'>
-<a href='{{ site.baseurl }}/cadastro/' style='text-decoration:none;color:#fff;'>Cadastro</a>
-  </div>
-<div class='menuitem'>
-<a href='{{ site.baseurl }}/sobre/' style='text-decoration:none;color:#fff;'>Sobre</a>
-  </div>
-<div class='menuitem'>
-<a href='{{ site.baseurl }}/contato/' style='text-decoration:none;color:#fff;'>Contato</a>
-  </div>
-  </div>
-</div>
-  
-  
-  <div class="pesquisatermo3">
-      <div class="pesquisatermo2" id="search-demo-container">
-      <input type="text" class="pesquisatermo" id="search-input" placeholder="Buscar...">
-      <ul class="resultados" id="results-container"></ul>
-    </div>
-  </div>
-    <script>
-      window.simpleJekyllSearch = new SimpleJekyllSearch({
-        searchInput: document.getElementById('search-input'),
-        resultsContainer: document.getElementById('results-container'),
-        json: '{{ site.baseurl }}/_pages/uruguaiana.json',
-        searchResultTemplate: '<a class="searchlink" href="{url}"><li class="searchli">{title}</li></a>',
-        noResultsText: 'No results found',
-        limit: 10,
-        fuzzy: false,
-        exclude: ['Welcome']
-      })
-    </script>
-  
-</header>
-<div class="content">
-      {{ content }}
-    </div>
-    {% include footer.html %}
-  </body>
-</html>
-<h2 class='coluna1titulo'><b>Categorias</b></h2>
-<h2 class="conteudotitulocidade"><b>Destaques</b></h2>
-<h2 class="coluna2titulo"><b>Anúncio</b></h2>
-<div class='Coluna1'>
-    <div class='Coluna1conteudo'>
-<table width='100%'>
-<tr><th><a class='categorialink' href="{{ site.url }}/uruguaiana/automovel/"><div class='categoriaitem'>Automóvel</div></a></th></tr>
-<tr><th><a class='categorialink' href="{{ site.url }}/uruguaiana/construcao/"><div class='categoriaitem'>Construção</div></a></th></tr>
-<tr><th><a class='categorialink' href="{{ site.url }}/uruguaiana/cultura/"><div class='categoriaitem'>Cultura</div></a></th></tr>
-<tr><th><a class='categorialink' href="{{ site.url }}/uruguaiana/alimentacao/"><div class='categoriaitem'>Alimentação</div></a></th></tr>
-<tr><th><a class='categorialink' href="{{ site.url }}/uruguaiana/industria-e-maquinas/"><div class='categoriaitem'>Indústria e Máquinas</div></a></th></tr>
-<tr><th><a class='categorialink' href="{{ site.url }}/uruguaiana/juridico-e-contabil/"><div class='categoriaitem'>Jurídico e Contábil</div></a></th></tr>
-<tr><th><a class='categorialink' href="{{ site.url }}/uruguaiana/moda-e-beleza/"><div class='categoriaitem'>Moda e Beleza</div></a></th></tr>
-<tr><th><a class='categorialink' href="{{ site.url }}/uruguaiana/moveis/"><div class='categoriaitem'>Móveis</div></a></th></tr>
-<tr><th><a class='categorialink' href="{{ site.url }}/uruguaiana/entreterimento/"><div class='categoriaitem'>Entreterimento</div></a></th></tr>
-<tr><th><a class='categorialink' href="{{ site.url }}/uruguaiana/rural/"><div class='categoriaitem'>Rural</div></a></th></tr>
-<tr><th><a class='categorialink' href="{{ site.url }}/uruguaiana/saude/"><div class='categoriaitem'>Saúde</div></a></th></tr>
-<tr><th><a class='categorialink' href="{{ site.url }}/uruguaiana/tecnologia/"><div class='categoriaitem'>Tecnologia</div></a></th></tr>
-<tr><th><a class='categorialink' href="{{ site.url }}/uruguaiana/turismo/"><div class='categoriaitem'>Turismo</div></a></th></tr>
-</table>
-    </div>
-  </div>
-<div class="conteudocidade">
-  {% if site.theme_settings.header_text %}
-  <div id="main" class="call-out"
-  style="background-image: url('{{ site.baseurl }}/{{ site.theme_settings.header_text_feature_image }}')">
-    {{ site.theme_settings.header_text }}
-  </div>
-  {% endif %}
+{% comment %}On récupère la langue en fonction de l'URL{% endcomment %}
+{% capture locale %}{{ page.url | truncate: 3, "" | remove: "/" }}{% endcapture %}
 
-  <div class="posts">   
-   {% for post in site.tags.uruguaiana %}
-    <div class="post-teaser1"><div class="post-teaserdestaque">
-      {% if post.thumbnail %} 
-         <img class="postthumb" alt="{{ post.title }} Logo" src="{{ site.baseurl }}/{{ post.thumbnail }}">
-      {% endif %}
-      <span class="tituloedescricaodestaque ">
-          <header>
-            <h1 class="titulopost">
-              <a class="post-linkdestaque" href="{{ post.url | prepend: site.baseurl }}">
-                {{ post.title }}
-              </a>
-            </h1>
-          </header>
-          <div class="excerpt">
-            {{ post.excerpt }}
-            <!--<a class="button" href="{{ post.url | prepend: site.baseurl }}">
-              {{ site.theme_settings.str_continue_reading }}
-            </a>-->
-          </div>
-      </span>
-    </div></div>
-{% endfor %}
-    {% if page.paginator %}
-{% assign paginator = page.paginator %}
+{% unless site.authorized_locales contains locale %}
+{% assign locale = site.default_locale %}
+{% endunless %}
+
+<!DOCTYPE html>
+<html lang="{{ locale }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+  <meta name="description" content="{{ page.description }}">
+
+  <meta property="og:site_name" content="{{site.name}}" />
+  <meta property="og:url" content="{{site.url}}{{page.url}}" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="{{ page.title }} | @nicoespeon" />
+  <meta property="og:description" content="{{ page.description }}" />
+  <meta property="og:image" content="https://fr.gravatar.com/userimage/27601663/eb6a327f57a4931bfdf6c213af65ed2d.jpg?size=300" />
+
+  <title>{{ page.title }} | @nicoespeon</title>
+
+  <link rel="icon" href="/assets/img/icon.png">
+  <link rel="author" href="https://plus.google.com/u/0/108378377887967941980">
+
+  <!-- DNS prefetch for external resources -->
+  <link rel="dns-prefetch" href="//fonts.googleapis.com">
+  <link rel="dns-prefetch" href="//platform.twitter.com">
+  <link rel="dns-prefetch" href="//p.twitter.com">
+  <link rel="dns-prefetch" href="//cdn.api.twitter.com">
+  <link rel="dns-prefetch" href="//google-analytics.com">
+
+  <link rel="stylesheet"
+        href='http://fonts.googleapis.com/css?family=Snippet|Roboto:300,100,700'>
+  <link rel="stylesheet" href="/assets/css/nicoespeon.css" media="screen">
+  <link rel="stylesheet" href="/assets/css/nicoespeon-print.css" media="print">
+
+  {% if page.gitgraph %}
+  <!-- Gitgraph.js -->
+  <link rel="stylesheet" href="/assets/css/gitgraph.css" media="all">
+  {% endif %}
+</head>
+<body>
+<div id="site">
+  <div class="container">
+    <div class="grid">
+      <div class="grid__item seven-tenths portable-one-whole" role="main">
+        <header class="media" role="banner">
+          <!-- Brand logo -->
+          <img src="http://www.gravatar.com/avatar/46978c87c5c75cea5d05a61fa8b7d95b" class="media__img img--circle" alt="My avatar" width="80" height="80"/>
+
+          <!-- Main navigation -->
+          <nav class="media__body" role="navigation">
+            <ul class="nav nav--main">
+              {% for link in site.data.locales[locale].nav %}
+              <li{% if page.url == link.url %} class="current"{% endif %}>
+                <a href="{{ link.url }}">{{ link.text }}</a>
+              </li>
+              {% endfor %}
+            </ul>
+          </nav>
+          <!-- /navigation -->
+        </header>
+        <!-- /header -->
+
+        {{ content }}
+      </div>
+
+      <div class="grid__item three-tenths portable-one-whole"
+           role="complementary">
+        {% include sidebar.html %}
+      </div>
+    </div>
+  </div>
+  <!-- /container -->
+</div>
+<!-- /main-content -->
+
+<footer role="contentinfo">
+  <div class="container">
+    <p>
+      &copy; {{ site.time | date: "%Y" }} - <a href="https://twitter.com/nicoespeon">Nicolas (Espeon) Carlo</a><br>
+             {{ site.data.locales[locale].footer_message }}
+    </p>
+  </div>
+</footer>
+
+<!-- jQuery -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<script>
+  $( function () {
+    /**
+     * This JS code is still small so its better to keep it inline.
+     *
+     * Only apply if we are beyond the desk CSS breakpoint on load
+     */
+    if ( $( window ).width() >= 1024 ) {
+      var $timeline = $( "ul#timeline" );
+      /**
+       * Then hide every label description of the timeline
+       */
+      $timeline.find( "a.timeline__label" ).each( function () {
+        $( this ).find( "p" ).hide();
+      } );
+      /**
+       * And delegate the visibility effect on hover for each label description
+       */
+      $timeline.on( "mouseenter mouseleave", "a.timeline__label", function () {
+        $( this ).find( "p" ).stop().toggle( "slow" );
+      } );
+    }
+    /**
+     * Append anchor to page subtitles with IDs (used for blog posts).
+     */
+    $( "h2[id], h3[id]" ).each( function () {
+      var $title = $( this );
+      var $anchor = $( "<a href='#" + $title.attr( "id" ) + "' class='anchor'><i class='icon-link'></i></a>" );
+      $title.append( $anchor );
+    } );
+  } );
+</script>
+
+<!-- Twitter API -->
+<script>!function ( d, s, id ) {
+  var js, fjs = d.getElementsByTagName( s )[0];
+  if ( !d.getElementById( id ) ) {
+    js = d.createElement( s );
+    js.id = id;
+    js.src = "//platform.twitter.com/widgets.js";
+    fjs.parentNode.insertBefore( js, fjs );
+  }
+}( document, "script", "twitter-wjs" );</script>
+
+<!-- Google Analytics -->
+<script>var _gaq = _gaq || [];
+_gaq.push( ['_setAccount', 'UA-39957541-2'] );
+_gaq.push( ['_setDomainName', 'nicoespeon.com'] );
+_gaq.push( ['_trackPageview'] );
+(function () {
+  var ga = document.createElement( 'script' );
+  ga.type = 'text/javascript';
+  ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName( 'script' )[0];
+  s.parentNode.insertBefore( ga, s );
+})();</script>
+
+{% if page.comments %}
+<!-- Disqus -->
+<script>var disqus_shortname = 'nicoespeon';
+var disqus_url = 'http://nicoespeon.com{{ page.url }}';
+var title = "{{ page.title | escape }}";
+(function () {
+  var dsq = document.createElement( 'script' );
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName( 'head' )[0] || document.getElementsByTagName( 'body' )[0]).appendChild( dsq );
+})();</script>
+<noscript>Please enable JavaScript to view the <a
+    href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
 {% endif %}
 
-{% for post in paginator.posts %}
-<div class="pagination">
-    {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button" >
-      <i class="fa fa-chevron-left"></i>
-      {{ site.theme_settings.str_previous_page }}
-    </a>
-    {% endif %}
-    {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button" >
-      {{ site.theme_settings.str_next_page }}
-      <i class="fa fa-chevron-right"></i>
-    </a>
-    {% endif %}
-  </div>{% endfor %}
-  </div>
+{% if page.jsbin %}
+<!-- JSBin -->
+<script src="http://static.jsbin.com/js/embed.js"></script>
+{% endif %}
+
+{% if page.codepen %}
+<!-- CodePen -->
+<script async src="http://codepen.io/assets/embed/ei.js"></script>
+{% endif %}
+
+{% if page.gitgraph %}
+<!-- Gitgraph.js -->
+<script src="/assets/scripts/gitgraph.min.js"></script>
+<script src="/assets/scripts/{{ page.script }}.js"></script>
+{% endif %}
+</body>
+</html>
