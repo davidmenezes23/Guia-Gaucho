@@ -2,13 +2,6 @@
 baseurl: ""
 url: "https://www.guiagaucho.com"
 
-
-paginate: 7
-paginate_path: "/page:num"
-paginate_per_category: true
-
-
-
 # THEME-SPECIFIC CONFIGURATION
 include: ["_pages"]
 theme_settings:
