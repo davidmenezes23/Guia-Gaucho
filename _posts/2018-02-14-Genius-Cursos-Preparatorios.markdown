@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Genius Cursos Preparatórios
-feature-img: "assets/img/thumbnails/logo-nova.png.png"
-thumbnail: "assets/img/thumbnails/logo-nova.png.png"
+feature-img: "assets/img/thumbnails/logo-nova.png"
+thumbnail: "assets/img/thumbnails/logo-nova.png"
 permalink: /:categories/:title.html
 categories: [santa-maria]
 tags: santamaria santamariacultura
