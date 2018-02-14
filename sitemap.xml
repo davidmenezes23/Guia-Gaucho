@@ -204,4 +204,22 @@
       <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/matos-estruturas-metalicas.png</image:loc>
     </image:image> 
   </url>
+  <url>
+    <loc>https://www.guiagaucho.com/santa-maria/Estacio-e-EJA-DOM.html</loc> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/estacio.png</image:loc>
+    </image:image> 
+  </url>
+  <url>
+    <loc>https://www.guiagaucho.com/santa-maria/Genius-Cursos-Preparatorios.html</loc> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/logo-nova.png</image:loc>
+    </image:image> 
+  </url>
+  <url>
+    <loc>https://www.guiagaucho.com/santa-maria/Metalurgica-Seligman-Serralheria.html</loc> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/seligman.png</image:loc>
+    </image:image> 
+  </url>
 </urlset>
