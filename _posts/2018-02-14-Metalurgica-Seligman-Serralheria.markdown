@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Metalúrgica Seligman / Serralheria
-feature-img: "assets/img/thumbnails/confeccoes-modelari.png"
-thumbnail: "assets/img/thumbnails/confeccoes-modelari.png"
+feature-img: "assets/img/thumbnails/seligman.png"
+thumbnail: "assets/img/thumbnails/seligman.png"
 permalink: /:categories/:title.html
 categories: [santa-maria]
 tags: santamaria santamariaconstrucao
