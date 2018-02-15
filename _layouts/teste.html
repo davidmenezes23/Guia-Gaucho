@@ -10,7 +10,6 @@
 	
 	var postsMiniatura = [{% for post in site.tags.[page.tag] %}{% if post.thumbnail %}"{{ post.thumbnail }}"{% endif %}{% unless forloop.last %},{% endunless %}{% endfor %}];
 
-	var postsDescricao = [{% for post in site.tags.[page.tag] %}"{{ post.excerpt }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
 
 </script>
 
@@ -29,7 +28,6 @@
         var postHREF;
         var postTitle;
         var postMiniatura;
-        var postDescricao;
 
         randomIndex = Math.floor(Math.random() * postsHREF.length);
 
@@ -38,7 +36,6 @@
             postHREF = postsHREF[randomIndex];
             postTitle = postsTitle[randomIndex];
             postMiniatura = postsMiniatura[randomIndex];
-            postDescricao = postsDescricao[randomIndex];
 
             if
             {
