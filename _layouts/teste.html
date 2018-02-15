@@ -24,7 +24,7 @@
     var postsHREF = [{% for post in site.tags.[page.tag] %}"{{ post.url }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
     var postsTitle = [{% for post in site.tags.[page.tag] %}"{{ post.title }}"{% unless forloop.last %},{% endunless %}{% endfor %}];	
 	var postsMiniatura = [{% for post in site.tags.[page.tag] %}{% if post.thumbnail %}"{{ post.thumbnail }}"{% endif %}{% unless forloop.last %},{% endunless %}{% endfor %}];
-	var postsNumero = ["{{ site.tags.[page.category] | size }}"];
+	var postsNumero = ["{{ site.tags.[page.tag] | size }}"];
 	var postsDescricao = [{% for post in site.tags.[page.tag] %}"{{ post.excerpt | remove: '<p>' | remove: '</p>' | remove: '
 ' }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
     var postsHREF2 = [{% for post in site.tags.[page.category] %}"{{ post.url }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
