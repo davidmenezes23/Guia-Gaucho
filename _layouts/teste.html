@@ -4,11 +4,11 @@
 <body>
 <script type="text/javascript">
 
-    var postsHREF = [{% for post in site.posts %}"{{ post.url }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+    var postsHREF = [{% for post in site.tags.[page.tag] %}"{{ post.url }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
 
-    var postsTitle = [{% for post in site.posts %}"{{ post.title }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+    var postsTitle = [{% for post in site.tags.[page.tag] %}"{{ post.title }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
 	
-	var postsMiniatura = [{% for post in site.posts %}{% if post.thumbnail %}"{{ post.thumbnail }}"{% endif %}{% unless forloop.last %},{% endunless %}{% endfor %}];
+	var postsMiniatura = [{% for post in site.tags.[page.tag] %}{% if post.thumbnail %}"{{ post.thumbnail }}"{% endif %}{% unless forloop.last %},{% endunless %}{% endfor %}];
 
 
 </script>
@@ -17,7 +17,7 @@
 
 
 
-	  {% for post in site.tags.[page.tag] %}
+	  
 	<script type="text/javascript">
 
     var randomIndexUsed = [];
@@ -37,7 +37,7 @@
             postMiniatura = postsMiniatura[randomIndex];
 
 
-                document.write('<div class="post-teaser1"><div class="post-teaser"><img class="postthumb" alt="' + postTitle + ' Logo" src="' + postMiniatura + '"<span class="tituloedescricao"><header><h1 class="titulopost"><a class="post-link" href="' + postHREF + '">' + postTitle + '</a></h1></header><div class="excerpt">XXXX</div></span></div></div></div><hr />');
+                document.write('{% for post in site.tags.[page.tag] %}<div class="post-teaser1"><div class="post-teaser"><img class="postthumb" alt="' + postTitle + ' Logo" src="' + postMiniatura + '"<span class="tituloedescricao"><header><h1 class="titulopost"><a class="post-link" href="' + postHREF + '">' + postTitle + '</a></h1></header><div class="excerpt">XXXX</div></span></div></div></div><hr />{% endfor %}');
 
             randomIndexUsed.push(randomIndex);
 
@@ -45,6 +45,5 @@
         }
 
 </script>
-	{% endfor %}
 </body>
 </html>
