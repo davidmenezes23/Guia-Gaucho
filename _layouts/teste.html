@@ -27,6 +27,12 @@
 	var postsNumero = ["{{ site.tags.[page.tag] | size }}"];
 	var postsDescricao = [{% for post in site.tags.[page.tag] %}"{{ post.excerpt | remove: '<p>' | remove: '</p>' | remove: '
 ' }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+    var postsHREF2 = [{% for post in site.tags.[page.category] %}"{{ post.url }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+    var postsTitle2 = [{% for post in site.tags.[page.category] %}"{{ post.title }}"{% unless forloop.last %},{% endunless %}{% endfor %}];	
+	var postsMiniatura2 = [{% for post in site.tags.[page.category] %}{% if post.thumbnail %}"{{ post.thumbnail }}"{% endif %}{% unless forloop.last %},{% endunless %}{% endfor %}];
+	var postsNumero2 = ["{{ site.tags.[page.category] | size }}"];
+	var postsDescricao2 = [{% for post in site.tags.[page.category] %}"{{ post.excerpt | remove: '<p>' | remove: '</p>' | remove: '
+' }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
 </script>
   
   <div class="pesquisatermo3">
@@ -86,6 +92,30 @@
   {% endif %}
 
   <div class="posts">
+<script type="text/javascript">
+    var randomIndexUsed = [];
+    var counter = 0;
+    var numberOfPosts = postsNumero2;
+    while (counter < numberOfPosts)
+    {
+        var randomIndex;
+        var postHREF2;
+        var postTitle2;
+        var postMiniatura2;
+        var postDescricao2;
+        randomIndex = Math.floor(Math.random() * postsHREF.length);
+        if (randomIndexUsed.indexOf(randomIndex) == "-1")
+        {
+            postHREF2 = postsHREF2[randomIndex];
+            postTitle2 = postsTitle2[randomIndex];
+            postMiniatura2 = postsMiniatura2[randomIndex];
+            postDescricao2 = postsDescricao2[randomIndex];
+                document.write('<div class="post-teaser1"><div class="post-teaserdestaque"><img class="postthumb" alt="' + postTitle2 + ' Logo" src="/' + postMiniatura2 + '"/><span class="tituloedescricaodestaque"><header><h1 class="titulopost"><a class="post-linkdestaque" href="' + postHREF2 + '">' + postTitle2 + '</a></h1></header><div class="excerpt">' + postDescricao2 + '</div></span></div></div>');
+            randomIndexUsed.push(randomIndex);
+            counter++;
+        }
+    }
+</script>
 <script type="text/javascript">
     var randomIndexUsed = [];
     var counter = 0;
