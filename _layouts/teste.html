@@ -4,11 +4,11 @@
 <body>
 <script type="text/javascript">
 
-    var postsHREF = [{% for post in site.tags.[page.tag] %}"{{ post.url }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+    var postsHREF = ["{{ post.url }}"{% unless forloop.last %},{% endunless %}];
 
-    var postsTitle = [{% for post in site.tags.[page.tag] %}"{{ post.title }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+    var postsTitle = ["{{ post.title }}"{% unless forloop.last %},{% endunless %}];
 	
-	var postsMiniatura = [{% for post in site.tags.[page.tag] %}{% if post.thumbnail %}"{{ post.thumbnail }}"{% endif %}{% unless forloop.last %},{% endunless %}{% endfor %}];
+	var postsMiniatura = [{% if post.thumbnail %}"{{ post.thumbnail }}"{% endif %}{% unless forloop.last %},{% endunless %}];
 
 
 </script>
