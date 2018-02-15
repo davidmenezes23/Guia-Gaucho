@@ -6,8 +6,7 @@
 
     var postsHREF = [{% for post in site.posts %}"{{ post.url }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
 
-    var postsTitle = [{% for post in site.posts %}"{{ post.title }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
-
+    var postsTitle = [{% for post in site.tags.[page.tag] %}<div class="post-teaser1"><div class="post-teaser">{% if post.thumbnail %} <img class="postthumb" alt="{{ post.title }} Logo" src="{{ site.baseurl }}/{{ post.thumbnail }}">{% endif %}<span class="tituloedescricao"><header><h1 class="titulopost"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1></header><div class="excerpt">{{ post.excerpt }}</div></span></div></div>{% endfor %}];
 </script>
 
 
@@ -35,34 +34,11 @@
 
             if (counter == (numberOfPosts - 1))
             {
-                document.write('<p><a href="' + postHREF + '">' + postTitle + '</a></p>');
+                document.write('<p><a href="' + postHREF + '"></a></p>');
             }
             else
             {
-                document.write('
-				{% for post in site.tags.[page.tag] %}
-    <div class="post-teaser1"><div class="post-teaser">
-      {% if post.thumbnail %} 
-         <img class="postthumb" alt="{{ post.title }} Logo" src="{{ site.baseurl }}/{{ post.thumbnail }}">
-      {% endif %}
-      <span class="tituloedescricao">
-          <header>
-            <h1 class="titulopost">
-              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-                {{ post.title }}
-              </a>
-            </h1>
-          </header>
-          <div class="excerpt">
-            {{ post.excerpt }}
-            <!--<a class="button" href="{{ post.url | prepend: site.baseurl }}">
-              {{ site.theme_settings.str_continue_reading }}
-            </a>-->
-          </div>
-      </span>
-    </div></div>
-{% endfor %}
-				');
+                document.write('' + postTitle + '');
             }
 
             randomIndexUsed.push(randomIndex);
