@@ -17,7 +17,6 @@
 
 
 
-
 <script type="text/javascript">
 
     var randomIndexUsed = [];
@@ -29,8 +28,6 @@
         var randomIndex;
         var postHREF;
         var postTitle;
-        var postMiniatura;
-        var postDescricao;
 
         randomIndex = Math.floor(Math.random() * postsHREF.length);
 
@@ -38,8 +35,6 @@
         {
             postHREF = postsHREF[randomIndex];
             postTitle = postsTitle[randomIndex];
-            postMiniatura = postsMiniatura[randomIndex];
-            postDescricao = postsDescricao[randomIndex];
 
             if (counter == (numberOfPosts - 1))
             {
@@ -47,7 +42,7 @@
             }
             else
             {
-                document.write('<div class="post-teaser1"><div class="post-teaser"><img class="postthumb" alt="' + postTitle + ' Logo" src="' + postMiniatura + '"<span class="tituloedescricao"><header><h1 class="titulopost"><a class="post-link" href="' + postHREF + '">' + postTitle + '</a></h1></header><div class="excerpt">' + postDescricao + '</div></span></div></div></div><hr />');
+                document.write('<p><a href="' + postHREF + '">' + postTitle + '</a></p><hr />');
             }
 
             randomIndexUsed.push(randomIndex);
