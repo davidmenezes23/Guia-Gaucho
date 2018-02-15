@@ -10,7 +10,7 @@
 	
 	var postsMiniatura = [{% for post in site.tags.[page.tag] %}{% if post.thumbnail %}"{{ post.thumbnail }}"{% endif %}{% unless forloop.last %},{% endunless %}{% endfor %}];
 
-	var postsNumero = [{% for post in site.tags.[page.tag] %}"{{ site.tags.[page.tag] | size }}"{% endfor %}];
+	var postsNumero = ["{{ site.tags.[page.tag] | size }}"];
 	
 
 </script>
