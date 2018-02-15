@@ -12,7 +12,7 @@
 
 	var postsNumero = ["{{ site.tags.[page.tag] | size }}"];
 	
-	var postsDescricao = [{% for post in site.tags.[page.tag] %}"{{ post.excerpt }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+	var postsDescricao = [{% for post in site.tags.[page.tag] %}"{{ post.excerpt | remove: '<p>' | remove: '</p>' }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
 
 </script>
 
