@@ -10,7 +10,6 @@
 	
 	var postsMiniatura = [{% for post in site.tags.[page.tag] %}{% if post.thumbnail %}"{{ post.thumbnail }}"{% endif %}{% unless forloop.last %},{% endunless %}{% endfor %}];
 
-	var postsDescricao = [{% for post in site.tags.[page.tag] %}"{{ post.excerpt }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
 
 </script>
 
