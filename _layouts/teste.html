@@ -17,7 +17,7 @@
 
 
 
-	
+	  {% for post in site.tags.[page.tag] %}
 	<script type="text/javascript">
 
     var randomIndexUsed = [];
@@ -45,5 +45,6 @@
         }
 
 </script>
+	{% endfor %}
 </body>
 </html>
