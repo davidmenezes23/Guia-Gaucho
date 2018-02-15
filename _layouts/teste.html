@@ -4,9 +4,14 @@
 <body>
 <script type="text/javascript">
 
-    var postsHREF = [{% for post in site.posts %}"{{ post.url }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+    var postsHREF = [{% for post in site.tags.[page.tag] %}"{{ post.url }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
 
-    var postsTitle = [{% for post in site.tags.[page.tag] %}<div class="post-teaser1"><div class="post-teaser">{% if post.thumbnail %} <img class="postthumb" alt="{{ post.title }} Logo" src="{{ site.baseurl }}/{{ post.thumbnail }}">{% endif %}<span class="tituloedescricao"><header><h1 class="titulopost"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1></header><div class="excerpt">{{ post.excerpt }}</div></span></div></div>{% endfor %}];
+    var postsTitle = [{% for post in site.tags.[page.tag] %}"{{ post.title }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+	
+	var postsMiniatura = [{% for post in site.tags.[page.tag] %}{% if post.thumbnail %}"{{ post.thumbnail }}"{% endif %}{% unless forloop.last %},{% endunless %}{% endfor %}];
+
+	var postsDescricao = [{% for post in site.tags.[page.tag] %}"{{ post.excerpt }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+
 </script>
 
 
@@ -24,6 +29,8 @@
         var randomIndex;
         var postHREF;
         var postTitle;
+        var postMiniatura;
+        var postDescricao;
 
         randomIndex = Math.floor(Math.random() * postsHREF.length);
 
@@ -31,14 +38,16 @@
         {
             postHREF = postsHREF[randomIndex];
             postTitle = postsTitle[randomIndex];
+            postMiniatura = postsMiniatura[randomIndex];
+            postDescricao = postsDescricao[randomIndex];
 
             if (counter == (numberOfPosts - 1))
             {
-                document.write('<p><a href="' + postHREF + '"></a></p>');
+                document.write('<p><a href="' + postHREF + '">' + postTitle + '</a></p>');
             }
             else
             {
-                document.write('' + postTitle + '');
+                document.write('<div class="post-teaser1"><div class="post-teaser"><img class="postthumb" alt="' + postTitle + ' Logo" src="' + postMiniatura + '"<span class="tituloedescricao"><header><h1 class="titulopost"><a class="post-link" href="' + postHREF + '">' + postTitle + '</a></h1></header><div class="excerpt">' + postDescricao + '</div></span></div></div></div><hr />');
             }
 
             randomIndexUsed.push(randomIndex);
