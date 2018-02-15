@@ -10,6 +10,7 @@
 	
 	var postsMiniatura = [{% for post in site.tags.[page.tag] %}{% if post.thumbnail %}"{{ post.thumbnail }}"{% endif %}{% unless forloop.last %},{% endunless %}{% endfor %}];
 
+	var postsDescricao = [{% for post in site.tags.[page.tag] %}"{{ post.excerpt }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
 
 </script>
 
@@ -17,10 +18,12 @@
 
 
 
-<script type="text/javascript">
+	
+	<script type="text/javascript">
 
     var randomIndexUsed = [];
     var counter = 0;
+    var numberOfPosts = 5;
 
     while (counter < numberOfPosts)
     {
@@ -37,13 +40,8 @@
             postTitle = postsTitle[randomIndex];
             postMiniatura = postsMiniatura[randomIndex];
 
-            if
-            {
+
                 document.write('<div class="post-teaser1"><div class="post-teaser"><img class="postthumb" alt="' + postTitle + ' Logo" src="' + postMiniatura + '"<span class="tituloedescricao"><header><h1 class="titulopost"><a class="post-link" href="' + postHREF + '">' + postTitle + '</a></h1></header><div class="excerpt">XXXX</div></span></div></div></div><hr />');
-            }
-            else
-            {
-            }
 
             randomIndexUsed.push(randomIndex);
 
