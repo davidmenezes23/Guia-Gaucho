@@ -97,7 +97,7 @@
             postTitleD = postsTitleD[randomIndex];
             postMiniaturaD = postsMiniaturaD[randomIndex];
             postDescricaoD = postsDescricaoD[randomIndex];
-                document.write('<div class="post-teaser1"><div class="post-teaserdestaque"><img class="postthumb" alt="' + postTitleD + ' Logo" src="/' + postMiniaturaD + '"/><span class="tituloedescricaodestaque"><header><h1 class="titulopost"><a class="post-linkdestaque" href="' + postHREFD + '">' + postTitleD + '</a></h1></header><div class="excerpt">' + postDescricaoD + '</div></span></div></div>');
+                document.write('<div class="post-teaser1"><div class="post-teaser"><img class="postthumb" alt="' + postTitle + ' Logo" src="/' + postMiniatura + '"/><span class="tituloedescricao"><header><h1 class="titulopost"><a class="post-link" href="' + postHREF + '">' + postTitle + '</a></h1></header><div class="excerpt">' + postDescricao + '</div></span><div class="caixainfodestaque"><div class="infobuton1"><div class="infobuton"><a class="infobutona" href="' + postHREF + '">Informações</a></div></div></div><br/></div></div>');
             randomIndexUsed.push(randomIndex);
             counter++;
         }
@@ -121,7 +121,7 @@
             postTitle = postsTitle[randomIndex];
             postMiniatura = postsMiniatura[randomIndex];
             postDescricao = postsDescricao[randomIndex];
-                document.write('<div class="post-teaser1"><div class="post-teaser"><img class="postthumb" alt="' + postTitle + ' Logo" src="/' + postMiniatura + '"/><span class="tituloedescricao"><header><h1 class="titulopost"><a class="post-link" href="' + postHREF + '">' + postTitle + '</a></h1></header><div class="excerpt">' + postDescricao + '</div></span></div></div>');
+                document.write('<div class="post-teaser1"><div class="post-teaser"><img class="postthumb" alt="' + postTitle + ' Logo" src="/' + postMiniatura + '"/><span class="tituloedescricao"><header><h1 class="titulopost"><a class="post-link" href="' + postHREF + '">' + postTitle + '</a></h1></header><div class="excerpt">' + postDescricao + '</div></span><div class="caixainfo"><div class="infobuton1"><div class="infobuton"><a class="infobutona" href="' + postHREF + '">Informações</a></div></div></div><br/></div></div>');
             randomIndexUsed.push(randomIndex);
             counter++;
         }
