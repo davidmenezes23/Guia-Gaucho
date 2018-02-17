@@ -267,4 +267,10 @@
   <url>
     <loc>https://www.guiagaucho.com/santana-do-livramento/turismo/</loc> 
   </url>
+  <url>
+    <loc>https://www.guiagaucho.com/santana-do-livramento/Auto-Film-Escapamentos.html</loc> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/auto-film.png</image:loc>
+    </image:image> 
+  </url>
 </urlset>
