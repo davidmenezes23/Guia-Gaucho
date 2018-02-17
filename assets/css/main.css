@@ -50,7 +50,7 @@ body{background-image:url(https://i.imgur.com/v0fcWrZ.png);background-color:#efe
 .infobuton1{padding:10px;}
 .infobutona{text-decoration:none;color:#828282;font-weight:bold;}
 .infobutonadestaque{text-decoration:none;color:#00ab3a;font-weight:bold;}
-.vermais{visibility:visible;margin-left:46%;margin-bottom:10px;background-color:#00ab3a;font-size:larger;border:0px;border-radius:5px;color: #fff;cursor:pointer;}
+.vermais{display:block;margin-left:46%;margin-bottom:10px;background-color:#00ab3a;font-size:larger;border:0px;border-radius:5px;color: #fff;cursor:pointer;}
 @media only screen and (max-width:500px){body{background-size:220%;}
 .post-teaser{text-align:center;}
 .postthumb{width:80%;padding:2% 10% 2% 10%;}
