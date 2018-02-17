@@ -7,7 +7,7 @@ permalink: /:categories/:title.html
 categories: [uruguaiana]
 tags: uruguaiana uruguaianaconstrucao
 ---
-Materiais em gesso acartonado e iluminação em geral.<br />
+{{ page.rating|star_rating }}Materiais em gesso acartonado e iluminação em geral.<br />
 <!-- more -->
 <b>Endereço: </b>Quinze de Novembro, 2746.<br />
 <b>Cidade: </b>Uruguaiana<br />
