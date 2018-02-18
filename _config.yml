@@ -3,8 +3,7 @@ baseurl: ""
 url: "https://www.guiagaucho.com"
 
 # THEME-SPECIFIC CONFIGURATION
-include: ["_cidades"]
-include: ["_json"]
+include: ["_pages"]
 
 theme_settings:
   # Meta
