@@ -7,7 +7,7 @@ permalink: /:categories/:title.html
 categories: [santa-maria]
 tags: santamaria santamariamarketing
 ---
-Pizzaria<!-- more --><br />
+<!-- more --><br />
  <br/>
 <b>Endereço: </b>R Cel Ernesto Becker, 1482<br />
 <b>Cidade: </b>Santa Maria, RS<br />
