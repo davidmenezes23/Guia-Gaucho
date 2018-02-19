@@ -82,6 +82,9 @@
     <loc>https://www.guiagaucho.com/uruguaiana/saude/</loc> 
   </url>
   <url>
+    <loc>https://www.guiagaucho.com/uruguaiana/marketing/</loc> 
+  </url>
+  <url>
     <loc>https://www.guiagaucho.com/uruguaiana/tecnologia/</loc> 
   </url>
   <url>
@@ -143,6 +146,9 @@
   </url>
   <url>
     <loc>https://www.guiagaucho.com/santa-maria/rural/</loc> 
+  </url>
+  <url>
+    <loc>https://www.guiagaucho.com/santa-maria/marketing/</loc> 
   </url>
   <url>
     <loc>https://www.guiagaucho.com/santa-maria/tecnologia/</loc> 
@@ -229,6 +235,12 @@
     </image:image> 
   </url>
   <url>
+    <loc>https://www.guiagaucho.com/santa-maria/Letreiros-em-Geral.html</loc> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/art-e-letras.png</image:loc>
+    </image:image> 
+  </url>
+  <url>
     <loc>https://www.guiagaucho.com/santana-do-livramento/</loc> 
   </url>
   <url>
@@ -266,6 +278,9 @@
   </url>
   <url>
     <loc>https://www.guiagaucho.com/santana-do-livramento/saude/</loc> 
+  </url>
+  <url>
+    <loc>https://www.guiagaucho.com/santana-do-livramento/marketing/</loc> 
   </url>
   <url>
     <loc>https://www.guiagaucho.com/santana-do-livramento/tecnologia/</loc> 
@@ -314,6 +329,9 @@
   </url>
   <url>
     <loc>https://www.guiagaucho.com/alegrete/saude/</loc> 
+  </url>
+  <url>
+    <loc>https://www.guiagaucho.com/alegrete/marketing/</loc> 
   </url>
   <url>
     <loc>https://www.guiagaucho.com/alegrete/tecnologia/</loc> 
