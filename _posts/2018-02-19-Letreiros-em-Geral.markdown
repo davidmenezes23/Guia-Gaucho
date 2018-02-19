@@ -12,6 +12,7 @@ Pizzaria<!-- more --><br />
 <b>Endereço: </b>R Cel Ernesto Becker, 1482<br />
 <b>Cidade: </b>Santa Maria, RS<br />
 <b>E-mail: </b>damacena2001@gmail.com<br />
+<b>Site: </b><a href="https://arteletrasvisual.worpress.com">https://arteletrasvisual.worpress.com</a><br />
 <b>Telefone: <span style="color: #00ab3a;">(55) 99211-4550</span> <a href="tel:55992114550"><button class="ligar">Ligar</button></a></b><br />
 <b>Telefone: <span style="color: #00ab3a;">(55) 3225-1966</span> <a href="tel:5532251966"><button class="ligar">Ligar</button></a></b><br />
 <br />
