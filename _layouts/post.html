@@ -7,15 +7,14 @@ layout: default
     <div class="posts">
     <div class="post-teaser1"><div class="post-teaser">
 <article>
-             <img alt="{{ post.title }} Logo" class="postthumb" src="{{ site.baseurl }}/{{ page.feature-img }}">
+             <img alt="{{ page.title }} Logo" class="postthumb" src="{{ site.baseurl }}/{{ page.feature-img }}">
       <span class="tituloedescricao2">
     <h1 id="{{ page.title | cgi_escape }}" class="post-link">{{ page.title }}</h1>
   <section class="post-content">{{ content }}</section>
   </span>    
   <form action="https://formspree.io/contato@guiagaucho.com"
       method="POST">
-  <p>Classificar {{ post.title }}:<span style="color: #f00;">*</span></p>
-    <input type="text" name="{{ post.title }}"/>
+  <p>Classificar {{ page.title }}:</p>
   <style>
 @import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
 fieldset, label{margin:0;padding:0;}
@@ -35,11 +34,11 @@ h1 { font-size: 1.5em; margin: 10px; }
 .rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
     </style>
     <fieldset class="rating">
-    <input type="radio" id="star5" name="rating5" value="5" onClick="document.getElementById('rating5').name = 'marcado';"/><label class = "full" for="star5""></label>
-    <input type="radio" id="star4" name="rating4" value="4" onClick="document.getElementById('rating4').name = 'marcado';"/><label class = "full" for="star4"></label>
-    <input type="radio" id="star3" name="rating3" value="3" onClick="document.getElementById('rating3').name = 'marcado';"/><label class = "full" for="star3"></label>
-    <input type="radio" id="star2" name="rating2" value="2" onClick="document.getElementById('rating2').name = 'marcado';"/><label class = "full" for="star2"></label>
-    <input type="radio" id="star1" name="rating1" value="1" onClick="document.getElementById('rating1').name = 'marcado';"/><label class = "full" for="star1"></label>
+    <input type="radio" id="star5" name="{{ page.title }} rating5" value="5" onClick="document.getElementById('rating5').name = '{{ page.title }} rating5 marcado';"/><label class = "full" for="star5""></label>
+    <input type="radio" id="star4" name="{{ page.title }} rating4" value="4" onClick="document.getElementById('rating4').name = '{{ page.title }} rating4 marcado';"/><label class = "full" for="star4"></label>
+    <input type="radio" id="star3" name="{{ page.title }} rating3" value="3" onClick="document.getElementById('rating3').name = '{{ page.title }} rating3 marcado';"/><label class = "full" for="star3"></label>
+    <input type="radio" id="star2" name="{{ page.title }} rating2" value="2" onClick="document.getElementById('rating2').name = '{{ page.title }} rating2 marcado';"/><label class = "full" for="star2"></label>
+    <input type="radio" id="star1" name="{{ page.title }} rating1" value="1" onClick="document.getElementById('rating1').name = '{{ page.title }} rating1 marcado';"/><label class = "full" for="star1"></label>
 </fieldset>
     
   <input type="hidden" name="_subject" value="Guia Gaúcho Cadastro" />
