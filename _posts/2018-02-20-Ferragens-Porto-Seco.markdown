@@ -6,6 +6,7 @@ thumbnail: "assets/img/thumbnails/ferragens-porto-seco.png"
 permalink: /:categories/:title.html
 categories: [santana-do-livramento]
 tags: santanadolivramento santanadolivramentoconstrucao
+estrelas: 0-estrelas
 ---
 Material Hidráulico e tudo em ferragens!<br/>
 Agora com mangueiras e conexões hidráulicas, Mangueiras hidráulicas e conexões em geral.<br/><!-- more -->
