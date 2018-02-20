@@ -14,7 +14,7 @@ Atual Comercio de Baterias, Peças e Acessórios Automotivos - EIRELI ME<br/>
 <b>E-mail: </b>atual-baterias@hotmail.com<br />
 <b>Telefone: <span style="color: #00ab3a;">(55) 3412-4087</span> <a href="tel:5534124087"><button class="ligar">Ligar</button></a></b><br />
 <b>Telefone: <span style="color: #00ab3a;">(55) 999458082</span> <a href="tel:55999458082"><button class="ligar">Ligar</button></a></b><br />
-<img src="https://i.imgur.com/48FZDfO.jpg" width="100%"/>
+<img src="https://www.guiagaucho.com/assets/img/images/atual-baterias-folder.png" width="100%"/>
 <br />
 <style>
       #map {
