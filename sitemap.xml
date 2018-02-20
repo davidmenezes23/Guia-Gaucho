@@ -250,6 +250,12 @@
     </image:image> 
   </url>
   <url>
+    <loc>https://www.guiagaucho.com/santa-maria/Meteorus-Motel.html</loc> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/meteorus-motel.png</image:loc>
+    </image:image> 
+  </url>
+  <url>
     <loc>https://www.guiagaucho.com/santana-do-livramento/</loc> 
   </url>
   <url>
