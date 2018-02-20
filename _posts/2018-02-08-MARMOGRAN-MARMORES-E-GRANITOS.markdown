@@ -6,6 +6,7 @@ thumbnail: "assets/img/thumbnails/mormagran.png"
 permalink: /:categories/:title.html
 categories: [santa-maria]
 tags: santamaria santamariaconstrucao
+estrelas: 0-estrelas
 ---
 PRODUTOS EM MÁMORES; GRANITOS, QUARTIZITOS, SUPERFÍCIE DE QUARTZO E LIMESTONES<!-- more -->
  <br/>
