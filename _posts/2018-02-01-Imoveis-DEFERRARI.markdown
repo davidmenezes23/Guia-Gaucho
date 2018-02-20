@@ -6,7 +6,7 @@ thumbnail: "assets/img/thumbnails/deferrari.png"
 permalink: /:categories/:title.html
 categories: [uruguaiana]
 tags: uruguaiana uruguaianajuridicoecontabil
-estrelas: 1-estrelas
+estrelas: 0-estrelas
 ---
 CRECI: 35.641<br />
 TERRENOS, CASAS, SITIOS, CHÁCARAS, FAZENDAS E CASAS PRÉ FABRICADAS (melhor preço de oferta da região).<br/>
