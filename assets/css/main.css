@@ -54,13 +54,13 @@ body{background-image:url(https://i.imgur.com/v0fcWrZ.png);background-color:#efe
 .infobuton1{display:inline-block;padding:10px;vertical-align:middle;}
 .infobutona{text-decoration:none;color:#828282;font-weight:bold;}
 .infobutonadestaque{text-decoration:none;color:#00ab3a;font-weight:bold;}
-.vermaisdiv{width:100%;text-align:center;}
-.vermais{display:block;margin-bottom:10px;background-color:#00ab3a;font-size:larger;border:0px;border-radius:5px;color: #fff;cursor:pointer;}
-.vermaismobile{display:none;margin-bottom:10px;background-color:#00ab3a;font-size:larger;border:0px;border-radius:5px;color: #fff;cursor:pointer;}
+.vermaisdiv{display:initial;width:100%;text-align:center;}
+.vermaisdivmobile{display:none;width:100%;text-align:center;}
+.vermais{display:initial;margin-bottom:10px;background-color:#00ab3a;font-size:larger;border:0px;border-radius:5px;color: #fff;cursor:pointer;}
 .estrelas{display:inline-block;height:30px;vertical-align:middle;}
 @media only screen and (max-width:500px){body{background-size:220%;}
-.vermaismobile{display:block;margin-bottom:10px;background-color:#00ab3a;font-size:larger;border:0px;border-radius:5px;color: #fff;cursor:pointer;}
-.vermais{display:none;margin-bottom:10px;background-color:#00ab3a;font-size:larger;border:0px;border-radius:5px;color: #fff;cursor:pointer;}
+.vermaisdiv{display:none;width:100%;text-align:center;}
+.vermaisdivmobile{display:initial;width:100%;text-align:center;}
 .post-teaser{text-align:center;}
 .postthumb{width:80%;padding:2% 10% 2% 10%;}
 .tituloedescricao{width: 96%;}
