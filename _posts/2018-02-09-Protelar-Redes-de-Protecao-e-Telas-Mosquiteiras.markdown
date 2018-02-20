@@ -6,6 +6,7 @@ thumbnail: "assets/img/thumbnails/protelar-redes.png"
 permalink: /:categories/:title.html
 categories: [santa-maria]
 tags: santamaria santamariaconstrucao
+estrelas: 0-estrelas
 ---
 Redes de Proteção e Telas Mosquiteiras.<!-- more -->
  <br/>
