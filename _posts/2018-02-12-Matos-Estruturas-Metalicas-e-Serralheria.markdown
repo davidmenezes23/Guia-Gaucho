@@ -6,6 +6,7 @@ thumbnail: "assets/img/thumbnails/matos-estruturas-metalicas.png"
 permalink: /:categories/:title.html
 categories: [santa-maria]
 tags: santamaria santamariaconstrucao
+estrelas: 0-estrelas
 ---
 Matos Serralheria.<!-- more --><br />
 Fabricação de estruturas metalicas, galpões pré-moldados, coberturas todas em prédios, condominios, casas, empresas e etc...<br />
