@@ -6,6 +6,7 @@ thumbnail: "assets/img/thumbnails/confeccoes-modelari.png"
 permalink: /:categories/:title.html
 categories: [santa-maria]
 tags: santamaria santamariamodaebeleza
+estrelas: 0-estrelas
 ---
 CONFECÇÕES DE ROUPAS - ATACADO E FABRICAÇÃO<!-- more --><br />
  <br/>
