@@ -6,6 +6,7 @@ thumbnail: "assets/img/thumbnails/logo-nova.png"
 permalink: /:categories/:title.html
 categories: [santa-maria]
 tags: santamaria santamariacultura
+estrelas: 0-estrelas
 ---
 Cursos Preparatórios para Concursos e Reforço Escolar<!-- more --><br />
  <br/>
