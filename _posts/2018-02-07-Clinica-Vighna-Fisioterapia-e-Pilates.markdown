@@ -6,6 +6,7 @@ thumbnail: "assets/img/thumbnails/vighna-logo.png"
 permalink: /:categories/:title.html
 categories: [santa-maria]
 tags: santamaria santamariasaude
+estrelas: 0-estrelas
 ---
 Pilates Clássico e Funcional;<br/>
 Acupuntura;<br/><!-- more -->
