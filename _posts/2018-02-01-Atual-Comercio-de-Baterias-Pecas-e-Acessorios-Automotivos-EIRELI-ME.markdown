@@ -6,7 +6,7 @@ thumbnail: "assets/img/thumbnails/atual-baterias.png"
 permalink: /:categories/:title.html
 categories: [uruguaiana]
 tags: uruguaiana uruguaianaindustriaemaquinas
-estrelas: 2-estrelas
+estrelas: 0-estrelas
 ---
 Atual Comercio de Baterias, Peças e Acessórios Automotivos - EIRELI ME<br/>
 <!-- more --><br/>
