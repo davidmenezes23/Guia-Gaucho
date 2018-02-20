@@ -6,6 +6,7 @@ thumbnail: "assets/img/thumbnails/estacio.png"
 permalink: /:categories/:title.html
 categories: [santa-maria]
 tags: santamaria santamariacultura
+estrelas: 0-estrelas
 ---
 Graduação e Pós Graduação á distância - Ensino médio á distância<!-- more --><br />
  <br/>
