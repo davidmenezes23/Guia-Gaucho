@@ -18,7 +18,7 @@ Buscamos e entregamos à domicilio na área urbana!<br />
 <b>E-mail: </b>ferragensportoseco@terra.com.br<br />
 <b>Telefone: <span style="color: #00ab3a;">(55) 3242-3169</span> <a href="tel:5532423169"><button class="ligar">Ligar</button></a></b><br />
 <br />
-<img src="https://www.guiagaucho.com/assets/img/images/ferragens-porto-seco-folder.png" width="100%"/>
+<img alt="{{ post.title }} folder" src="https://www.guiagaucho.com/assets/img/images/ferragens-porto-seco-folder.png" width="100%"/>
 <br />
 <style>
       #map {
