@@ -6,7 +6,7 @@ thumbnail: "assets/img/thumbnails/alfaro.png"
 permalink: /:categories/:title.html
 categories: [uruguaiana]
 tags: uruguaiana uruguaianajuridicoecontabil
-estrelas: 4-estrelas
+estrelas: 0-estrelas
 ---
 OAB/RS: 75.945<br />
 ALFARO ADVOCACIA E CONSULTORIA JURÍDICA<!-- more --> traz à Uruguaiana e região da Fronteira Oeste do Rio Grande do Sul o conceito de escritório boutique, onde a massificação das grandes bancas de advocacia dá espaço ao atendimento persolnalizado, distinguindo-se pela qualidade exclusividade do serviço prestado e altamente especializado.<br/>
