@@ -6,6 +6,7 @@ thumbnail: "assets/img/thumbnails/estudioagesso.png"
 permalink: /:categories/:title.html
 categories: [santa-maria]
 tags: santamaria santamariaconstrucao
+estrelas: 0-estrelas
 ---
 Empresa destaque na cidade de Santa Maria e Região, especializada destaca-se pelo profissionalismo e trabalho de qualidade. <br/>
 <!-- more -->
