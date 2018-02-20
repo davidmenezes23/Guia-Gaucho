@@ -48,8 +48,8 @@ body{background-image:url(https://i.imgur.com/v0fcWrZ.png);background-color:#efe
 .caixainfo1{width:50%;display:inline-block;vertical-align:middle;}
 .caixainfo1destaque{width:50%;display:inline-block;vertical-align:middle;}
 .caixainfodestaque{background-color:#00ab3a;width:100%;display:inline-block;}
-.caixainfo2{width:50%;display:inline-block;text-align:right;vertical-align:middle;}
-.caixainfodestaque2{width:50%;display:inline-block;text-align:right;vertical-align:middle;}
+.caixainfo2{width:48%;display:inline-block;text-align:right;vertical-align:middle;}
+.caixainfodestaque2{width:48%;display:inline-block;text-align:right;vertical-align:middle;}
 .infobuton{padding:5px;vertical-align:middle;box-shadow:1px 1px 6px #00000017;text-align:center;background-color:#fff;font-size:medium;border-radius:5px;width:fit-content;}
 .infobuton1{display:inline-block;padding:10px;vertical-align:middle;}
 .infobutona{text-decoration:none;color:#828282;font-weight:bold;}
