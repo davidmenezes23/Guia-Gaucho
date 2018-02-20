@@ -6,6 +6,7 @@ thumbnail: "assets/img/thumbnails/atrativa.png"
 permalink: /:categories/:title.html
 categories: [santa-maria]
 tags: santamaria santamariamodaebeleza
+estrelas: 0-estrelas
 ---
 Confecções Femininas, Tamanhos Grandes Moda,<!-- more --><br />
  <br/>
