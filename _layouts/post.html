@@ -12,39 +12,25 @@ layout: default
     <h1 id="{{ page.title | cgi_escape }}" class="post-link">{{ page.title }}</h1>
   <section class="post-content">{{ content }}</section>
   </span>    
-  <form action="https://formspree.io/contato@guiagaucho.com"
-      method="POST">
-  <p>Classificar {{ page.title }}:</p>
-  <style>
-@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
-fieldset, label{margin:0;padding:0;}
-body{margin:20px;}
-h1 { font-size: 1.5em; margin: 10px; }
-.rating {border:none;float:left;}
-.rating > input{display:none;} 
-.rating > label:before{margin:5px;font-size:1.25em;font-family:FontAwesome;display:inline-block;content:"\f005";}
-.rating > .half:before{content:"\f089";position:absolute;}
-.rating > label {color:#ddd;float:right;}
-.rating > input:checked ~ label, /* show gold star when clicked */
-.rating:not(:checked) > label:hover, /* hover current star */
-.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
-.rating > input:checked + label:hover, /* hover current star when changing rating */
-.rating > input:checked ~ label:hover,
-.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
-.rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
-    </style>
-    <fieldset class="rating">
-    <input type="radio" id="star5" name="{{ page.title }} rating5" value="5" onClick="document.getElementById('rating5').name = '{{ page.title }} rating5 marcado';"/><label class = "full" for="star5""></label>
-    <input type="radio" id="star4" name="{{ page.title }} rating4" value="4" onClick="document.getElementById('rating4').name = '{{ page.title }} rating4 marcado';"/><label class = "full" for="star4"></label>
-    <input type="radio" id="star3" name="{{ page.title }} rating3" value="3" onClick="document.getElementById('rating3').name = '{{ page.title }} rating3 marcado';"/><label class = "full" for="star3"></label>
-    <input type="radio" id="star2" name="{{ page.title }} rating2" value="2" onClick="document.getElementById('rating2').name = '{{ page.title }} rating2 marcado';"/><label class = "full" for="star2"></label>
-    <input type="radio" id="star1" name="{{ page.title }} rating1" value="1" onClick="document.getElementById('rating1').name = '{{ page.title }} rating1 marcado';"/><label class = "full" for="star1"></label>
-</fieldset>
-    
-  <input type="hidden" name="_subject" value="Guia Gaúcho Cadastro" />
-  <input type="hidden" name="_next" value="//www.guiagaucho.com/obrigado/" />
-    <input type="submit" value="Enviar"/>
-</form>
+
+  
+  <div id="wpac-rating"></div>
+<script type="text/javascript">
+wpac_init = window.wpac_init || [];
+wpac_init.push({widget: 'Rating', id: 9787});
+(function() {
+    if ('WIDGETPACK_LOADED' in window) return;
+    WIDGETPACK_LOADED = true;
+    var mc = document.createElement('script');
+    mc.type = 'text/javascript';
+    mc.async = true;
+    mc.src = 'https://embed.widgetpack.com/widget.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mc, s.nextSibling);
+})();
+</script>
+<a href="https://widgetpack.com" class="wpac-cr">Star Rating WIDGET PACK</a>
+      
+      
 </article>
 </div>
 
