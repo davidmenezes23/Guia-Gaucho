@@ -6,6 +6,7 @@ thumbnail: "assets/img/thumbnails/auto-film.png"
 permalink: /:categories/:title.html
 categories: [santana-do-livramento]
 tags: santanadolivramento santanadolivramentoautomovel
+estrelas: 0-estrelas
 ---
 Película automotiva e arquitetônica, escapamentos (silencioso e esportivo), som automotivo.<!-- more --><br />
  <br/>
