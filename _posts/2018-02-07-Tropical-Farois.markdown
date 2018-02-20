@@ -6,6 +6,7 @@ thumbnail: "assets/img/thumbnails/tropical-farois.png"
 permalink: /:categories/:title.html
 categories: [santa-maria]
 tags: santamaria santamariasaude
+estrelas: 0-estrelas
 ---
 Recuperadora de Faróis e Acessórios <br/> <!-- more -->
  <br/>
