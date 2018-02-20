@@ -6,6 +6,7 @@ thumbnail: "assets/img/thumbnails/Flyer-Bio.jpg"
 permalink: /:categories/:title.html
 categories: [santa-maria]
 tags: santamaria santamariasaude
+estrelas: 0-estrelas
 ---
 Serviços de Ambulâncias, Remoções e Eventos<!-- more --> <br/>
 <b>Endereço: </b>Benjamin Constant, 1189, Centro<br />
