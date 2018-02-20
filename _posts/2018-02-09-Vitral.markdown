@@ -6,6 +6,7 @@ thumbnail: "assets/img/thumbnails/vitral-vidracaria.png"
 permalink: /:categories/:title.html
 categories: [santa-maria]
 tags: santamaria santamariaconstrucao
+estrelas: 0-estrelas
 ---
 Vidros comuns, todos os tipos de espelhos, vidros laminados e temperados, fabricação de janelas e portas em alumínio.<!-- more -->
  <br/>
