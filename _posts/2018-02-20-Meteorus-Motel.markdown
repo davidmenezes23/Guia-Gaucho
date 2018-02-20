@@ -5,7 +5,7 @@ feature-img: "assets/img/thumbnails/meteorus-motel.png"
 thumbnail: "assets/img/thumbnails/meteorus-motel.png"
 permalink: /:categories/:title.html
 categories: [santa-maria]
-tags: santamaria santamoradia
+tags: santamaria santamariaturismo
 estrelas: 0-estrelas
 ---
 Motel e Pousada<!-- more --><br />
