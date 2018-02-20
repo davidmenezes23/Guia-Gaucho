@@ -52,12 +52,7 @@ body{background-image:url(https://i.imgur.com/v0fcWrZ.png);background-color:#efe
 .infobutonadestaque{text-decoration:none;color:#00ab3a;font-weight:bold;}
 .vermais{display:block;margin-left:46%;margin-bottom:10px;background-color:#00ab3a;font-size:larger;border:0px;border-radius:5px;color: #fff;cursor:pointer;}
 .vermaismobile{display:none;margin-left:46%;margin-bottom:10px;background-color:#00ab3a;font-size:larger;border:0px;border-radius:5px;color: #fff;cursor:pointer;}
-.0-estrelas{background-image:url("https://www.guiagaucho.com/assets/img/images/0-estrelas.png");display:inline-block;}
-.1-estrelas{background-image:url("https://www.guiagaucho.com/assets/img/images/1-estrelas.png");display:inline-block;}
-.2-estrelas{background-image:url("https://www.guiagaucho.com/assets/img/images/2-estrelas.png");display:inline-block;}
-.3-estrelas{background-image:url("https://www.guiagaucho.com/assets/img/images/3-estrelas.png");display:inline-block;}
-.4-estrelas{background-image:url("https://www.guiagaucho.com/assets/img/images/4-estrelas.png");display:inline-block;}
-.5-estrelas{background-image:url("https://www.guiagaucho.com/assets/img/images/5-estrelas.png");display:inline-block;}
+.estrelas{display:inline-block;}
 @media only screen and (max-width:500px){body{background-size:220%;}
 .vermaismobile{display:block;margin-left:46%;margin-bottom:10px;background-color:#00ab3a;font-size:larger;border:0px;border-radius:5px;color: #fff;cursor:pointer;}
 .vermais{display:none;margin-left:46%;margin-bottom:10px;background-color:#00ab3a;font-size:larger;border:0px;border-radius:5px;color: #fff;cursor:pointer;}
