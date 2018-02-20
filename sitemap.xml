@@ -35,6 +35,9 @@
     <image:image>
       <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/atual-baterias.png</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/images/atual-baterias-folder.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://www.guiagaucho.com/uruguaiana/Alfaro-advocacia-e-consultoria-juridica-Aisla-Judaiba-Signoretti-Alfaro-Pizino.html</loc> 
@@ -292,6 +295,15 @@
     <loc>https://www.guiagaucho.com/santana-do-livramento/Auto-Film-Escapamentos.html</loc> 
     <image:image>
       <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/auto-film.png</image:loc>
+    </image:image> 
+  </url>
+  <url>
+    <loc>https://www.guiagaucho.com/santana-do-livramento/Ferragens-Porto-Seco.html</loc> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/ferragens-porto-seco.png</image:loc>
+    </image:image> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/images/ferragens-porto-seco-folder.png</image:loc>
     </image:image> 
   </url>
   <url>
