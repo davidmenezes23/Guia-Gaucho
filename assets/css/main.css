@@ -47,11 +47,17 @@ body{background-image:url(https://i.imgur.com/v0fcWrZ.png);background-color:#efe
 .caixainfo{background-color:#d2d2d2;width:100%;}
 .caixainfodestaque{background-color:#00ab3a;width:100%;}
 .infobuton{padding:5px;vertical-align:middle;box-shadow:1px 1px 6px #00000017;text-align:center;background-color:#fff;font-size:medium;border-radius:5px;width:fit-content;}
-.infobuton1{padding:10px;}
+.infobuton1{display:inline-block;padding:10px;}
 .infobutona{text-decoration:none;color:#828282;font-weight:bold;}
 .infobutonadestaque{text-decoration:none;color:#00ab3a;font-weight:bold;}
 .vermais{display:block;margin-left:46%;margin-bottom:10px;background-color:#00ab3a;font-size:larger;border:0px;border-radius:5px;color: #fff;cursor:pointer;}
 .vermaismobile{display:none;margin-left:46%;margin-bottom:10px;background-color:#00ab3a;font-size:larger;border:0px;border-radius:5px;color: #fff;cursor:pointer;}
+.0-estrelas{background-image:url("https://www.guiagaucho.com/assets/img/images/0-estrelas.png");display:inline-block;vertical-align:right;}
+.1-estrelas{background-image:url("https://www.guiagaucho.com/assets/img/images/1-estrelas.png");display:inline-block;vertical-align:right;}
+.2-estrelas{background-image:url("https://www.guiagaucho.com/assets/img/images/2-estrelas.png");display:inline-block;vertical-align:right;}
+.3-estrelas{background-image:url("https://www.guiagaucho.com/assets/img/images/3-estrelas.png");display:inline-block;vertical-align:right;}
+.4-estrelas{background-image:url("https://www.guiagaucho.com/assets/img/images/4-estrelas.png");display:inline-block;vertical-align:right;}
+.5-estrelas{background-image:url("https://www.guiagaucho.com/assets/img/images/5-estrelas.png");display:inline-block;vertical-align:right;}
 @media only screen and (max-width:500px){body{background-size:220%;}
 .vermaismobile{display:block;margin-left:46%;margin-bottom:10px;background-color:#00ab3a;font-size:larger;border:0px;border-radius:5px;color: #fff;cursor:pointer;}
 .vermais{display:none;margin-left:46%;margin-bottom:10px;background-color:#00ab3a;font-size:larger;border:0px;border-radius:5px;color: #fff;cursor:pointer;}
