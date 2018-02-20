@@ -6,7 +6,7 @@ thumbnail: "assets/img/thumbnails/tele-moto-parceria.jpg"
 permalink: /:categories/:title.html
 categories: [uruguaiana]
 tags: uruguaianadestaque uruguaianaautomoveldestaque
-estrelas: 4-estrelas
+estrelas: 0-estrelas
 ---
 Motociclistas Habilitados Brasil e Argentina, concorra a brindes mensalmente, aceitamos ligação a cobrar.<br/>
 <!-- more -->
