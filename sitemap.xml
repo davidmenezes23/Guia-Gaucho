@@ -256,6 +256,12 @@
     </image:image> 
   </url>
   <url>
+    <loc>https://www.guiagaucho.com/santa-maria/Ouvir-Centro-Auditivo.html</loc> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/ouvir-centro-auditivo.png</image:loc>
+    </image:image> 
+  </url>
+  <url>
     <loc>https://www.guiagaucho.com/santana-do-livramento/</loc> 
   </url>
   <url>
