@@ -7,6 +7,7 @@ permalink: /:categories/:title.html
 categories: [santa-maria]
 tags: santamaria santamariaconstrucao
 cidade: ["Santa Maria"]
+cidade: ["Santa Maria"]
 estrelas: 0-estrelas
 ---
 Serralheria<!-- more --><br />
