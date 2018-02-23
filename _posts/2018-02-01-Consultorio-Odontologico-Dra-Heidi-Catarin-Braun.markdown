@@ -6,6 +6,7 @@ thumbnail: "assets/img/thumbnails/Consultorio-Odontologico-Dra-Heidi.png"
 permalink: /:categories/:title.html
 categories: [uruguaiana]
 tags: uruguaiana uruguaianasaude
+cidade: ["Uruguaiana"]
 estrelas: 0-estrelas
 ---
 CRO: 15.555<br/>
