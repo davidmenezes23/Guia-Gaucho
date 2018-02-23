@@ -6,6 +6,7 @@ thumbnail: "assets/img/thumbnails/ouvir-centro-auditivo.png"
 permalink: /:categories/:title.html
 categories: [santa-maria]
 tags: santamaria santamariasaude
+cidade: ["Santa Maria"]
 estrelas: 0-estrelas
 ---
 O Centro Auditivo ouvir disponibiliza diversos modelos e marcas de aparelhos auditivos de acordo com a necessidade do cliente.<!-- more --><br />
