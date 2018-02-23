@@ -6,6 +6,7 @@ thumbnail: "assets/img/thumbnails/art-e-letras.png"
 permalink: /:categories/:title.html
 categories: [santa-maria]
 tags: santamaria santamariamarketing
+cidade: ["Santa Maria"]
 estrelas: 0-estrelas
 ---
 <!-- more --><br />
