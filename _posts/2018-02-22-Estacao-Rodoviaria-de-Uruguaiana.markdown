@@ -6,6 +6,7 @@ thumbnail: "assets/img/thumbnails/estacao-rodoviaria-de-uruguaiana.png"
 permalink: /:categories/:title.html
 categories: [uruguaiana]
 tags: uruguaiana uruguaianaturismo
+cidade: ["Uruguaiana"]
 estrelas: 0-estrelas
 ---
 Passagem de ônibus<!-- more --><br />
