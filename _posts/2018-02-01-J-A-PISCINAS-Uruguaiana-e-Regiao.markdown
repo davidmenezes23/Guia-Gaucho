@@ -6,6 +6,7 @@ thumbnail: "assets/img/thumbnails/j-a-piscinas.png"
 permalink: /:categories/:title.html
 categories: [uruguaiana]
 tags: uruguaiana uruguaianaconstrucao
+cidade: ["Uruguaiana"]
 estrelas: 0-estrelas
 ---
 Venda de piscinas retangulares e spa redondo de fibra e demais acessórios;.<br />
