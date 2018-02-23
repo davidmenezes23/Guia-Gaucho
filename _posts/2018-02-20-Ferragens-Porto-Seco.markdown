@@ -6,6 +6,7 @@ thumbnail: "assets/img/thumbnails/ferragens-porto-seco.png"
 permalink: /:categories/:title.html
 categories: [santana-do-livramento]
 tags: santanadolivramento santanadolivramentoconstrucao
+cidade: ["Santana do Livramento"]
 estrelas: 0-estrelas
 ---
 Material Hidráulico e tudo em ferragens!<br/>
