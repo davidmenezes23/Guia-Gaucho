@@ -6,6 +6,7 @@ thumbnail: "assets/img/thumbnails/sm-sul-brindes.png"
 permalink: /:categories/:title.html
 categories: [santa-maria]
 tags: santamaria santamariaindustriaemaquinas
+cidade: ["Santa Maria"]
 estrelas: 0-estrelas
 ---
 Brindes personalizados<!-- more --><br />
