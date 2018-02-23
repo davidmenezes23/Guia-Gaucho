@@ -52,6 +52,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://www.guiagaucho.com/uruguaiana/Estacao-Rodoviaria-de-Uruguaiana.html</loc> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/estacao-rodoviaria-de-uruguaiana.png</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.guiagaucho.com/uruguaiana/automovel/</loc> 
   </url>
   <url>
