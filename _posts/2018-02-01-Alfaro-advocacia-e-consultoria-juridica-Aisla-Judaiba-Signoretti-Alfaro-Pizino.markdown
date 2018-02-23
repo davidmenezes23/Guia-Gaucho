@@ -6,6 +6,7 @@ thumbnail: "assets/img/thumbnails/alfaro.png"
 permalink: /:categories/:title.html
 categories: [uruguaiana]
 tags: uruguaiana uruguaianajuridicoecontabil
+cidade: ["Uruguaiana"]
 estrelas: 0-estrelas
 ---
 OAB/RS: 75.945<br />
