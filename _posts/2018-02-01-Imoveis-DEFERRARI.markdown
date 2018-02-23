@@ -6,6 +6,7 @@ thumbnail: "assets/img/thumbnails/deferrari.png"
 permalink: /:categories/:title.html
 categories: [uruguaiana]
 tags: uruguaiana uruguaianajuridicoecontabil
+cidade: ["Uruguaiana"]
 estrelas: 0-estrelas
 ---
 CRECI: 35.641<br />
