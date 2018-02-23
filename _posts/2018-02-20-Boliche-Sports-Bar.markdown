@@ -6,6 +6,7 @@ thumbnail: "assets/img/thumbnails/Boliche-Sports-Bar.png"
 permalink: /:categories/:title.html
 categories: [santa-maria]
 tags: santamaria santamariaentreterimento
+cidade: ["Santa Maria"]
 estrelas: 0-estrelas
 ---
 Diversão para toda a família! Pistas de boliche, mesas de sinuca, gastronomia de boleto, exibição de jogos, chopp artesanal e drinks.<!-- more --><br />
