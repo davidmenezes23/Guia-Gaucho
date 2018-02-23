@@ -6,6 +6,7 @@ thumbnail: "assets/img/thumbnails/matos-estruturas-metalicas.png"
 permalink: /:categories/:title.html
 categories: [santa-maria]
 tags: santamaria santamariaconstrucao
+cidade: ["Santa Maria"]
 estrelas: 0-estrelas
 ---
 Matos Serralheria.<!-- more --><br />
