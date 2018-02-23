@@ -6,6 +6,7 @@ thumbnail: "assets/img/thumbnails/mais-sabor-pizzaria.png"
 permalink: /:categories/:title.html
 categories: [santa-maria]
 tags: santamaria santamariaalimentacao
+cidade: ["Santa Maria"]
 estrelas: 0-estrelas
 ---
 Pizzaria<!-- more --><br />
