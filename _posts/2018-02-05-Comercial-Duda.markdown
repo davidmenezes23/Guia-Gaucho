@@ -6,6 +6,7 @@ thumbnail: "assets/img/thumbnails/comercial-duda.jpg"
 permalink: /:categories/:title.html
 categories: [uruguaiana]
 tags: uruguaiana uruguaianaalimentacao
+cidade: ["Uruguaiana"]
 estrelas: 0-estrelas
 ---
 BALÕES BEXIGAS BOMBONS E BALAS CARNAVAL - ARTIGOS CHOCOLATE CHOCOLATE - ATACADO E FABRICAÇÃO COPOS COPOS DE PLÁSTICO DECORAÇÕES<!-- more --> - ARTIGOS DESCARTÁVEIS DOCES - FABRICAÇÃO ATACADO E DISTRIBUIÇÃO EMBALAGENS EMBALAGENS - ARTIGOS E EQUIPAMENTOS EMBALAGENS DE ALUMÍNIO EMBALAGENS ESPECIAIS ENFEITES ENFEITES PARA BOLOS FESTAS - ARTIGOS E MÓVEIS PRODUTOS DESCARTÁVEIS.<br />
