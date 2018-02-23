@@ -6,6 +6,7 @@ thumbnail: "assets/img/thumbnails/seligman.png"
 permalink: /:categories/:title.html
 categories: [santa-maria]
 tags: santamaria santamariaconstrucao
+cidade: santamaria
 estrelas: 0-estrelas
 ---
 Serralheria<!-- more --><br />
