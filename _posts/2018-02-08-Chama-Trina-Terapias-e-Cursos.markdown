@@ -6,6 +6,7 @@ thumbnail: "assets/img/thumbnails/chama-trina.png"
 permalink: /:categories/:title.html
 categories: [santa-maria]
 tags: santamaria santamariasaude
+cidade: ["Santa Maria"]
 estrelas: 0-estrelas
 ---
 TERAPEUTAS TERAPIA ALTERNATIVA TERAPIA OCUPACIONAL TERAPIA ORGANIZACIONAL TERAPIA HOLÍSTICA FLORAIS<!-- more -->
