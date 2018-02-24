@@ -147,7 +147,6 @@ textarea{border-radius:5px;border-style:none;box-shadow:1px 1px 6px #00000057;fo
     </script>
     {% endif %}
         <title>{% if page.title %}{{ page.title }} |{% endif %} {{ site.theme_settings.title }}</title>
-    <meta name="description" content="Contato, endereço e telefone de {% if page.title %}{{ page.title }}{% endif %} em {% if page.cidade %}{{ page.cidade }}{% endif %}, RS">
       <script type="text/javascript">
     var postsHREF = [{% for post in site.tags.[page.tag] %}"{{ post.url }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
     var postsTitle = [{% for post in site.tags.[page.tag] %}"{{ post.title }}"{% unless forloop.last %},{% endunless %}{% endfor %}];	
