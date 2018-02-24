@@ -7,7 +7,7 @@ include: ["_pages"]
 
 theme_settings:
   # Meta
-  title: Guia Gaúcho - O seu guia cidade local
+  title: Guia Gaúcho - O seu Guia Cidade gaúcho
   avatar:
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
