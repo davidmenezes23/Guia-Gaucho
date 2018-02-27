@@ -465,4 +465,16 @@
   <url>
     <loc>https://www.guiagaucho.com/santa-cruz-do-sul/turismo/</loc> 
   </url>
+  <url>
+    <loc>https://www.guiagaucho.com/santa-cruz-do-sul/Herbalife.html</loc> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/sem-logo.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.guiagaucho.com/santa-cruz-do-sul/Telhados-&-Cia.html</loc> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/sem-logo.png</image:loc>
+    </image:image>
+  </url>
 </urlset>
