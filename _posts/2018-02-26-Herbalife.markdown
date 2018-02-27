@@ -14,7 +14,7 @@ estrelas: 0-estrelas
 <b>Endereço: </b>Rua Emilio Rabenschlag 180/301<br />
 <b>Cidade: </b>Santa Cruz do Sul, RS<br />
 <b>E-mail: </b>ltatsch@viavale.com.br<br />
-<b>Telefone: <span style="color: #00ab3a;">(55) 99807-0508</span> <a href="tel:55998070508"><button class="ligar">Ligar</button></a></b><br />
+<b>Telefone: <span style="color: #00ab3a;">(51) 99807-0508</span> <a href="tel:51998070508"><button class="ligar">Ligar</button></a></b><br />
 <br />
 <style>
       #map {
