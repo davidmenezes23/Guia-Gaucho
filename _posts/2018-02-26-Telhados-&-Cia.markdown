@@ -14,7 +14,7 @@ Especializada em goteiras e troca de telhados, controle p/ morcegos e cupins, as
 <b>Endereço: </b>Rua  Flores da Cunha, 80 / Universitário<br />
 <b>Cidade: </b>Santa Cruz do Sul, RS<br />
 <b>E-mail: </b> antoniocevero@hotmail.com<br />
-<b>Telefone: <span style="color: #00ab3a;">(55) 99898-5726</span> <a href="tel:55998985726"><button class="ligar">Ligar</button></a></b><br />
+<b>Telefone: <span style="color: #00ab3a;">(51) 99898-5726</span> <a href="tel:51998985726"><button class="ligar">Ligar</button></a></b><br />
 <br />
 <style>
       #map {
