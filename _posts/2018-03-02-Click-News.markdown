@@ -13,7 +13,8 @@ Click News - Cursos Profissionalizantes<!-- more -->
 <br/>
 <br/>
 <b>Endereço: </b>Av. Pres Getúlio Vargas, 3767<br />
-<b>Cidade: </b>Uruguaiana<br />
+<b>Cidade: </b>Uruguaiana, RS<br />
+<b>E-mail: </b>clicknewsuruguaiana@hotmail.com<br />
 <b>Telefone: <span style="color: #00ab3a;">(55) 3402-2762</span> <a href="tel:5534022762"><button class="ligar">Ligar</button></a></b><br />
 <b>Telefone: <span style="color: #00ab3a;">(55) 98448-8138</span> <a href="tel:55984488138"><button class="ligar">Ligar</button></a></b><br />
 <b>Telefone: <span style="color: #00ab3a;">(55) 99618-6984</span> <a href="tel:55996186984"><button class="ligar">Ligar</button></a></b><br />
