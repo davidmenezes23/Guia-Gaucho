@@ -5,7 +5,64 @@
     <loc>https://www.guiagaucho.com/</loc> 
   </url>
   <url>
+    <loc>https://www.guiagaucho.com/contato/</loc> 
+  </url>
+  <url>
+    <loc>https://www.guiagaucho.com/cadastro/</loc> 
+  </url>
+  <url>
+    <loc>https://www.guiagaucho.com/sobre/</loc> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/images/cadastro-exemplo.png</image:loc>
+    </image:image> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/images/destaque-exemplo.png</image:loc>
+    </image:image> 
+  </url>
+  <url>
     <loc>https://www.guiagaucho.com/uruguaiana/</loc> 
+  </url>
+  <url>
+    <loc>https://www.guiagaucho.com/uruguaiana/automovel/</loc> 
+  </url>
+  <url>
+    <loc>https://www.guiagaucho.com/uruguaiana/construcao/</loc> 
+  </url>
+  <url>
+    <loc>https://www.guiagaucho.com/uruguaiana/cultura/</loc> 
+  </url>
+  <url>
+    <loc>https://www.guiagaucho.com/uruguaiana/alimentacao/</loc> 
+  </url>
+  <url>
+    <loc>https://www.guiagaucho.com/uruguaiana/industria-e-maquinas/</loc> 
+  </url>
+  <url>
+    <loc>https://www.guiagaucho.com/uruguaiana/juridico-e-contabil/</loc> 
+  </url>
+  <url>
+    <loc>https://www.guiagaucho.com/uruguaiana/moda-e-beleza/</loc> 
+  </url>
+  <url>
+    <loc>https://www.guiagaucho.com/uruguaiana/moveis/</loc> 
+  </url>
+  <url>
+    <loc>https://www.guiagaucho.com/uruguaiana/entreterimento/</loc> 
+  </url>
+  <url>
+    <loc>https://www.guiagaucho.com/uruguaiana/rural/</loc> 
+  </url>
+  <url>
+    <loc>https://www.guiagaucho.com/uruguaiana/saude/</loc> 
+  </url>
+  <url>
+    <loc>https://www.guiagaucho.com/uruguaiana/marketing/</loc> 
+  </url>
+  <url>
+    <loc>https://www.guiagaucho.com/uruguaiana/tecnologia/</loc> 
+  </url>
+  <url>
+    <loc>https://www.guiagaucho.com/uruguaiana/turismo/</loc> 
   </url>
   <url>
     <loc>https://www.guiagaucho.com/uruguaiana/Tele-Moto-Parceria.html</loc> 
@@ -52,66 +109,15 @@
     </image:image>
   </url>
   <url>
-    <loc>https://www.guiagaucho.com/uruguaiana/automovel/</loc> 
-  </url>
-  <url>
-    <loc>https://www.guiagaucho.com/uruguaiana/construcao/</loc> 
-  </url>
-  <url>
-    <loc>https://www.guiagaucho.com/uruguaiana/cultura/</loc> 
-  </url>
-  <url>
-    <loc>https://www.guiagaucho.com/uruguaiana/alimentacao/</loc> 
-  </url>
-  <url>
-    <loc>https://www.guiagaucho.com/uruguaiana/industria-e-maquinas/</loc> 
-  </url>
-  <url>
-    <loc>https://www.guiagaucho.com/uruguaiana/juridico-e-contabil/</loc> 
-  </url>
-  <url>
-    <loc>https://www.guiagaucho.com/uruguaiana/moda-e-beleza/</loc> 
-  </url>
-  <url>
-    <loc>https://www.guiagaucho.com/uruguaiana/moveis/</loc> 
-  </url>
-  <url>
-    <loc>https://www.guiagaucho.com/uruguaiana/entreterimento/</loc> 
-  </url>
-  <url>
-    <loc>https://www.guiagaucho.com/uruguaiana/rural/</loc> 
-  </url>
-  <url>
-    <loc>https://www.guiagaucho.com/uruguaiana/saude/</loc> 
-  </url>
-  <url>
-    <loc>https://www.guiagaucho.com/uruguaiana/marketing/</loc> 
-  </url>
-  <url>
-    <loc>https://www.guiagaucho.com/uruguaiana/tecnologia/</loc> 
-  </url>
-  <url>
-    <loc>https://www.guiagaucho.com/uruguaiana/turismo/</loc> 
-  </url>
-  <url>
-    <loc>https://www.guiagaucho.com/cadastro/</loc> 
-  </url>
-  <url>
-    <loc>https://www.guiagaucho.com/sobre/</loc> 
-    <image:image>
-      <image:loc>https://www.guiagaucho.com/assets/img/images/cadastro-exemplo.png</image:loc>
-    </image:image> 
-    <image:image>
-      <image:loc>https://www.guiagaucho.com/assets/img/images/destaque-exemplo.png</image:loc>
-    </image:image> 
-  </url>
-  <url>
-    <loc>https://www.guiagaucho.com/contato/</loc> 
-  </url>
-  <url>
     <loc>https://www.guiagaucho.com/uruguaiana/Comercial-Duda.html</loc> 
     <image:image>
       <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/comercial-duda.jpg</image:loc>
+    </image:image> 
+  </url>
+  <url>
+    <loc>https://www.guiagaucho.com/uruguaiana/Click-News.html</loc> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/click-news.png</image:loc>
     </image:image> 
   </url>
   <url>
