@@ -1,5 +1,6 @@
 <head>
 <style>
+  .guialogo{width:98%;}
   .guiacidade{border-width:0px;box-shadow:1px 1px 6px #00000057;font-family:arial;font-size:larger;width:98%;}
   .guiapesquisa{border-width:0px;box-shadow:1px 1px 6px #00000057;padding-left:5px;font-family:arial;font-size:larger;width:98%;}
   .guiapesquisar{width:98%;padding:6px;display:initial;margin-bottom:10px;background-color:#00ab3a;font-size:larger;border:0px;color:#fff;cursor:pointer;}
@@ -12,7 +13,7 @@ window.location.href = 'https://www.guiagaucho.com/' + document.getElementById('
 }
 </script>
 <div class="guiacabecalho">
-<img src="https://www.guiagaucho.com/assets/img/images/Guia-Gaucho-logo.png"/>
+<img class="guialogo" src="https://www.guiagaucho.com/assets/img/images/Guia-Gaucho-logo.png"/>
 </div>
 <div>
 <select class='guiacidade' id='categoria' name='q'>
@@ -25,6 +26,6 @@ window.location.href = 'https://www.guiagaucho.com/' + document.getElementById('
 <option value='uruguaiana/'>Uruguaiana</option>
 </select>
 <div class="guiapesquisadiv"><input class='guiapesquisa' id='url' name='url' placeholder='Buscar...' type='text'/></div>
-<div><input class='guiapesquisar' type='submit' onClick='process()' value='Pesquisar'/></div>
+<div class="guiapesquisadiv"><input class='guiapesquisar' type='submit' onClick='process()' value='Pesquisar'/></div>
 </div>
 </body>
