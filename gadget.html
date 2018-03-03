@@ -1,4 +1,11 @@
 <head>
+<script>function process()
+{
+var url="https://www.guiagaucho.com/" + document.getElementById(&quot;categoria&quot;).value;
+location.href=url;
+return false;
+}
+</script>
 </head>
 <body>
 <div class="guiacabecalho">
@@ -7,12 +14,12 @@
 <div class="guiacidade">
 <select class='pesquisacategoria' id='categoria' name='q'>
 <option disabled='disabled' selected='selected' value=''>Escolha sua cidade...</option>
-<option value=''>Alegrete</option>
-<option value=''>Rosario do Sul</option>
-<option value=''>Santa Cruz do Sul</option>
-<option value=''>Santa Maria</option>
-<option value=''>Santana do Livramento</option>
-<option value=''>Uruguaiana</option>
+<option value='alegrete/'>Alegrete</option>
+<option value='rosario-do-sul/'>Rosario do Sul</option>
+<option value='santa-cruz-do-sul/'>Santa Cruz do Sul</option>
+<option value='santa-maria/'>Santa Maria</option>
+<option value='santana-do-livramento/'>Santana do Livramento</option>
+<option value='uruguaiana/'>Uruguaiana</option>
 </select>
 <div class='pesquisatermo2'><input class='pesquisatermo' id='url' name='url' placeholder='Buscar...' type='text'/></div>
 <div class='pesquisabotao2'><input class='pesquisabotao' type='submit' value='Pesquisar'/></div>
