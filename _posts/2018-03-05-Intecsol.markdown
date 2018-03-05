@@ -1,0 +1,47 @@
+---
+layout: post
+title: Intecsol
+feature-img: "assets/img/thumbnails/intecsol.png"
+thumbnail: "assets/img/thumbnails/intecsol.png"
+permalink: /:categories/:title.html
+categories: [santa-maria]
+tags: santamaria santamariaindustriaemaquinas
+cidade: ["Santa Maria"]
+estrelas: 0-estrelas
+---
+Fabricamos aquecedores elétricos de água (Quentuxa), 
+bebedouro industrial, Termoflex (água em 3 temperaturas), boilers para 
+aquecimento solar e para pecuária de leite (Pratick) e portas 
+corta-fogo.<!-- more --><br />
+ <br/>
+<b>Endereço: </b>Eixo Secundário 2, s/n, Distrito Industrial de Santa Maria<br />
+<b>Cidade: </b>Santa Maria, RS<br />
+<b>E-mail: </b>vendas@intecsol.com.br <br />
+<b>Telefone: <span style="color: #00ab3a;">(55) 30250900</span> <a href="tel:5530250900"><button class="ligar">Ligar</button></a></b><br />
+<br />
+<style>
+      #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+
+<div style="font-size: larger; text-align: center;">
+Localização</div>
+<div id="map">
+<script>
+      function initMap() {
+        var uluru = {lat: -29.687532, lng: -53.873173};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 17,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async="" defer="" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCck-jhcLX7iaqvW5q898KwuoSUBpG-7qE&callback=initMap">
+    </script>
+</div>
