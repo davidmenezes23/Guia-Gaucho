@@ -268,6 +268,12 @@
     </image:image> 
   </url>
   <url>
+    <loc>https://www.guiagaucho.com/santa-maria/Ander-Motos.html</loc> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/sem-logo.png</image:loc>
+    </image:image> 
+  </url>
+  <url>
     <loc>https://www.guiagaucho.com/santa-maria/SMSUL-Brindes.html</loc> 
     <image:image>
       <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/sm-sul-brindes.png</image:loc>
