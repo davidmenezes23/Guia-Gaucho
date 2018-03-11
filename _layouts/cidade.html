@@ -111,7 +111,7 @@
 <script type="text/javascript">
     var randomIndexUsed = [];
     var counter = 0;
-    var numberOfPosts = postsNumero;
+    var numberOfPosts = 2;
     while (counter < numberOfPosts)
     {
         var randomIndex;
@@ -132,12 +132,22 @@
             randomIndexUsed.push(randomIndex);
             counter++;
         }
+      else {
+              numberOfPosts = postsNumero;
+                document.write('<div class="post-teaser1"><div class="post-teaser"><a class="post-link" href="' + postHREF + '"><img class="postthumb" alt="' + postTitle + ' Logo" src="/' + postMiniatura + '"/></a><span class="tituloedescricao"><header><span class="titulopost"><a class="post-link" href="' + postHREF + '">' + postTitle + '</span></h1></header><div class="excerpt">' + postDescricao + '</div></span><div class="caixainfo"><div class="caixainfo1"><div class="infobuton1"><div class="infobuton"><a class="infobutona" href="' + postHREF + '">Informações</a></div></div></div><div class="caixainfo2"></div></div><br/></div></div>');
+          }
     }
 </script>
   </div>
 </div>
-<div id="botaovermaismobile" class="vermaisdivmobile"><button class="vermais" onClick="document.getElementById('chartdiv').style.height = '100%';document.getElementById('botaovermaismobile').style.display = 'none';">Ver Mais</button></div>
+<div id="botaovermaismobile" class="vermaisdivmobile"><button class="vermais" onClick="vermais()">Ver Mais</button></div>
 <div class="coluna">
+ <script type="text/javascript">
+      function vermais() {
+        document.getElementById('chartdiv').style.height = '100%';document.getElementById('botaovermaismobile').style.display = 'none';
+    var numberOfPosts = postsNumero;
+      }
+ </script>
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"
     style="display:block"
