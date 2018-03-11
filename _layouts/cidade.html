@@ -136,11 +136,20 @@
 </script>
   </div></ul>
 </div>
-<div id="botaovermaismobile" class="vermaisdivmobile"><button class="vermais" onClick="vermais()">Ver Mais</button></div>
+<div id="loadMore" class="vermaisdivmobile"><button class="vermais">Ver Mais</button></div>
  <script type="text/javascript">
-      function vermais() {
-        document.getElementById('chartdiv').style.height = '100%';document.getElementById('botaovermaismobile').style.display = 'none';
-      }
+$(document).ready(function () {
+    size_li = $("#myList li").size();
+    x=5;
+    $('#myList li:lt('+x+')').show();
+    $('#loadMore').click(function () {
+        x= (x+5 <= size_li) ? x+5 : size_li;
+        $('#myList li:lt('+x+')').show();
+        if(x == size_li){
+            $('#loadMore').hide();
+        }
+    });
+});
  </script>
 <div class="coluna">
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
