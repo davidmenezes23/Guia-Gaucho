@@ -81,7 +81,7 @@
   </div>
   {% endif %}
 
-  <div class="posts">
+<ul id="myList"><div class="posts">
 <script type="text/javascript">
     var randomIndexUsed = [];
     var counter = 0;
@@ -102,7 +102,7 @@
             postMiniaturaD = postsMiniaturaD[randomIndex];
             postDescricaoD = postsDescricaoD[randomIndex];
             postEstrelaD = postsEstrelaD[randomIndex];
-                document.write('<div class="post-teaser1"><div class="post-teaser"><a class="post-link" href="' + postHREFD + '"><img class="postthumb" alt="' + postTitleD + ' Logo" src="/' + postMiniaturaD + '"/></a><span class="tituloedescricao"><header><span class="titulopost"><a class="post-link" href="' + postHREFD + '">' + postTitleD + '</span></h1></header><div class="excerpt">' + postDescricaoD + '</div></span><div class="caixainfodestaque"><div class="caixainfo1destaque"><div class="infobuton1"><div class="infobuton"><a class="infobutonadestaque" href="' + postHREFD + '">Informações</a></div></div></div><div class="caixainfodestaque2"></div></div><br/></div></div>');
+                document.write('<li><div class="post-teaser1"><div class="post-teaser"><a class="post-link" href="' + postHREFD + '"><img class="postthumb" alt="' + postTitleD + ' Logo" src="/' + postMiniaturaD + '"/></a><span class="tituloedescricao"><header><span class="titulopost"><a class="post-link" href="' + postHREFD + '">' + postTitleD + '</span></h1></header><div class="excerpt">' + postDescricaoD + '</div></span><div class="caixainfodestaque"><div class="caixainfo1destaque"><div class="infobuton1"><div class="infobuton"><a class="infobutonadestaque" href="' + postHREFD + '">Informações</a></div></div></div><div class="caixainfodestaque2"></div></div><br/></div></div></li>');
             randomIndexUsed.push(randomIndex);
             counter++;
         }
@@ -128,13 +128,13 @@
             postMiniatura = postsMiniatura[randomIndex];
             postDescricao = postsDescricao[randomIndex];
             postEstrela = postsEstrela[randomIndex];
-                document.write('<div class="post-teaser1"><div class="post-teaser"><a class="post-link" href="' + postHREF + '"><img class="postthumb" alt="' + postTitle + ' Logo" src="/' + postMiniatura + '"/></a><span class="tituloedescricao"><header><span class="titulopost"><a class="post-link" href="' + postHREF + '">' + postTitle + '</span></h1></header><div class="excerpt">' + postDescricao + '</div></span><div class="caixainfo"><div class="caixainfo1"><div class="infobuton1"><div class="infobuton"><a class="infobutona" href="' + postHREF + '">Informações</a></div></div></div><div class="caixainfo2"></div></div><br/></div></div>');
+                document.write('<li><div class="post-teaser1"><div class="post-teaser"><a class="post-link" href="' + postHREF + '"><img class="postthumb" alt="' + postTitle + ' Logo" src="/' + postMiniatura + '"/></a><span class="tituloedescricao"><header><span class="titulopost"><a class="post-link" href="' + postHREF + '">' + postTitle + '</span></h1></header><div class="excerpt">' + postDescricao + '</div></span><div class="caixainfo"><div class="caixainfo1"><div class="infobuton1"><div class="infobuton"><a class="infobutona" href="' + postHREF + '">Informações</a></div></div></div><div class="caixainfo2"></div></div><br/></div></div></li>');
             randomIndexUsed.push(randomIndex);
             counter++;
         }
     }
 </script>
-  </div>
+  </div></ul>
 </div>
 <div id="botaovermaismobile" class="vermaisdivmobile"><button class="vermais" onClick="vermais()">Ver Mais</button></div>
  <script type="text/javascript">
