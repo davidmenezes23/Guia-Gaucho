@@ -112,15 +112,6 @@
     var randomIndexUsed = [];
     var counter = 0;
     var numberOfPosts = 5;
-      size_li = $("#myList li").size();
-    $('#myList li:lt('+x+')').show();
-    $('#loadMore').click(function () {
-        numberOfPosts= (numberOfPosts+5 <= size_li) ? numberOfPosts+5 : size_li;
-        $('#myList li:lt('+numberOfPosts+')').show();
-        if(numberOfPosts == size_li){
-            $('#loadMore').hide();
-        }
-    });
     while (counter < numberOfPosts)
     {
         var randomIndex;
@@ -148,17 +139,15 @@
 <div id="loadMore" class="vermaisdivmobile"><button class="vermais">Ver Mais</button></div>
  <script type="text/javascript">
 $(document).ready(function () {
-    size_li = $("#myList li").size();
-    x=5;
+      size_li = $("#myList li").size();
     $('#myList li:lt('+x+')').show();
     $('#loadMore').click(function () {
-        x= (x+5 <= size_li) ? x+5 : size_li;
-        $('#myList li:lt('+x+')').show();
-        if(x == size_li){
+        numberOfPosts= (numberOfPosts+5 <= size_li) ? numberOfPosts+5 : size_li;
+        $('#myList li:lt('+numberOfPosts+')').show();
+        if(numberOfPosts == size_li){
             $('#loadMore').hide();
         }
     });
-});
  </script>
 <div class="coluna">
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
