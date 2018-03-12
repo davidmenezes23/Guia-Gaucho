@@ -140,7 +140,7 @@
  <script type="text/javascript">
 $(document).ready(function () {
       size_li = $("#myList li").size();
-    $('#myList li:lt('+x+')').show();
+    $('#myList li:lt('+numberOfPosts+')').show();
     $('#loadMore').click(function () {
         numberOfPosts= (numberOfPosts+5 <= size_li) ? numberOfPosts+5 : size_li;
         $('#myList li:lt('+numberOfPosts+')').show();
