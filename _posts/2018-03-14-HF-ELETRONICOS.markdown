@@ -8,8 +8,6 @@ categories: [uruguaiana]
 tags: uruguaiana uruguaianatecnologia
 cidade: ["Uruguaiana"]
 estrelas: 0-estrelas
-latitude: -29.7852993
-longitude: -57.1049677
 ---
 Serviços de eletroeletronicos!<!-- more --><br />
  <br/>
@@ -29,7 +27,7 @@ Localização</div>
 <div id="map">
 <script>
       function initMap() {
-        var uluru = {lat: {{ post.latitude }}, lng: {{ post.longitude }}};
+        var uluru = {lat: -29.7852993, lng: -57.1049677};
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 17,
           center: uluru
