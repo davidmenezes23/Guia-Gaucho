@@ -15,7 +15,7 @@ Realizando os melhores eventos há mais de 20 anos.<br/>
 <b>Endereço: </b>Rua 13 de Maio, 3639<br />
 <b>Cidade: </b>Uruguaiana, RS<br />
 <b>E-mail: </b>contato@opartdecoracoes.com.br ou blanche.varella@hotmail.com<br />
-<b>Cidade: </b><a href="http://www.opartdecoracoes.com.br/" rel="nofollow">www.opartdecoracoes.com.br</a><br />
+<b>Website: </b><a href="http://www.opartdecoracoes.com.br/" rel="nofollow">www.opartdecoracoes.com.br</a><br />
 <b>Telefone: <span style="color: #00ab3a;">(55) 3401-0117</span> <a href="tel:5534010117"><button class="ligar">Ligar</button></a></b><br />
 <b>Telefone: <span style="color: #00ab3a;">(55) 99167-8113</span> <a href="tel:55991678113"><button class="ligar">Ligar</button></a></b><br />
 <br />
