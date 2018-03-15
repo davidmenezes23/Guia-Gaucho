@@ -5,7 +5,7 @@ feature-img: "assets/img/thumbnails/Op-Art-decorações-e-buffet.png"
 thumbnail: "assets/img/thumbnails/Op-Art-decorações-e-buffet.png"
 permalink: /:categories/:title.html
 categories: [uruguaiana]
-tags: uruguaiana uruguaianatecnologia
+tags: uruguaiana uruguaianaentreterimento
 cidade: ["Uruguaiana"]
 estrelas: 0-estrelas
 ---
