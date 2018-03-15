@@ -43,6 +43,6 @@ Localização</div>
         });
       }
     </script>
-    <script async="" defer="" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCck-jhcLX7iaqvW5q898KwuoSUBpG-7qE&callback=initMap">
+    <script async="" defer="" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnzAZHXcLn5tKVEurubbL8vjqpRLda7dc&callback=initMap">
     </script>
 </div>
