@@ -29,18 +29,5 @@ Trabalhamos com Emprestimo para: Aposentados, Pensionistas INSS, Marinha, Aerona
 Localização</div>
 <div id="map">
 <script>
-      function initMap() {
-        var uluru = {lat: -29.7565464, lng: -57.0864155};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 17,
-          center: uluru
-        });
-        var marker = new google.maps.Marker({
-          position: uluru,
-          map: map
-        });
-      }
-    </script>
-    <script async="" defer="" src="https://www.guiagaucho.com/assets/js/maps?key=AIzaSyBnzAZHXcLn5tKVEurubbL8vjqpRLda7dc&callback=initMap">
-    </script>
+function initMap() {var uluru = {lat: -29.7565464, lng: -57.0864155};var map = new google.maps.Map(document.getElementById('map'), {zoom: 17,center: uluru});var marker = new google.maps.Marker({position: uluru,map: map});}</script><script async="" defer="" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnzAZHXcLn5tKVEurubbL8vjqpRLda7dc&callback=initMap"></script>
 </div>
