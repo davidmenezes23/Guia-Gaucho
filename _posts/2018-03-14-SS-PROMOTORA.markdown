@@ -9,7 +9,7 @@ tags: uruguaiana uruguaianaentreterimento
 cidade: ["Uruguaiana"]
 estrelas: 0-estrelas
 ---
-Trabalhamos com Emprestimo para: Aposentados, Pensionistas INSS, Marinha, Aeronautica, Exercito, Estado, Crédito Pessoal (carnê ou cheque), Debito em Conta.<br/>
+Trabalhamos com Emprestimo para: Aposentados, Pensionistas INSS, Marinha, Aeronautica, Exercito, Estado, Crédito Pessoal (carnê ou cheque), Debito em Conta..<!-- more --><br/>
 <br/>
 <b>Endereço: </b>Rua Duque de Caxias 1917 - sala 07<br />
 <b>Cidade: </b>Uruguaiana, RS<br />
