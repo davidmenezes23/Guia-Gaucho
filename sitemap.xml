@@ -133,6 +133,12 @@
     </image:image> 
   </url>
   <url>
+    <loc>https://www.guiagaucho.com/uruguaiana/SS-PROMOTORA.html</loc> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/SS-PROMOTORA.png</image:loc>
+    </image:image> 
+  </url>
+  <url>
     <loc>https://www.guiagaucho.com/santa-maria/</loc> 
   </url>
   <url>
