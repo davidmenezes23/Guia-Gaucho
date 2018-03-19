@@ -41,6 +41,6 @@ Localização</div>
         });
       }
     </script>
-    <script async="" defer="" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnzAZHXcLn5tKVEurubbL8vjqpRLda7dc&callback=initMap">
+    <script async="" defer="" src="https://www.guiagaucho.com/assets/js/maps?key=AIzaSyBnzAZHXcLn5tKVEurubbL8vjqpRLda7dc&callback=initMap">
     </script>
 </div>
