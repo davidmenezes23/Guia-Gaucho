@@ -19,29 +19,6 @@ TERRENOS, CASAS, SITIOS, CHÁCARAS, FAZENDAS E CASAS PRÉ FABRICADAS (melhor pre
 <b>Telefone: <span style="color: #00ab3a;">(55) 99999-9037 </span> <a href="tel:55999999037"><button class="ligar">Ligar</button></a></b><br />
 <b>Telefone: <span style="color: #00ab3a;">(55) 3402 1027</span> <a href="tel:5534021027"><button class="ligar">Ligar</button></a></b><br />
 <br />
-<style>
-      #map {
-        height: 400px;
-        width: 100%;
-       }
-    </style>
-
 <div style="font-size: larger; text-align: center;">
 Localização</div>
-<div id="map">
-<script>
-      function initMap() {
-        var uluru = {lat: -29.7568914, lng: -57.079722};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 17,
-          center: uluru
-        });
-        var marker = new google.maps.Marker({
-          position: uluru,
-          map: map
-        });
-      }
-    </script>
-    <script async="" defer="" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnzAZHXcLn5tKVEurubbL8vjqpRLda7dc&callback=initMap">
-    </script>
-</div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3463.717544991782!2d-57.08191068530235!3d-29.756886724920673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjnCsDQ1JzI0LjgiUyA1N8KwMDQnNDcuMCJX!5e0!3m2!1spt-BR!2sbr!4v1521470189354" width="200" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
