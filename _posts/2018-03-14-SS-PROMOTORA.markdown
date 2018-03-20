@@ -5,7 +5,7 @@ feature-img: "assets/img/thumbnails/SS-PROMOTORA.png"
 thumbnail: "assets/img/thumbnails/SS-PROMOTORA.png"
 permalink: /:categories/:title.html
 categories: [uruguaiana]
-tags: uruguaiana uruguaianaentreterimento
+tags: uruguaiana uruguaianajuridicoecontabil
 cidade: ["Uruguaiana"]
 estrelas: 0-estrelas
 ---
