@@ -1,3 +1,3 @@
 <meta name="description" content="Contato, endereço e telefone de {% if page.title %}{{ page.title }}{% endif %} em {% if page.cidade %}{{ page.cidade }}{% endif %}, RS">
 <meta property="og:description" content="Contato, endereço e telefone de {% if page.title %}{{ page.title }}{% endif %} em {% if page.cidade %}{{ page.cidade }}{% endif %}, RS" />
-<meta property="og:image" content="{% for post in site.posts %}{% if post.thumbnail %}{{ post.thumbnail }}{% endif %}{% endfor %}" />
+<meta property="og:image" content="{{ site.baseurl }}/{{ page.feature-img }}" />
