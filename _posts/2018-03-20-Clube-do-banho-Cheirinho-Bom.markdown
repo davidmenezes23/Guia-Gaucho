@@ -9,7 +9,7 @@ tags: uruguaiana uruguaianamodaebeleza
 cidade: ["Uruguaiana"]
 estrelas: 0-estrelas
 ---
-Banho, tosa , hidratação, tosa higiênica,taxi dog <!-- more --><br/>
+Banho, tosa, hidratação, tosa higiênica, taxi dog.<!-- more --><br/>
 <br/>
 <b>Endereço: </b>Av Min Assis Brasil, 309<br />
 <b>Cidade: </b>Uruguaiana, RS<br />
