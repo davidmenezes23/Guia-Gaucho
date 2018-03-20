@@ -5,7 +5,7 @@ feature-img: "assets/img/thumbnails/sem-logo.png"
 thumbnail: "assets/img/thumbnails/sem-logo.png"
 permalink: /:categories/:title.html
 categories: [uruguaiana]
-tags: uruguaiana uruguaianaentreterimento
+tags: uruguaiana uruguaianamodaebeleza
 cidade: ["Uruguaiana"]
 estrelas: 0-estrelas
 ---
