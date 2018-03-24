@@ -17,7 +17,7 @@ Nossa empresa está preparada para atender clientes de pequeno, médio e grande 
 <b>E-mail: </b>futuraservicos7@gmail.com<br />
 <b>Telefone: <span style="color: #00ab3a;">(55) 3411-0018</span> <a href="tel:5534110018"><button class="ligar">Ligar</button></a></b><br />
 <b>Telefone: <span style="color: #00ab3a;">(55) 99981-8590</span> <a href="tel:55999818590"><button class="ligar">Ligar</button></a></b><br />
-<b>Telefone: <span style="color: #00ab3a;">(55) 99581-8691</span> <a href="tel:55995818691"><button class="ligar">Ligar</button></a></b><br />
+<b>Telefone: <span style="color: #00ab3a;">(51) 99581-8691</span> <a href="tel:51995818691"><button class="ligar">Ligar</button></a></b><br />
 <br />
 <div style="font-size: larger; text-align: center;">
 Localização</div>
