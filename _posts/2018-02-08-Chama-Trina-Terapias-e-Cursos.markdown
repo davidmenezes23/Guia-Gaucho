@@ -9,7 +9,7 @@ tags: santamaria santamariasaude
 cidade: ["Santa Maria"]
 estrelas: 0-estrelas
 ---
-TERAPEUTAS TERAPIA ALTERNATIVA TERAPIA OCUPACIONAL TERAPIA ORGANIZACIONAL TERAPIA HOLÍSTICA FLORAIS<!-- more -->
+Terapeitas, Terapia Alternativa, Terapia Ocupacional, Terapia Organizacional, Terapia Holística Florais<!-- more -->
  <br/>
  <br/>
 <b>Endereço: </b>R Venâncio Aires, 1093, - Centro<br />
