@@ -9,7 +9,7 @@ tags: santamaria santamariaconstrucao
 cidade: ["Santa Maria"]
 estrelas: 0-estrelas
 ---
-PRODUTOS EM MÁMORES; GRANITOS, QUARTIZITOS, SUPERFÍCIE DE QUARTZO E LIMESTONES<!-- more -->
+Produtes em Mármores, Granitos, Quartizitos, Superfície de Quartzo e Limestones<!-- more -->
  <br/>
  <br/>
 <b>Endereço: </b>Rodovia RST 509 Nº 2830 FAIXA VELHA DE CAMOBI<br />
