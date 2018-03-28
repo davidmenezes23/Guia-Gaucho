@@ -9,7 +9,7 @@ tags: santamaria santamariamodaebeleza
 cidade: ["Santa Maria"]
 estrelas: 0-estrelas
 ---
-CONFECÇÕES DE ROUPAS - ATACADO E FABRICAÇÃO<!-- more --><br />
+Confecções de Roupas - Atacado e Fabricação<!-- more --><br />
  <br/>
 <b>Endereço: </b>Rua Rio Branco, 2028, - Parque Pinheiro Machado<br />
 <b>Cidade: </b>Santa Maria, RS<br />
