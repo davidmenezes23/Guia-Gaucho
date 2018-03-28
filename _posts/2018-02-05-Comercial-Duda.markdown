@@ -9,7 +9,7 @@ tags: uruguaiana uruguaianaalimentacao
 cidade: ["Uruguaiana"]
 estrelas: 0-estrelas
 ---
-BALÕES BEXIGAS BOMBONS E BALAS CARNAVAL - ARTIGOS CHOCOLATE CHOCOLATE - ATACADO E FABRICAÇÃO COPOS COPOS DE PLÁSTICO DECORAÇÕES<!-- more --> - ARTIGOS DESCARTÁVEIS DOCES - FABRICAÇÃO ATACADO E DISTRIBUIÇÃO EMBALAGENS EMBALAGENS - ARTIGOS E EQUIPAMENTOS EMBALAGENS DE ALUMÍNIO EMBALAGENS ESPECIAIS ENFEITES ENFEITES PARA BOLOS FESTAS - ARTIGOS E MÓVEIS PRODUTOS DESCARTÁVEIS.<br />
+Balões, Bexigas, Bombons e Balas Carnaval - Artigos, Chocolate - Atacado e Fabricação, Copes, Copos de Plástico, Decorações<!-- more --> - Artigos Descartáves, Doces - Embalagens - Artigos e Equipamentos, Embalagens de Alumínio, Especiais, Enfeites, Enfeites Para Bolos, Festas - Artigos e Móveis, Produtos Descartáveis.<br />
 
 <b>Endereço: </b>R Gen João Manoel, 2763, - Centro<br />
 <b>Cidade: </b>Uruguaiana, RS<br />
