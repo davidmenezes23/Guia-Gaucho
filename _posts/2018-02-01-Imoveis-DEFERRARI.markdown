@@ -9,9 +9,9 @@ tags: uruguaiana uruguaianajuridicoecontabil
 cidade: ["Uruguaiana"]
 estrelas: 0-estrelas
 ---
+Terrenos, Casas, Sitios, Chácaras, Fazendas e Casas Pré Fabricadas (melhor preço de oferta da região).<!-- more -->
+<br/>
 CRECI: 35.641<br />
-TERRENOS, CASAS, SITIOS, CHÁCARAS, FAZENDAS E CASAS PRÉ FABRICADAS (melhor preço de oferta da região).<br/>
-<!-- more -->
 <b>Endereço: </b>Santana 3348 esq. Flores da Cunha, Bairro Centro, CEP: 97510-470.<br />
 <b>Cidade: </b>Uruguaiana<br />
 <b>E-mail: </b>deferrari.rs@gmail.com<br />
