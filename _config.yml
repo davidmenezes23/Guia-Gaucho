@@ -7,7 +7,7 @@ include: ["_pages"]
 
 theme_settings:
   # Meta
-  title: Guia Gaúcho - A sua Lista Telefônica virtual
+  title: Guia Gaúcho - Lista Telefônica
   avatar:
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
