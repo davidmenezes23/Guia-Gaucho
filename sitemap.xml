@@ -151,6 +151,18 @@
     </image:image> 
   </url>
   <url>
+    <loc>https://www.guiagaucho.com/uruguaiana/Solis-Luminosos-e-Fachadas.html</loc> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/Solis-Luminosos-e-Fachadas.png</image:loc>
+    </image:image> 
+  </url>
+  <url>
+    <loc>https://www.guiagaucho.com/uruguaiana/Nanda-e-Josse-Concerto-de-Celulares.html</loc> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/nanda-e-josse-conserto-de-celulares.png</image:loc>
+    </image:image> 
+  </url>
+  <url>
     <loc>https://www.guiagaucho.com/santa-maria/</loc> 
   </url>
   <url>
