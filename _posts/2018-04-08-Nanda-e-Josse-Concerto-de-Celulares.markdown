@@ -5,7 +5,7 @@ feature-img: "assets/img/thumbnails/nanda-e-josse-conserto-de-celulares.png"
 thumbnail: "assets/img/thumbnails/nanda-e-josse-conserto-de-celulares.png"
 permalink: /:categories/:title.html
 categories: [uruguaiana]
-tags: uruguaiana uruguaianaautomovel
+tags: uruguaiana uruguaianatecnologia
 cidade: ["Uruguaiana"]
 estrelas: 0-estrelas
 ---
