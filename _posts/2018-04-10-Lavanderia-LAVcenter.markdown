@@ -12,7 +12,7 @@ estrelas: 0-estrelas
 Lavamos roupas por kilo e por peças<br/>
 Edredons, Cobertores, Ternos, Cortina, Fardas...<!-- more --><br/>
 <br/>
-<b>Endereço: </b>Rua Duque de caxias 3170<br />
+<b>Endereço: </b>Rua Duque de caxias 3170 (ao lado da Unopar)<br />
 <b>Cidade: </b>Uruguaiana, RS<br />
 <b>Telefone: <span style="color: #00ab3a;">(55) 3402-4203</span> <a href="tel:5534024203"><button class="ligar">Ligar</button></a></b><br />
 <b>Telefone: <span style="color: #00ab3a;">(55) 99987-6765</span> <a href="tel:55999876765"><button class="ligar">Ligar</button></a></b><br />
