@@ -163,6 +163,30 @@
     </image:image> 
   </url>
   <url>
+    <loc>https://www.guiagaucho.com/uruguaiana/Lavanderia-LAVcenter.html</loc> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/Lavanderia-LAVcenter.png</image:loc>
+    </image:image> 
+  </url>
+  <url>
+    <loc>https://www.guiagaucho.com/uruguaiana/Tracos-Planejados.html</loc> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/tracos-planejados.png</image:loc>
+    </image:image> 
+  </url>
+  <url>
+    <loc>https://www.guiagaucho.com/uruguaiana/PUCCA-Pet-Shop.html</loc> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/Pucca-Pet-Shop.png</image:loc>
+    </image:image> 
+  </url>
+  <url>
+    <loc>https://www.guiagaucho.com/uruguaiana/maju-confeccoes.html</loc> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/maju-confeccoes.png</image:loc>
+    </image:image> 
+  </url>
+  <url>
     <loc>https://www.guiagaucho.com/santa-maria/</loc> 
   </url>
   <url>
