@@ -5,7 +5,7 @@ feature-img: "assets/img/thumbnails/Solis-Luminosos-e-Fachadas.png"
 thumbnail: "assets/img/thumbnails/Solis-Luminosos-e-Fachadas.png"
 permalink: /:categories/:title.html
 categories: [uruguaiana]
-tags: uruguaiana uruguaianaautomovel
+tags: uruguaiana uruguaianaconstrucao
 cidade: ["Uruguaiana"]
 estrelas: 0-estrelas
 ---
