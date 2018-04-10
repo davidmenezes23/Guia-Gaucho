@@ -13,8 +13,8 @@ Inove seu conceito em móveis.<!-- more --><br/>
 <br/>
 <b>Endereço: </b>Rua Prado Lima 3291<br />
 <b>Cidade: </b>Uruguaiana, RS<br />
-<b>Telefone: <span style="color: #00ab3a;">(55) 3402-1400</span> <a href="tel:553402-1400"><button class="ligar">Ligar</button></a></b><br />
-<b>Telefone: <span style="color: #00ab3a;">(55) 3402-1300</span> <a href="tel:553402-1300"><button class="ligar">Ligar</button></a></b><br />
+<b>Telefone: <span style="color: #00ab3a;">(55) 3402-1400</span> <a href="tel:5534021400"><button class="ligar">Ligar</button></a></b><br />
+<b>Telefone: <span style="color: #00ab3a;">(55) 3402-1300</span> <a href="tel:5534021300"><button class="ligar">Ligar</button></a></b><br />
 <br />
 <div style="font-size: larger; text-align: center;">
 Localização</div>
