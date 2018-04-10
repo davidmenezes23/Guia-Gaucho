@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Art'fina - Materiais Planejados
+title: Art'fina - Móveis Planejados
 feature-img: "assets/img/thumbnails/Art-Fina-Materiais-Planejados.png"
 thumbnail: "assets/img/thumbnails/Art-Fina-Materiais-Planejados.png"
 permalink: /:categories/:title.html
