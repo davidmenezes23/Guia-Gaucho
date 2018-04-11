@@ -5,7 +5,7 @@ feature-img: "assets/img/thumbnails/Cardoso-Foto-e-Video.png"
 thumbnail: "assets/img/thumbnails/Cardoso-Foto-e-Video.png"
 permalink: /:categories/:title.html
 categories: [uruguaiana]
-tags: uruguaiana uruguaianafotoevideo
+tags: uruguaiana uruguaianatecnologia
 cidade: ["Uruguaiana"]
 estrelas: 0-estrelas
 ---
