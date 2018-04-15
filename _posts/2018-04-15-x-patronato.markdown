@@ -5,7 +5,7 @@ feature-img: "assets/img/thumbnails/x-patronato.png"
 thumbnail: "assets/img/thumbnails/x-patronato.png"
 permalink: /:categories/:title.html
 categories: [santa-maria]
-tags: santamaria santamariaconstrucao
+tags: santamaria santamariaalimentacao
 cidade: ["Santa Maria"]
 estrelas: 0-estrelas
 ---
