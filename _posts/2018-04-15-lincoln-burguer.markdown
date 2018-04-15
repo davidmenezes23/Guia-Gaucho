@@ -10,7 +10,7 @@ cidade: ["Santa Maria"]
 estrelas: 0-estrelas
 ---
 	
-Hamburgueria Delivery, pedidos pelo whats ou pelo site <a href="https://deliverymuch.com.br/lincoln-burguer" rel="nofollow">deliverymuch.com.br/lincoln-burguer</a>, aberto de segunda a sexta das 11hs as 3 da manha e aos domingos das 16hs as 3hs da manhã.<!-- more --><br />
+Hamburgueria Delivery, pedidos pelo whats ou pelo site deliverymuch.com.br/lincoln-burguer, aberto de segunda a sexta das 11hs as 3 da manha e aos domingos das 16hs as 3hs da manhã.<!-- more --><br />
 <br/>
 <b>Endereço: </b>Av. Borges de Medeiros, 1789<br />
 <b>Cidade: </b>Santa Maria, RS<br />
