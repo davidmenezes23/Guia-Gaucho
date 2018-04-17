@@ -5,7 +5,7 @@ feature-img: "assets/img/thumbnails/atelie-da-beleza.png"
 thumbnail: "assets/img/thumbnails/atelie-da-beleza.png"
 permalink: /:categories/:title.html
 categories: [uruguaiana]
-tags: uruguaiana uruguaianaautomovel
+tags: uruguaiana uruguaianamodaebeleza
 cidade: ["Uruguaiana"]
 estrelas: 0-estrelas
 ---
