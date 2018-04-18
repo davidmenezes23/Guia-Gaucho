@@ -5,7 +5,7 @@ feature-img: "assets/img/thumbnails/eskimo-sorvetes.png"
 thumbnail: "assets/img/thumbnails/eskimo-sorvetes.png"
 permalink: /:categories/:title.html
 categories: [uruguaiana]
-tags: uruguaiana uruguaianaconstrucao
+tags: uruguaiana uruguaianaalimentacao
 cidade: ["Uruguaiana"]
 estrelas: 0-estrelas
 ---
