@@ -1,6 +1,6 @@
 ---
 layout: post
-title: GJM Reforma e Construção Civil
+title: GMJ Reforma e Construção Civil
 feature-img: "assets/img/thumbnails/gmj-reformas-e-construcao-civil.png"
 thumbnail: "assets/img/thumbnails/gmj-reformas-e-construcao-civil.png"
 permalink: /:categories/:title.html
