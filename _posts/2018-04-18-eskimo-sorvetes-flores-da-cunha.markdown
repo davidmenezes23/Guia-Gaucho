@@ -11,7 +11,7 @@ estrelas: 0-estrelas
 ---
 <!-- more --><br/>
 <br/>
-<b>Endereço: </b>Rua Flores da cunha, 2702<br />
+<b>Endereço: </b>Rua Flores da cunha, 2702 (em frente à praça férrea)<br />
 <b>Cidade: </b>Uruguaiana, RS<br />
 <b>Telefone: <span style="color: #00ab3a;">(55) 98149-0516</span> <a href="tel:55981490516"><button class="ligar">Ligar</button></a></b><br />
 <br />
