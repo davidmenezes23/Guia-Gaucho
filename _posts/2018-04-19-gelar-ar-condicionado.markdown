@@ -9,7 +9,7 @@ tags: uruguaiana uruguaianaconstrucao
 cidade: ["Uruguaiana"]
 estrelas: 0-estrelas
 ---
-Venda, Instalação e manutenção de ar condicionado split<br/>
+Venda, Instalação e manutenção de ar condicionado split.<br/>
 Pensando em você!<!-- more --><br/>
 <br/>
 <b>Cidade: </b>Uruguaiana, RS<br />
