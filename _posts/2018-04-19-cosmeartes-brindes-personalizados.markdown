@@ -5,7 +5,7 @@ feature-img: "assets/img/thumbnails/cosmeartes-brindes-personalizados.png"
 thumbnail: "assets/img/thumbnails/cosmeartes-brindes-personalizados.png"
 permalink: /:categories/:title.html
 categories: [santa-maria]
-tags: santamaria santamariaentreterimento
+tags: santamaria santamariaindustriaeentreterimento
 cidade: ["Santa Maria"]
 estrelas: 0-estrelas
 ---
