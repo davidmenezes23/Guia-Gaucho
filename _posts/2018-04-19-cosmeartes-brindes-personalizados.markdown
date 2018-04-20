@@ -10,8 +10,7 @@ cidade: ["Santa Maria"]
 estrelas: 0-estrelas
 ---
 	
-Restaurante ao meio dia de segunda a sabado, aberto apartir das 11hs com buffet livre e kg, temos tambem viandas, marmitex, alaminutas, petiscos e variado cardapio de lanches e burguers.<!-- more --><br />
-Aos domingos churrasco, galeto, salsichao e maionese para levar e um prato servido com churrasco, arroz e maionese.<br />
+<!-- more --><br />
  <br/>
 <b>Endereço: </b>Rua Josué Guimarães, 512 - Camobi - Monte Bello 1<br />
 <b>Cidade: </b>Santa Maria, RS<br />
