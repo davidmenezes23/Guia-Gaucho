@@ -10,6 +10,7 @@ cidade: ["Santa Maria"]
 estrelas: 0-estrelas
 ---
 É uma agência de publicidade e eventos, com o objetivo de proporcionar ótimas experiências para os seus clientes, parceiros e colaboradores.<!-- more --><br />
+Gerenciamento de redes sociais, design gráfico, fotografia publicitária, fotografia para eventos, drinks para eventos.<br />
 <br/>
 <b>Endereço: </b>Rua Rondônia, 90<br />
 <b>Cidade: </b>Santa Maria, RS<br />
