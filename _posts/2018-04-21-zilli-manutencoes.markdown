@@ -13,8 +13,8 @@ Consertos de máquinas elétricas, máquinas de cordar grama, lava jatos, compre
 <br/>
 <b>Endereço: </b>Rua Tocantins, 213 - Pinheiro Machado<br />
 <b>Cidade: </b>Santa Maria, RS<br />
-<b>Telefone: <span style="color: #00ab3a;">(55) 99627-9661</span><a href="tel:55996279661"><button class="ligar">Ligar</button></a></b:<br />
-<b>Telefone: <span style="color: #00ab3a;">(55) 99119-6519</span><a href="tel:55991196519"><button class="ligar">Ligar</button></a></b:<br />
+<b>Telefone: <span style="color: #00ab3a;">(55) 99627-9661</span><a href="tel:55996279661"><button class="ligar">Ligar</button></a></b><br />
+<b>Telefone: <span style="color: #00ab3a;">(55) 99119-6519</span><a href="tel:55991196519"><button class="ligar">Ligar</button></a></b><br />
 <br />
 <div style="font-size: larger; text-align: center;">
 Localização</div>
