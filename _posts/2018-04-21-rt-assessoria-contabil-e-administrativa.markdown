@@ -9,7 +9,7 @@ tags: santamaria santamariajuridicoecontabil
 cidade: ["Santa Maria"]
 estrelas: 0-estrelas
 ---	
-<!-- more --><br />
+Escritorio Contabil voltado para pequenas empresas, Auxiliando nas rotinas fiscais e trabalhistas. Duvidas? é so chamar imbox ou whatsapp: 55991755445<!-- more --><br />
 <br/>
 <b>Endereço: </b>Rua das Bergamoteiras, 410 J.K.<br />
 <b>Cidade: </b>Santa Maria, RS<br />
