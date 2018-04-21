@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Prsonal Tec
+title: Personal Tec
 feature-img: "assets/img/thumbnails/personal-tec.png"
 thumbnail: "assets/img/thumbnails/personal-tec.png"
 permalink: /:categories/:title.html
