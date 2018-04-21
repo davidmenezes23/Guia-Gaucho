@@ -14,7 +14,7 @@ Gerenciamento de redes sociais, design gráfico, fotografia publicitária, fotog
 <br/>
 <b>Endereço: </b>Rua Rondônia, 90<br />
 <b>Cidade: </b>Santa Maria, RS<br />
-<b>Telefone: <span style="color: #00ab3a;">(55) 3032-0866</span><a href="tel:5530320866"><button class="ligar">Ligar</button></a></b><br />
+<b>Telefone: <span style="color: #00ab3a;">(55) 3211-2864</span><a href="tel:5530320866"><button class="ligar">Ligar</button></a></b><br />
 <b>Telefone: <span style="color: #00ab3a;">(55) 99687-8386</span><a href="tel:55996878386"><button class="ligar">Ligar</button></a></b><br />
 <b>Telefone: <span style="color: #00ab3a;">(55) 99130-9640</span><a href="tel:55991309640"><button class="ligar">Ligar</button></a></b><br />
 <br />
