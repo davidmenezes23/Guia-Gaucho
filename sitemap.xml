@@ -289,6 +289,12 @@
     </image:image> 
   </url>
   <url>
+    <loc>https://www.guiagaucho.com/uruguaiana/templo-academia.html</loc> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/templo-academia.png</image:loc>
+    </image:image> 
+  </url>
+  <url>
     <loc>https://www.guiagaucho.com/santa-maria/</loc> 
   </url>
   <url>
@@ -475,6 +481,48 @@
     <loc>https://www.guiagaucho.com/santa-maria/porto-lanches.html</loc> 
     <image:image>
       <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/porto-lanches.png</image:loc>
+    </image:image> 
+  </url>
+  <url>
+    <loc>https://www.guiagaucho.com/santa-maria/zilli-manutencoes.html</loc> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/zilli-manutencoes.png</image:loc>
+    </image:image> 
+  </url>
+  <url>
+    <loc>https://www.guiagaucho.com/santa-maria/solucoes-imoveis.html</loc> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/solucoes-imoveis.png</image:loc>
+    </image:image> 
+  </url>
+  <url>
+    <loc>https://www.guiagaucho.com/santa-maria/rt-assessoria-contabil-e-administrativa.html</loc> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/rt-assessoria-contabil-e-administrativa.png</image:loc>
+    </image:image> 
+  </url>
+  <url>
+    <loc>https://www.guiagaucho.com/santa-maria/personal-tec.html</loc> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/cosmeartes-brindes-personalizados.png</image:loc>
+    </image:image> 
+  </url>
+  <url>
+    <loc>https://www.guiagaucho.com/santa-maria/pepper-pro.html</loc> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/pepper-pro.png</image:loc>
+    </image:image> 
+  </url>
+  <url>
+    <loc>https://www.guiagaucho.com/santa-maria/multi-center.html</loc> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/multi-center.png</image:loc>
+    </image:image> 
+  </url>
+  <url>
+    <loc>https://www.guiagaucho.com/santa-maria/agencar-veiculos.html</loc> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/agencar-veiculos.png</image:loc>
     </image:image> 
   </url>
   <url>
