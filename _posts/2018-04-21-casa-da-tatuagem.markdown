@@ -9,7 +9,7 @@ tags: uruguaiana uruguaianamodaebeleza
 cidade: ["Uruguaiana"]
 estrelas: 0-estrelas
 ---
-Estúdio de tatuagem e piercing.<!-- more --><br/>
+Estúdio de tatuagem.<!-- more --><br/>
 <br/>
 <b>Endereço: </b>Rua Treze De Maio, 258<br />
 <b>Cidade: </b>Uruguaiana, RS<br />
