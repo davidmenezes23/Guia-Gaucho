@@ -11,7 +11,7 @@ estrelas: 0-estrelas
 ---
 Estúdio de tatuagem e piercing.<!-- more --><br/>
 <br/>
-<b>Endereço: </b>Rua Treze De Maio 258<br />
+<b>Endereço: </b>Rua Treze De Maio, 258<br />
 <b>Cidade: </b>Uruguaiana, RS<br />
 <b>Telefone: <span style="color: #00ab3a;">(55) 99666-6047</span> <a href="tel:55996666047"><button class="ligar">Ligar</button></a></b><br />
 <br />
