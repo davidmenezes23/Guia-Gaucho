@@ -301,6 +301,12 @@
     </image:image> 
   </url>
   <url>
+    <loc>https://www.guiagaucho.com/uruguaiana/brazcells.html</loc> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/brazcells.png</image:loc>
+    </image:image> 
+  </url>
+  <url>
     <loc>https://www.guiagaucho.com/santa-maria/</loc> 
   </url>
   <url>
@@ -532,6 +538,18 @@
     </image:image> 
   </url>
   <url>
+    <loc>https://www.guiagaucho.com/santa-maria/am-computadores.html</loc> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/am-computadores.png</image:loc>
+    </image:image> 
+  </url>
+  <url>
+    <loc>https://www.guiagaucho.com/santa-maria/rs-prestadora-de-servicos.html</loc> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/rs-prestadora-de-servicos.png</image:loc>
+    </image:image> 
+  </url>
+  <url>
     <loc>https://www.guiagaucho.com/santana-do-livramento/</loc> 
   </url>
   <url>
@@ -592,6 +610,12 @@
     </image:image> 
     <image:image>
       <image:loc>https://www.guiagaucho.com/assets/img/images/ferragens-porto-seco-folder.png</image:loc>
+    </image:image> 
+  </url>
+  <url>
+    <loc>https://www.guiagaucho.com/santana-do-livramento/cia-do-estagio.html</loc> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/cia-do-estagio.png</image:loc>
     </image:image> 
   </url>
   <url>
