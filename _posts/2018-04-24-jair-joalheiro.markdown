@@ -18,4 +18,4 @@ Consertos e fabricação.<!-- more --><br/>
 <br />
 <div style="font-size: larger; text-align: center;">
 Localização</div>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3463.4816394326162!2d-57.082261084891506!3d-29.76371168198529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94535b3ff37acdbb%3A0x33b3db7a2c5e8ce2!2sR.+Gen.+Fl%C3%B4res+da+Cunha%2C+2702+-+Centro%2C+Uruguaiana+-+RS!5e0!3m2!1spt-BR!2sbr!4v1524534173289" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3463.7215556064525!2d-57.08524368489153!3d-29.756770681987952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94535b5b35f983a1%3A0xba6b519750630d44!2sR.+Santana%2C+3039+-+Centro%2C+Uruguaiana+-+RS%2C+97510-470!5e0!3m2!1spt-BR!2sbr!4v1524589205405" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
