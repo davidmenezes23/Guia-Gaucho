@@ -5,7 +5,7 @@ feature-img: "assets/img/thumbnails/aspire-consultoria.png"
 thumbnail: "assets/img/thumbnails/aspire-consultoria.png"
 permalink: /:categories/:title.html
 categories: [santa-maria]
-tags: santamaria santamariamoveis
+tags: santamaria santamariacultura
 cidade: ["Santa Maria"]
 estrelas: 0-estrelas
 ---	
