@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Jeferson Pular - Martelinho de Ouro
+title: Jeferson Pilar - Martelinho de Ouro
 feature-img: "assets/img/thumbnails/jeferson-pilar-martelinho-de-ouro.png"
 thumbnail: "assets/img/thumbnails/jeferson-pilar-martelinho-de-ouro.png"
 permalink: /:categories/:title.html
