@@ -5,7 +5,7 @@ feature-img: "assets/img/thumbnails/mag-catalagos.png"
 thumbnail: "assets/img/thumbnails/mag-catalagos.png"
 permalink: /:categories/:title.html
 categories: [uruguaiana]
-tags: uruguaiana uruguaianamodaebeleza
+tags: uruguaiana uruguaianacomercio
 cidade: ["Uruguaiana"]
 estrelas: 0-estrelas
 ---
