@@ -9,7 +9,7 @@ tags: uruguaiana uruguaianacomercio
 cidade: ["Uruguaiana"]
 estrelas: 0-estrelas
 ---
-Empresa de produtos personalizados: camiseta,caneca,garrafas,squezzes,chinelos,almofadas,chaveiros,canecas de chopp.<!-- more --><br/>
+Empresa de produtos personalizados: camiseta, caneca, garrafas, squezzes, chinelos, almofadas, chaveiros, canecas de chopp.<!-- more --><br/>
 <br/>
 <b>Endereço: </b>Avenida ibicuí, quadra b, numero 0019<br />
 <b>Cidade: </b>Uruguaiana, RS<br />
