@@ -11,7 +11,7 @@ estrelas: 0-estrelas
 ---
 Telefonia, motor para portão, cerca elétrica, circuito fechado, sistema de alarme.<!-- more --><br/>
 <br/>
-<b>Endereço: </b>Rua Monsenhor Estanislau Wolski, 3482 - Nova Esperança<br />
+<b>Endereço: </b>Rua Monsenhor Estanislau Wolski, 3428 - Nova Esperança<br />
 <b>Cidade: </b>Uruguaiana, RS<br />
 <b>Telefone: <span style="color: #00ab3a;">(55) 3411-2376</span> <a href="tel:5534112376"><button class="ligar">Ligar</button></a></b><br />
 <b>Telefone: <span style="color: #00ab3a;">(55) 99994-8886</span> <a href="tel:55999948886"><button class="ligar">Ligar</button></a></b><br />
