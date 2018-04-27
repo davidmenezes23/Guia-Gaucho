@@ -5,7 +5,7 @@ feature-img: "assets/img/thumbnails/comercial-duda.jpg"
 thumbnail: "assets/img/thumbnails/comercial-duda.jpg"
 permalink: /:categories/:title.html
 categories: [uruguaiana]
-tags: uruguaiana uruguaianaalimentacao
+tags: uruguaiana uruguaianacomercio
 cidade: ["Uruguaiana"]
 estrelas: 0-estrelas
 ---
