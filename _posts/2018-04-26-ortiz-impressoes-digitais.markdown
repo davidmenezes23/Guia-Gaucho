@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Ortiz Impressões Digitais
-feature-img: "assets/img/thumbnails/sem-logo.png"
-thumbnail: "assets/img/thumbnails/sem-logo.png"
+feature-img: "assets/img/thumbnails/ortiz-impressoes-digitais.png"
+thumbnail: "assets/img/thumbnails/ortiz-impressoes-digitais.png"
 permalink: /:categories/:title.html
 categories: [uruguaiana]
 tags: uruguaiana uruguaianacomercio
