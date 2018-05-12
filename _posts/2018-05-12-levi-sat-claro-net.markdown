@@ -5,7 +5,7 @@ feature-img: "assets/img/thumbnails/levi-sat-claro-net.png"
 thumbnail: "assets/img/thumbnails/levi-sat-claro-net.png"
 permalink: /:categories/:title.html
 categories: [uruguaiana]
-tags: uruguaiana uruguaianamarketing
+tags: uruguaiana uruguaianatecnologia
 cidade: ["Uruguaiana"]
 estrelas: 0-estrelas
 ---
