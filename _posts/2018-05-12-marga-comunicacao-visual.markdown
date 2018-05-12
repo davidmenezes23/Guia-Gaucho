@@ -1,15 +1,15 @@
 ---
 layout: post
 title: Marga Comunicação Visual
-feature-img: "assets/img/thumbnails/sem-logo.png"
-thumbnail: "assets/img/thumbnails/sem-logo.png"
+feature-img: "assets/img/thumbnails/evandro-letreiros-e-luminosos.png"
+thumbnail: "assets/img/thumbnails/evandro-letreiros-e-luminosos.png"
 permalink: /:categories/:title.html
 categories: [uruguaiana]
 tags: uruguaiana uruguaianamarketing
 cidade: ["Uruguaiana"]
 estrelas: 0-estrelas
 ---
-<!-- more --><br/>
+Letreiros e luminosos<!-- more --><br/>
 <br/>
 <b>Endereço: </b>Ac. Mal. Setembrino de Carvalho, 2813 - Proficar<br />
 <b>Cidade: </b>Uruguaiana, RS<br />
