@@ -65,6 +65,9 @@
     <loc>https://www.guiagaucho.com/uruguaiana/turismo/</loc> 
   </url>
   <url>
+    <loc>https://www.guiagaucho.com/uruguaiana/comercio/</loc> 
+  </url>
+  <url>
     <loc>https://www.guiagaucho.com/uruguaiana/Tele-Moto-Parceria.html</loc> 
     <image:image>
       <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/tele-moto-parceria.jpg</image:loc>
@@ -448,6 +451,9 @@
     <loc>https://www.guiagaucho.com/santa-maria/turismo/</loc> 
   </url>
   <url>
+    <loc>https://www.guiagaucho.com/santa-maria/comercio/</loc> 
+  </url>
+  <url>
     <loc>https://www.guiagaucho.com/santa-maria/Bio-Sante-Ambulancias.html</loc> 
     <image:image>
       <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/Flyer-Bio.jpg</image:loc>
@@ -724,6 +730,9 @@
     <loc>https://www.guiagaucho.com/santana-do-livramento/turismo/</loc> 
   </url>
   <url>
+    <loc>https://www.guiagaucho.com/santana-do-livramento/comercio/</loc> 
+  </url>
+  <url>
     <loc>https://www.guiagaucho.com/santana-do-livramento/Auto-Film-Escapamentos.html</loc> 
     <image:image>
       <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/auto-film.png</image:loc>
@@ -878,6 +887,9 @@
   </url>
   <url>
     <loc>https://www.guiagaucho.com/santa-cruz-do-sul/turismo/</loc> 
+  </url>
+  <url>
+    <loc>https://www.guiagaucho.com/santa-cruz-do-sul/comercio/</loc> 
   </url>
   <url>
     <loc>https://www.guiagaucho.com/santa-cruz-do-sul/Herbalife.html</loc> 
