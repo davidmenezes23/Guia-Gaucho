@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Gráfica Impressão
-feature-img: "assets/img/thumbnails/sem-logo.png"
-thumbnail: "assets/img/thumbnails/sem-logo.png"
+feature-img: "assets/img/thumbnails/grafica-impressao.png"
+thumbnail: "assets/img/thumbnails/grafica-impressao.png"
 permalink: /:categories/:title.html
 categories: [barao]
 tags: barao baraomarketing
