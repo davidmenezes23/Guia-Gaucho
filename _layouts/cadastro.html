@@ -102,11 +102,11 @@ Permite também aos donos de empresas proporcionem visibilidade online gratuita 
 - Aumento na quantidade de clientes;<br/>
 - Disponibilidade em cidades 467 cidades do Rio Grande do Sul;<br/>
 - Visibilidade online;</span>
-<p>Plano<span style="color: #f00;">*</span></p><select class="cadastroinput" name="Plano" selected="basico">
-  <option value="basico" onClick="document.getElementById('cadastro').style.display = 'block';document.getElementById('cadastrodestaque').style.display = 'none';">Básico</option>
-  <option value="destaque" onClick="document.getElementById('cadastrodestaque').style.display = 'block';document.getElementById('cadastro').style.display = 'none';">Destaque</option></select>
 <span><b>Formulario de Cadastro (<span style="color: #f00;">*Obrigatório</span>)</b></span><br/>
 <br/>
+<p>Plano<span style="color: #f00;">*</span></p><select class="cadastroinput" name="Plano" selected="basico">
+<div class="escolher"><button class="escolherdestaque" onClick="document.getElementById('cadastrodestaque').style.display = 'block';document.getElementById('cadastro').style.display = 'none';">Destaque</button></div>
+<div class="escolher"><button class="escolhercadastro" onClick="document.getElementById('cadastro').style.display = 'block';document.getElementById('cadastrodestaque').style.display = 'none';">Básico</button></div><br/> 
 <div id="cadastro" class="formulariocadastro">
 <form action="https://formspree.io/contato@guiagaucho.com" method="POST">
 <p>Nome da Empresa<span style="color: #f00;">*</span></p><input class="cadastroinput" type="text" name="Nome" placeholder="Nome do Negócio"/>
