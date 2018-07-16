@@ -105,10 +105,12 @@ Permite também aos donos de empresas proporcionem visibilidade online gratuita 
 <div style="text-align:left;padding-left:20px;">
 <span><b>Formulario de Cadastro (<span style="color: #f00;">*Obrigatório</span>)</b></span><br/>
 <br/>
+<!--PLANO-->
 <p style="display:inline-block;">Plano<span style="color: #f00;">*</span></p>
 <div class="escolher"><button class="escolhercadastro" onClick="document.getElementById('cadastro').style.display = 'block';document.getElementById('cadastrodestaque').style.display = 'none';">Básico</button></div><br/> 
 <div class="escolher"><button class="escolherdestaque" onClick="document.getElementById('cadastrodestaque').style.display = 'block';document.getElementById('cadastro').style.display = 'none';">Destaque</button></div>
 </div>
+<!--FORMULARIO BASICO-->
 <div id="cadastro" class="formulariocadastro">
 <form action="https://formspree.io/contato@guiagaucho.com" method="POST">
 <p>Nome da Empresa<span style="color: #f00;">*</span></p><input class="cadastroinput" type="text" name="Nome" placeholder="Nome do Negócio"/>
@@ -123,26 +125,26 @@ Permite também aos donos de empresas proporcionem visibilidade online gratuita 
   UPLOADCARE_PUBLIC_KEY = "365183d9aac8664c369b";
 </script>
 <script charset="utf-8" src="//ucarecdn.com/libs/widget/3.5.1/uploadcare.full.min.js"></script>
-<input type="hidden" role="uploadcare-uploader" name="content"
+<input type="hidden" role="uploadcare-uploader" name="Logotipo"
        data-crop="disabled"
        data-images-only="true" />
 <p>E-mail<span style="color: #f00;">*</span></p><input class="cadastroinput" type="email" name="Email" placeholder="contato@guiagaucho.com"/>
 <input type="hidden" name="_subject" value="Guia Gaúcho Cadastro" /><input type="hidden" name="_next" value="//www.guiagaucho.com/bem-vindo/" />
 <input type="submit" value="Enviar"/>
 </form></div>
-      
+<!--FORMULARIO DESTAQUE-->
 <div id="cadastrodestaque" class="formulariocadastrodestaque">
 <form action="https://formspree.io/contato@guiagaucho.com" method="POST">
-<p>Nome da Empresa<span style="color: #f00;">*</span></p><input class="cadastroinput" type="text" name="Nome" placeholder="Nome do Negócio"/>
-<p>Descrição</p><textarea class="cadastrotextarea" name="Descrição" placeholder="Descrição dos serviços prestados pela empresa"></textarea>
-<p>Cidade<span style="color: #f00;">*</span></p><input class="cadastroinput" name="Cidade" placeholder="Santa Maria - RS"/>
-<p>Endereço<span style="color: #f00;">*</span></p><input class="cadastroinput" name="Endereço" placeholder="Rua Guia Gaúcho, 9999"/>
-<p>Telefone<span style="color: #f00;">*</span></p><input class="cadastroinput" name="Telefone" placeholder="(55) 9999-999"/> <input class="cadastroinput" name="Telefone" placeholder="(55) 9999-999"/> <input class="cadastroinput" name="Telefone" placeholder="(55) 9999-999"/>
+<p>Nome da Empresa<span style="color: #f00;">*</span></p><input class="cadastroinput" type="text" name="Nome Destaque" placeholder="Nome do Negócio"/>
+<p>Descrição</p><textarea class="cadastrotextarea" name="Descrição Destaque" placeholder="Descrição dos serviços prestados pela empresa"></textarea>
+<p>Cidade<span style="color: #f00;">*</span></p><input class="cadastroinput" name="Cidade Destaque" placeholder="Santa Maria - RS"/>
+<p>Endereço<span style="color: #f00;">*</span></p><input class="cadastroinput" name="Endereço Destaque" placeholder="Rua Guia Gaúcho, 9999"/>
+<p>Telefone<span style="color: #f00;">*</span></p><input class="cadastroinput" name="Telefone Destaque" placeholder="(55) 9999-999"/> <input class="cadastroinput" name="Telefone Destaque" placeholder="(55) 9999-999"/> <input class="cadastroinput" name="Telefone Destaque" placeholder="(55) 9999-999"/>
 <p>Logotipo</p>
-<input type="hidden" role="uploadcare-uploader" name="content"
+<input type="hidden" role="uploadcare-uploader" name="Logotipo Destaque"
        data-crop="disabled"
        data-images-only="true" />
-<p>E-mail<span style="color: #f00;">*</span></p><input class="cadastroinput" type="email" name="Email" placeholder="contato@guiagaucho.com"/>
+<p>E-mail<span style="color: #f00;">*</span></p><input class="cadastroinput" type="email" name="Email Destaque" placeholder="contato@guiagaucho.com"/>
 <input type="hidden" name="_subject" value="Guia Gaúcho Cadastro" /><input type="hidden" name="_next" value="//www.guiagaucho.com/finalizar-cadastro/" />
 <input type="submit" value="Enviar"/>
 </form></div>
