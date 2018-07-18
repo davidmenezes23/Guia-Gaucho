@@ -4,7 +4,7 @@
   {% include head.html %}
   {% include pagecadastrodescription.html %}
   </head>
-  <body>
+  <body style="background-color:#00ab3a">
 <header class="site-header">
 <div class='headercabecalho'>
 <a href='{{ site.url }}'><img alt='Guia Gaúcho Logotipo' class='imagelogo' src='{{ site.url }}/assets/img/images/Guia-Gaucho-logo.png'/></a>
@@ -20,24 +20,6 @@
   </div>
   </div>
 </div>
-<div class="pesquisatermo3">
-<div class="pesquisatermo2" id="search-demo-container">
-<input type="text" class="pesquisatermo" id="search-input" placeholder="Buscar...">
-<ul class="resultados" id="results-container"></ul>
-</div>
-</div>
-<script>
-      window.simpleJekyllSearch = new SimpleJekyllSearch({
-        searchInput: document.getElementById('search-input'),
-        resultsContainer: document.getElementById('results-container'),
-        json: '{{ site.baseurl }}/_pages/uruguaiana.json',
-        searchResultTemplate: '<a class="searchlink" href="{url}"><li class="searchli">{title}</li></a>',
-        noResultsText: 'No results found',
-        limit: 10,
-        fuzzy: false,
-        exclude: ['Welcome']
-      })
-</script> 
 </header>
 <div class="content">
       {{ content }}
