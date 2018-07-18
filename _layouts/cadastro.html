@@ -28,37 +28,37 @@
 
 
 <!-- FAIXA 1 -->
-<div style="background-color:#00ab3a;padding:60px 15% 100px 15%;">
-<div style="width:60%;display:inline-block;vertical-align:middle;">
+<div class="cadastrofaixa1">
+<div class="cadastrofaixa1div1">
 <p style="font-size:40px;color:#fff;margin:0px;">Aumente sua visibilidade online!</p><br/>
 <p style="font-size:20px;color:#fff;margin:0px;">Com o Guia Gaúcho você aumenta a visibilidade do seu negócio trazendo diversos beneficios para o mesmo.</p>
 <div style="text-align:center;"><a href="#planos"><button class="cadastrobotao2">CADASTRAR</button></a></div></div>
-<div style="width:39%;display:inline-block;vertical-align:middle;"><img src="https://4.bp.blogspot.com/-C-EJui1lJK8/WVbequh_dsI/AAAAAAAAAEA/8wyjRQZGuiQKm7L1DctjpyinTs4i5blCACLcBGAs/s400/localizacao.png" width="100%" /></div>
+<div class="cadastrofaixa1div2"><img src="https://4.bp.blogspot.com/-C-EJui1lJK8/WVbequh_dsI/AAAAAAAAAEA/8wyjRQZGuiQKm7L1DctjpyinTs4i5blCACLcBGAs/s400/localizacao.png" width="100%" /></div>
 </div>
 <!-- FAIXA 2 -->
-<div style="background-color:#fff;padding:20px 15% 20px 15%;">
-<div style="width:33%;display:inline-block;vertical-align:top;text-align:center;">
+<div class="cadastrofaixa2">
+<div class="cadastrofaixa2divs">
 <img src="https://i.imgur.com/LR5OHlP.png" width="100px"/>
 <p style="font-size:20px;color:#00ab3a;margin:0px;">Milhões<br/>
 de acessos mensais</p>
 </div>
-<div style="width:33%;display:inline-block;vertical-align:top;text-align:center;">
+<div class="cadastrofaixa2divs">
 <img src="https://i.imgur.com/7Y9vcZF.png" width="100px"/>
 <p style="font-size:20px;color:#00ab3a;margin:0px;">Marketing<br/>
 Gratuito</p>
 </div>
-<div style="width:33%;display:inline-block;vertical-align:top;text-align:center;">
+<div class="cadastrofaixa2divs">
 <img src="https://i.imgur.com/JCL3xsI.png" width="100px"/>
 <p style="font-size:20px;color:#00ab3a;margin:0px;">467 cidades do<br/>
 Rio Grande do Sul</p>
 </div>
 </div>
 <!-- FAIXA 3 -->
-<div style="background-color:#252525;padding:20px 15% 24px 15%;">
-<div style="width:60%;display:inline-block;vertical-align:middle;">
+<div class="cadastrofaixa3">
+<div class="cadastrofaixa3div1">
 <img src="https://i.imgur.com/0P3bF5G.png" width="100%"/>
 </div>
-<div style="width:39%;display:inline-block;vertical-align:middle;">
+<div class="cadastrofaixa3div2">
 <p style="font-size:30px;color:#fff;margin:0px;">O cadastro no Guia Gaúcho proporciona:</p><br/>
 <p style="font-size:20px;color:#fff;margin:0px;">- Marketing e divulgação gratuita<br/>
 - Aumento na quantidade de clientes<br/>
@@ -68,7 +68,7 @@ Rio Grande do Sul</p>
 </div>
 </div>
 <!-- FAIXA 4 -->
-<div style="background-color:#efefef;padding:20px 15% 24px 15%;" id="planos">
+<div class="cadastrofaixa4" id="planos">
 <!-- PLANO GRATIS -->
 <div style="width:43%;background-color:#fff;display:inline-block;padding:2%;border:solid 1px #d2d2d2;">
 <div style="text-align:center;"><p style="margin:0px;font-size:20px;font-weight:bold;color:#252525;">Cadastro Básico</p></br>
@@ -109,6 +109,19 @@ Rio Grande do Sul</p>
 </div>
 
 <style>
+  .cadastrofaixa1{background-color:#00ab3a;padding:60px 15% 100px 15%;}
+  .cadastrofaixa1div1{width:60%;display:inline-block;vertical-align:middle;}
+  .cadastrofaixa1div2{width:39%;display:inline-block;vertical-align:middle;}
+
+  .cadastrofaixa2{background-color:#fff;padding:20px 15% 20px 15%;}
+  .cadastrofaixa2divs{width:33%;display:inline-block;vertical-align:top;text-align:center;}
+  
+  .cadastrofaixa3{background-color:#252525;padding:20px 15% 24px 15%;}
+  .cadastrofaixa3div1{width:60%;display:inline-block;vertical-align:middle;}
+  .cadastrofaixa3div2{width:39%;display:inline-block;vertical-align:middle;}
+  
+  .cadastrofaixa4{background-color:#efefef;padding:20px 15% 24px 15%;}
+  
   .cadastrolistaitens1{margin:3px 0px 3px 0px;font-size:15px;font-weight:bold;color:#252525;}
   .cadastrolistaitens2{margin:3px 0px 3px 0px;text-decoration:line-through;font-size:15px;font-weight:bold;color:#252525;}
   .cadastrolistaitens3{margin:3px 0px 3px 0px;font-size:15px;color:#fff;font-weight:bold;}
@@ -116,6 +129,14 @@ Rio Grande do Sul</p>
   .cadastrobotao1:hover{background-color:#00ab3a;color:#fff;cursor:pointer;}
   .cadastrobotao2{margin:10px;border:solid 1px #d2d2d2;background-color:#fff;color:#00ab3a;padding:7px;border-radius:4px;font-weight:bold;font-size:20px;}
   .cadastrobotao2:hover{color:#252525;cursor:pointer;}
+
+@media only screen and (max-width: 500px){
+  .cadastrofaixa1div1{width:100%;display:inline-block;vertical-align:middle;}
+  .cadastrofaixa1div2{width:100%;display:inline-block;vertical-align:middle;}
+  .cadastrofaixa2divs{width:100%;display:inline-block;vertical-align:top;text-align:center;}
+  .cadastrofaixa3div1{width:100%;display:inline-block;vertical-align:middle;}
+  .cadastrofaixa3div2{width:100%;display:inline-block;vertical-align:middle;}
+  }
 </style>
 
 
