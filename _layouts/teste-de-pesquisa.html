@@ -7,9 +7,11 @@
     </div>
   </div>
     <script>
-      var variavel = url_.searchParams.get("pesquisa");
+$(function() {
+var variavel = url_.searchParams.get("pesquisa");
 $("#search-input").val(variavel); // #categoria é o ID do select
-            var url_ = new URL(location.href);
+});    
+var url_ = new URL(location.href);
 var nomedacidade = url_.searchParams.get("cidade");
       window.simpleJekyllSearch = new SimpleJekyllSearch({
         searchInput: document.getElementById('search-input'),
