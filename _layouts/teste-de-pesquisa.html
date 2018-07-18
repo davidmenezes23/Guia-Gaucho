@@ -1,0 +1,20 @@
+  <div class="pesquisatermo3">
+      <div class="pesquisatermo2" id="search-demo-container">
+      <input type="text" class="pesquisatermo" id="search-input" placeholder="Buscar...">
+      <ul class="resultados" id="results-container"></ul>
+    </div>
+  </div>
+    <script>
+    var url_ = new URL(location.href);
+var nomedacidade = url_.searchParams.get("cidade");
+      window.simpleJekyllSearch = new SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        json: '{{ site.baseurl }}/_pages/ + 'url_.searchParams.get("cidade")' + .json',
+        searchResultTemplate: '<a class="searchlink" href="{url}"><div class="searchresuk"><img class="thumbpesquisa" src="https://www.guiagaucho.com/{thumb}"/><li class="searchli">{title}</li></div></a>',
+        noResultsText: 'No results found',
+        limit: 10,
+        fuzzy: false,
+        exclude: ['Welcome']
+      })
+    </script>
