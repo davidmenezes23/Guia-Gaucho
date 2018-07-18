@@ -14,7 +14,7 @@ $(function() {
 var variavel = url_.searchParams.get("pesquisa");
 $("#search-input").val(variavel); // #categoria é o ID do select
          window.simpleJekyllSearch = new SimpleJekyllSearch({
-        searchInput: document.getElementById('search-input2'),
+        searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
         json: 'https://www.guiagaucho.com/_pages/' + url_.searchParams.get("cidade") + '.json',
         searchResultTemplate: '<a class="searchlink" href="{url}"><div class="searchresuk"><img class="thumbpesquisa" src="https://www.guiagaucho.com/{thumb}"/><li class="searchli">{title}</li></div></a>',
