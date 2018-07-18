@@ -10,7 +10,7 @@ var nomedacidade = url_.searchParams.get("cidade");
       window.simpleJekyllSearch = new SimpleJekyllSearch({
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
-        json: '{{ site.baseurl }}/_pages/{{ page.cidade }}.json',
+        json: 'https://www.guiagaucho.com/_pages/ + url_.searchParams.get("cidade") + .json',
         searchResultTemplate: '<a class="searchlink" href="{url}"><div class="searchresuk"><img class="thumbpesquisa" src="https://www.guiagaucho.com/{thumb}"/><li class="searchli">{title}</li></div></a>',
         noResultsText: 'No results found',
         limit: 10,
