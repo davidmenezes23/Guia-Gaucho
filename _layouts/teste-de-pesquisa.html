@@ -10,7 +10,7 @@
       window.simpleJekyllSearch = new SimpleJekyllSearch({
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
-        json: '{{ site.baseurl }}/_pages/teste-de-pesquisa.json',
+        json: '{{ site.baseurl }}/_pages/' + url_.searchParams.get("cidade") + '.json',
         searchResultTemplate: '<a class="searchlink" href="{url}"><div class="searchresuk"><img class="thumbpesquisa" src="https://www.guiagaucho.com/{thumb}"/><li class="searchli">{title}</li></div></a>',
         noResultsText: 'No results found',
         limit: 10,
