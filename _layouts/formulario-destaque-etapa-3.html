@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+  {% include head.html %}
+  {% include pagecadastrodescription.html %}
+  </head>
+  <body style="background-color:#00ab3a;background-image:none;scroll-behavior:smooth;">
+<header class="site-header">
+<div class="headercabecalho" style="background-color:#00000036">
+<a href='{{ site.url }}'><img alt='Guia Gaúcho Logotipo' class='imagelogo' src='{{ site.url }}/assets/img/images/Guia-Gaucho-logo.png'/></a>
+<div class='menuheader'>
+<div class='menuitem'>
+<a href='{{ site.baseurl }}/cadastro/' style='text-decoration:none;color:#fff;'>Cadastro</a>
+  </div>
+<div class='menuitem'>
+<a href='{{ site.baseurl }}/sobre/' style='text-decoration:none;color:#fff;'>Sobre</a>
+  </div>
+<div class='menuitem'>
+<a href='{{ site.baseurl }}/contato/' style='text-decoration:none;color:#fff;'>Contato</a>
+  </div>
+  </div>
+</div>
+</header>
+<div class="content">
+      {{ content }}
+    </div>
+  </body>
+</html>
+
+
+<!-- FAIXA 1 -->
+<div style="background-color:#00ab3a;padding:60px 15% 100px 15%;">
+<div style="width:96%;display:inline-block;vertical-align:middle;text-align:center;padding:2%;">
+<img src="https://www.guiagaucho.com/assets/img/images/basico-etapa-2.png" width="50%"><br/>
+</div>
+</div>
+<!-- FAIXA 2 -->
+<div style="background-color:#efefef;padding:20px 15% 24px 15%;" id="planos">
+<div style="width:96%;background-color:#fff;display:inline-block;padding:2%;border:solid 1px #d2d2d2;">
+<p style="color:#252525;font-size:20px;text-indent:2em;margin:0px;">Bem-Vindo ao Guia Gaúcho, em breve seus dados serão analisados e cadastrados em nosso site; assim que o seu cadastro estiver pronto, entraremos em contato através do e-mail cadastrado.</p>
+<p style="color:#252525;font-size:20px;text-indent:2em;margin:0px;">Logo seu negócio estará cadastrado e aparecerá para milhares de pessoas através da pagina da sua cidade dentro do Guia Gaúcho. Aproveite para navegar através do site e conferir oque a nossa plataforma oferece para você.</p>
+<p style="color:#252525;font-size:20px;text-indent:2em;margin:0px;">Em caso de dúvidas entre em contato através do e-mail: <b>contato@guiagaucho.com</b></p>
+</div>
+</div>
+
+
+<style>
+  .cadastrolistaitens1{margin:3px 0px 3px 0px;font-size:15px;font-weight:bold;color:#252525;}
+  .cadastrolistaitens2{margin:3px 0px 3px 0px;text-decoration:line-through;font-size:15px;font-weight:bold;color:#252525;}
+  .cadastrolistaitens3{margin:3px 0px 3px 0px;font-size:15px;color:#fff;font-weight:bold;}
+  .cadastrobotao1{margin:10px;border:solid 1px #d2d2d2;background-color:#252525;color:#fff;padding:7px;border-radius:4px;font-weight:bold;font-size:20px;}
+  .cadastrobotao1:hover{background-color:#00ab3a;color:#fff;cursor:pointer;}
+  .cadastrobotao2{margin:10px;border:solid 1px #d2d2d2;background-color:#fff;color:#00ab3a;padding:7px;border-radius:4px;font-weight:bold;font-size:20px;}
+  .cadastrobotao2:hover{color:#252525;cursor:pointer;}
+</style>
+
+
+     {% include footer.html %}
