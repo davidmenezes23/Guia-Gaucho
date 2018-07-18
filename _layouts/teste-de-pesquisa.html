@@ -2,11 +2,13 @@
 
 <div class="pesquisatermo3">
       <div class="pesquisatermo2" id="search-demo-container">
-      <input type="text" class="pesquisatermo" id="search-input" value="url_.searchParams.get("cidade")">
+      <input type="text" class="pesquisatermo" id="search-input" value="teste">
       <ul class="resultados" id="results-container"></ul>
     </div>
   </div>
     <script>
+      var variavel = url_.searchParams.get("pesquisa");
+$("#search-input").val(variavel); // #categoria é o ID do select
             var url_ = new URL(location.href);
 var nomedacidade = url_.searchParams.get("cidade");
       window.simpleJekyllSearch = new SimpleJekyllSearch({
