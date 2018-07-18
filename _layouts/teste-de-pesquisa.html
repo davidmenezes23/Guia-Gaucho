@@ -4,8 +4,20 @@
       <ul class="resultados" id="results-container"></ul>
     </div>
   </div>
-    <script>
-    var url_ = new URL(location.href);
+    <script>      
+      window.simpleJekyllSearch = new SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        json: 'https://www.guiagaucho.com/_pages/teste-de-pesquisa.json',
+        searchResultTemplate: '<a class="searchlink" href="{url}"><div class="searchresuk"><img class="thumbpesquisa" src="https://www.guiagaucho.com/{thumb}"/><li class="searchli">{title}</li></div></a>',
+        noResultsText: 'No results found',
+        limit: 10,
+        fuzzy: false,
+        exclude: ['Welcome']
+      })
+    </script>
+<script>
+      var url_ = new URL(location.href);
 var nomedacidade = url_.searchParams.get("cidade");
       
       var getUrlParameter = function getUrlParameter(sParam) {
@@ -22,15 +34,4 @@ var nomedacidade = url_.searchParams.get("cidade");
         }
     }
 };
-      
-      window.simpleJekyllSearch = new SimpleJekyllSearch({
-        searchInput: document.getElementById('search-input'),
-        resultsContainer: document.getElementById('results-container'),
-        json: 'https://www.guiagaucho.com/_pages/teste-de-pesquisa.json',
-        searchResultTemplate: '<a class="searchlink" href="{url}"><div class="searchresuk"><img class="thumbpesquisa" src="https://www.guiagaucho.com/{thumb}"/><li class="searchli">{title}</li></div></a>',
-        noResultsText: 'No results found',
-        limit: 10,
-        fuzzy: false,
-        exclude: ['Welcome']
-      })
-    </script>
+</script>
