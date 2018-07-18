@@ -7,13 +7,12 @@
     </div>
   </div>
     <script>
+var url_ = new URL(location.href);
+var nomedacidade = url_.searchParams.get("cidade");
 $(function() {
 var variavel = url_.searchParams.get("pesquisa");
 $("#search-input").val(variavel); // #categoria é o ID do select
-});    
-var url_ = new URL(location.href);
-var nomedacidade = url_.searchParams.get("cidade");
-      window.simpleJekyllSearch = new SimpleJekyllSearch({
+});          window.simpleJekyllSearch = new SimpleJekyllSearch({
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
         json: 'https://www.guiagaucho.com/_pages/' + url_.searchParams.get("cidade") + '.json',
