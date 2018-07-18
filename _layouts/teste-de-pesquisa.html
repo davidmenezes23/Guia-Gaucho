@@ -7,10 +7,26 @@
     <script>
     var url_ = new URL(location.href);
 var nomedacidade = url_.searchParams.get("cidade");
+      
+      var getUrlParameter = function getUrlParameter(sParam) {
+    var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+        sURLVariables = sPageURL.split('&'),
+        sParameterName,
+        i;
+
+    for (i = 0; i < sURLVariables.length; i++) {
+        sParameterName = sURLVariables[i].split('=');
+
+        if (sParameterName[0] === sParam) {
+            return sParameterName[1] === undefined ? true : sParameterName[1];
+        }
+    }
+};
+      
       window.simpleJekyllSearch = new SimpleJekyllSearch({
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
-        json: "https://www.guiagaucho.com/_pages/" + url_.searchParams.get("cidade") + ".json",
+        json: 'https://www.guiagaucho.com/_pages/' + getUrlParameter('cidade'); + '.json',
         searchResultTemplate: '<a class="searchlink" href="{url}"><div class="searchresuk"><img class="thumbpesquisa" src="https://www.guiagaucho.com/{thumb}"/><li class="searchli">{title}</li></div></a>',
         noResultsText: 'No results found',
         limit: 10,
