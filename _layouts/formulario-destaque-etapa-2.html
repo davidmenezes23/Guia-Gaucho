@@ -4,9 +4,9 @@
   {% include head.html %}
   {% include pagecadastrodescription.html %}
   </head>
-  <body style="background-color:#00ab3a;background-image:none;scroll-behavior:smooth;">
+  <body style="background-size:36%;">
 <header class="site-header">
-<div class="headercabecalho" style="background-color:#00000036">
+<div class="headercabecalho">
 <a href='{{ site.url }}'><img alt='Guia Gaúcho Logotipo' class='imagelogo' src='{{ site.url }}/assets/img/images/Guia-Gaucho-logo.png'/></a>
 <div class='menuheader'>
 <div class='menuitem'>
@@ -61,6 +61,7 @@
   .cadastrobotao2:hover{color:#252525;cursor:pointer;}
   .cadastroimagem{width:50%;}
 @media only screen and (max-width: 500px){
+  body{background-size:148%;}
   .cadastroimagem{width:100%;}
   }
 </style>
