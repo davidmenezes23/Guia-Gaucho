@@ -12,7 +12,7 @@ var nomedacidade = url_.searchParams.get("cidade");
 $(function() {
 var variavel = url_.searchParams.get("pesquisa");
 $("#search-input").val(variavel); // #categoria é o ID do select
-});          window.simpleJekyllSearch = new SimpleJekyllSearch({
+         window.simpleJekyllSearch = new SimpleJekyllSearch({
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
         json: 'https://www.guiagaucho.com/_pages/' + url_.searchParams.get("cidade") + '.json',
@@ -22,22 +22,5 @@ $("#search-input").val(variavel); // #categoria é o ID do select
         fuzzy: false,
         exclude: ['Welcome']
       })
+  }); 
     </script>
-<script>
-
-      
-      var getUrlParameter = function getUrlParameter(sParam) {
-    var sPageURL = decodeURIComponent(window.location.search.substring(1)),
-        sURLVariables = sPageURL.split('&'),
-        sParameterName,
-        i;
-
-    for (i = 0; i < sURLVariables.length; i++) {
-        sParameterName = sURLVariables[i].split('=');
-
-        if (sParameterName[0] === sParam) {
-            return sParameterName[1] === undefined ? true : sParameterName[1];
-        }
-    }
-};
-</script>
