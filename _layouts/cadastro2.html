@@ -5,7 +5,7 @@ layout: defaulthome
 <div class="escolha">
 <h1 class="tituloh1">Lista Telefônica</h1><br/>  
     <div class="row-fluid">
-      <select class="selectpicker" data-live-search="true" value="teste">
+      <select class="selectpicker" data-live-search="true" value="teste" onchange="function cidade()">
         <option disabled selected>Onde você procura?</option>
         <option value="barao/">Barão</option>
         <option value="rosario-do-sul/">Rosário do Sul</option>
@@ -18,7 +18,12 @@ layout: defaulthome
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.3/js/bootstrap-select.min.js"></script>
-  
+  <script type="text/javascript">
+function cidade()
+{
+window.location = value;
+}
+</script>
   
   
 </div>
