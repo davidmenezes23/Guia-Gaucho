@@ -5,9 +5,9 @@ layout: defaulthome
 <div class="escolha">
 <h1 class="tituloh1">Lista Telefônica</h1><br/>  
     <div class="row-fluid">
-      <select id="menu" class="selectpicker" data-live-search="true" value="teste" onchange="cidade()">
+      <select id="menu" class="selectpicker" data-live-search="true" value="teste">
         <option disabled selected>Onde você procura?</option>
-        <option value="https://www.guiagaucho.com/barao/">Barão</option>
+        <option data-content="<span class='label label-success'><a href="https://www.guiagaucho.com/barao/">Relish</a></span>"Barão</option>
         <option value="rosario-do-sul/">Rosário do Sul</option>
         <option value="santa-cruz-do-sul/">Santa Cruz do Sul</option>
         <option value="santa-maria/">Santa Maria</option>
@@ -18,13 +18,6 @@ layout: defaulthome
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.3/js/bootstrap-select.min.js"></script>
-  <script type="text/javascript">
-function cidade()
-{
-var cidade = document.getElementById("menu").value;
-window.location = value;
-}
-</script>
 <style>
     /*!
  * Bootstrap v3.2.0 (http://getbootstrap.com)
