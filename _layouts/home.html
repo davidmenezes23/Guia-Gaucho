@@ -51,10 +51,6 @@ margin: 0px;
 </style>
 <script>
 function myFunction() {
-    public static String removeDiacriticalMarks(String string) {
-    return Normalizer.normalize(string, Form.NFD)
-        .replaceAll("\\p{InCombiningDiacriticalMarks}+", "");
-}
     var input, filter, ul, li, a, i;
     input = document.getElementById("myInput");
     filter = input.value.toUpperCase();
