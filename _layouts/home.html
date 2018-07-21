@@ -4,18 +4,67 @@ layout: defaulthome
 <div class="escolha2">
 <div class="escolha">
 <h1 class="tituloh1">Lista Telefônica</h1><br/>
-  <button class="escolhabotao">Escolha a cidade</button>
-  <div class="escolha-content">
-    <!--a href="alegrete/">Alegrete</a-->
-    <a href="barao/">Barão</a>
-    <a href="rosario-do-sul/">Rosário do Sul</a>
-    <a href="santa-cruz-do-sul/">Santa Cruz do Sul</a>
-    <a href="santa-maria/">Santa Maria</a>
-    <a href="santana-do-livramento/">Santana do Livramento</a>
-    <a href="uruguaiana/">Uruguaiana</a>
-  </div>
-</div>
-</div>
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Onde você procura?" title="Type in a name" class="botao" onClick="document.getElementById('myUL').style.display = 'block';">
+<ul id="myUL" class="escolha-content">
+<li><a href="barao/">Barão</a></li>
+<li><a href="rosario-do-sul/">Rosário do Sul</a></li>
+<li><a href="santa-cruz-do-sul/">Santa Cruz do Sul</a></li>
+<li><a href="santa-maria/">Santa Maria</a></li>
+<li><a href="santana-do-livramento/">Santana do Livramento</a></li>
+<li><a href="uruguaiana/">Uruguaiana</a></li>
+</ul>
+<style>
+body{
+font-family: Arial;
+}
+::placeholder {
+    color: #fff;
+    }
+.botao{
+    background-color: #00ab3a;
+    color: #fff;
+    width: 100%;
+    padding: 16px;
+    font-size: larger;
+    border: none;
+    cursor: pointer;
+    }
+.escolha-content {
+	display:none;
+    background-color: #f9f9f9;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    list-style: none;
+    padding: 0px;
+}
+.escolha-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+    }
+    ul {
+    
+    }
+</style>
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>
 
 
 <h2 class="coluna2titulo2"><b>Anúncio</b></h2>
