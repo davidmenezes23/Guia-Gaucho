@@ -162,14 +162,14 @@ textarea{border-style:none;box-shadow:1px 1px 6px #00000057;font-size:medium;res
 	var postsNumero = ["{{ site.tags.[page.tag] | size }}"];
 	var postsDescricao = [{% for post in site.tags.[page.tag] %}"{{ post.excerpt | remove: '<p>' | remove: '</p>' | remove: '
 ' }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
-    var postsEstrela = [{% for post in site.tags.[page.tag] %}{% if post.estrelas %}"{% include star-rating.html rating=2 %}"{% endif %}{% unless forloop.last %},{% endunless %}{% endfor %}];	
+    var postsEstrela = [{% for post in site.tags.[page.tag] %}{% if post.estrelas %}"{{ post.estrelas }}"{% endif %}{% unless forloop.last %},{% endunless %}{% endfor %}];	
     var postsHREFD = [{% for post in site.tags.[page.category] %}"{{ post.url }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
     var postsTitleD = [{% for post in site.tags.[page.category] %}"{{ post.title }}"{% unless forloop.last %},{% endunless %}{% endfor %}];	
 	var postsMiniaturaD = [{% for post in site.tags.[page.category] %}{% if post.thumbnail %}"{{ post.thumbnail }}"{% endif %}{% unless forloop.last %},{% endunless %}{% endfor %}];
 	var postsNumeroD = ["{{ site.tags.[page.category] | size }}"];
 	var postsDescricaoD = [{% for post in site.tags.[page.category] %}"{{ post.excerpt | remove: '<p>' | remove: '</p>' | remove: '
 ' }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
-    var postsEstrelaD = [{% for post in site.tags.[page.category] %}{% if post.estrelas %}"{% include star-rating.html rating=2 %}"{% endif %}{% unless forloop.last %},{% endunless %}{% endfor %}];	
+    var postsEstrelaD = [{% for post in site.tags.[page.category] %}{% if post.estrelas %}"{{ post.estrelas }}"{% endif %}{% unless forloop.last %},{% endunless %}{% endfor %}];	
 </script>
 <!-- Facebook Pixel Code -->
 <script>
