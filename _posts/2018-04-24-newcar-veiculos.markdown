@@ -7,7 +7,7 @@ permalink: /:categories/:title.html
 categories: [santa-maria]
 tags: santamaria santamariaautomovel
 cidade: ["Santa Maria"]
-estrelas: {% include star-rating.html rating=2 %}
+estrelas: '{% include star-rating.html rating=2 %}'
 ---	
 <!-- more --><br />
 <br/>
