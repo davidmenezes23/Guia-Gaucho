@@ -23,4 +23,4 @@ Produtos: Mármores, Granitos, Siletones, Pedras decorativas.<br />
 <br />
 <div style="font-size: larger; text-align: center;">
 Localização</div>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3452.141696259262!2d-57.23308368565965!3d-30.090127981865727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94535b210111482d%3A0x41f9e4eb20a52566!2sMarmoraria+Moraes!5e0!3m2!1spt-BR!2sbr!4v1533137666082" width="1005" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3452.141696259262!2d-57.23308368565965!3d-30.090127981865727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94535b210111482d%3A0x41f9e4eb20a52566!2sMarmoraria+Moraes!5e0!3m2!1spt-BR!2sbr!4v1533137666082" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
