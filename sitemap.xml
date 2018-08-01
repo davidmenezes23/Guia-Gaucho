@@ -406,6 +406,18 @@
     </image:image> 
   </url>
   <url>
+    <loc>https://www.guiagaucho.com/uruguaiana/hiper-cursos-formacao-profissional.html</loc> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/hiper-cursos-formacao-profissional.png</image:loc>
+    </image:image> 
+  </url>
+  <url>
+    <loc>https://www.guiagaucho.com/uruguaiana/moraes-marmoaria.html</loc> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/moraes-marmoaria.png</image:loc>
+    </image:image> 
+  </url>
+  <url>
     <loc>https://www.guiagaucho.com/santa-maria/</loc> 
   </url>
   <url>
@@ -682,6 +694,12 @@
     </image:image> 
   </url>
   <url>
+    <loc>https://www.guiagaucho.com/santa-maria/tagarra-acessoria-imobiliaria.html</loc> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/tagarra-acessoria-imobiliaria.png</image:loc>
+    </image:image> 
+  </url>
+  <url>
     <loc>https://www.guiagaucho.com/santana-do-livramento/</loc> 
   </url>
   <url>
@@ -842,6 +860,12 @@
   </url>
   <url>
     <loc>https://www.guiagaucho.com/rosario-do-sul/turismo/</loc> 
+  </url>
+  <url>
+    <loc>https://www.guiagaucho.com/rosario-do-sul/sadds-maquinas.html</loc> 
+    <image:image>
+      <image:loc>https://www.guiagaucho.com/assets/img/thumbnails/sadds-maquinas.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://www.guiagaucho.com/santa-cruz-do-sul/</loc> 
