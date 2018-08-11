@@ -20,6 +20,8 @@
 .topnav .icon {
   display: none;
 }
+  .imagelogo {width:300px;display:inline-block;}
+  .imagelogoheader {float:left;}
 @media screen and (max-width: 500px) {
   .topnav a{display: none;}
   .topnav a.icon {
@@ -41,8 +43,9 @@
   }
 }
 </style>
+<div>
+<a class="imagelogoheader" href='{{ site.url }}'><img alt='Guia Gaúcho Logotipo' class='imagelogo' src='{{ site.url }}/assets/img/images/Guia-Gaucho-logo.png'/></a>
 <div class="topnav" id="myTopnav">
-  <a href='{{ site.url }}'><img alt='Guia Gaúcho Logotipo' class='imagelogo' src='{{ site.url }}/assets/img/images/Guia-Gaucho-logo.png'/></a>
   <a href="{{ site.url }}/{{ page.categories }}/" style='text-decoration:none;color:#fff;text-shadow: 2px 2px 3px #00000080;'>Inicio</a>
   <a href="{{ site.baseurl }}/cadastro/" style='text-decoration:none;color:#fff;text-shadow: 2px 2px 3px #00000080;'>Cadastro</a>
   <a href="{{ site.baseurl }}/sobre/" style='text-decoration:none;color:#fff;text-shadow: 2px 2px 3px #00000080;'>Sobre</a>
@@ -51,7 +54,7 @@
     <i class="fa fa-bars"></i>
   </a>
 </div>
-
+</div>
 <script>
 function myFunctionNav() {
     var x = document.getElementById("myTopnav");
