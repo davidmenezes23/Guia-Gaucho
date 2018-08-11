@@ -10,7 +10,7 @@
 <div class='menuitem'>
 <a href='{{ site.baseurl }}/contato/' style='text-decoration:none;color:#fff;text-shadow: 2px 2px 3px #00000080;'>Contato</a>
   </div>
-<div class='menuitem2'>
+<div class='menuitem2' onclick="myTopnavfunction()">
 <i class="fas fa-bars"></i>
    </div>
   </div>
@@ -27,7 +27,7 @@
 }
 </style>
 <script>
-function myFunction() {
+function myTopnavfunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
         x.className += " responsive";
