@@ -4,7 +4,7 @@ layout: defaulthome
 <div class="escolha2">
 <a href="https://www.guiagaucho.com"><img alt="Guia Gaúcho Logotipo" title="Guia Gaúcho Logotipo" class="imagelogo" src="https://www.guiagaucho.com/assets/img/images/Guia-Gaucho-logo.png"></a>
 <br/>
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Onde você procura?" title="Type in a name" class="botao" onClick="document.getElementById('myUL').style.display = 'block';">
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Onde você procura?" title="Type in a name" class="botao" onClick="document.getElementById('myUL').style.display = 'inline-block';">
 <ul id="myUL" class="escolha-content">
 <li><a href="barao/">Barão</a></li>
 <li><a href="rosario-do-sul/">Rosário do Sul</a></li>
@@ -59,7 +59,7 @@ function myFunction() {
     for (i = 0; i < li.length; i++) {
         a = li[i].getElementsByTagName("a")[0];
         if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
-            li[i].style.display = "inline-block";
+            li[i].style.display = "";
         } else {
             li[i].style.display = "none";
         }
