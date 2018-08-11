@@ -175,7 +175,7 @@ $(window).scroll(function() {
   $('.cadastrofaixa1').css({
     opacity: function() {
       var elementHeight = $(this).height();
-      return 1 + (elementHeight - scrollTop) / elementHeight;
+      return (elementHeight - scrollTop) / elementHeight;
     }
   });
 });
