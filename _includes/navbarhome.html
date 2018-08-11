@@ -9,7 +9,10 @@
   text-decoration: none;
   font-size: x-large;
 }
-
+.topnav {
+  float:right;
+  width:100%;
+  }
 .active {
   background-color: #4CAF50;
   color: white;
@@ -41,7 +44,6 @@
   }
 }
 </style>
-<div style="width:100%;">
 <div class="topnav" id="myTopnav">
   <a href="{{ site.baseurl }}/cadastro/" style='text-decoration:none;color:#fff;text-shadow: 2px 2px 3px #00000080;'>Cadastro</a>
   <a href="{{ site.baseurl }}/sobre/" style='text-decoration:none;color:#fff;text-shadow: 2px 2px 3px #00000080;'>Sobre</a>
@@ -49,7 +51,6 @@
   <a href="javascript:void(0);" class="icon" onclick="myFunctionNav()">
     <i class="fa fa-bars"></i>
   </a>
-</div>
 </div>
 
 <script>
