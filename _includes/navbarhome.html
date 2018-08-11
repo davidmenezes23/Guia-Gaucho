@@ -10,10 +10,10 @@
 <div class='menuitem'>
 <a href='{{ site.baseurl }}/contato/' style='text-decoration:none;color:#fff;text-shadow: 2px 2px 3px #00000080;'>Contato</a>
   </div>
+  </div>
 <div class='menuitem2' onclick="myTopnavfunction()">
 <i class="fas fa-bars"></i>
    </div>
-  </div>
 </div>
 </header>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -22,15 +22,16 @@
 .menuheader{padding:2%;font-size:x-large;float:right;display:inline-block;vertical-align:bottom;}
 .menuitem{display:inline-block;width:fit-content;color:#fff;text-align:center;margin-left:40px;}
 .menuitem2{display:inline-block;width:fit-content;color:#fff;text-align:center;margin-left:40px;}
+.menuheaderresponsive{display:inline-block;}
 @media screen and (max-width: 500px) {
-.menuitem{display:none;}
+.menuheader{display:none;}
 }
 </style>
 <script>
 function myTopnavfunction() {
     var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
+    if (x.className === "menuheader") {
+        x.className += " menuheaderresponsive";
     } else {
         x.className = "topnav";
     }
