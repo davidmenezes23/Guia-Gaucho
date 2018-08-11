@@ -6,26 +6,7 @@
   </head>
   <body>
   {% include body.html %}
-<header class="site-header">
-<div class='headercabecalho'>
-<a href='{{ site.url }}'><img alt='Guia Gaúcho Logotipo' title='Guia Gaúcho Logotipo' class='imagelogo' src='{{ site.url }}/assets/img/images/Guia-Gaucho-logo.png'/></a>
-<div class='menuheader'>
-<div class='menuitem'>
-<a href='https://www.guiagaucho.com/{{ page.cidade }}/' style='text-decoration:none;color:#fff;'>Inicio</a>
-  </div>
-<div class='menuitem'>
-<a href='{{ site.baseurl }}/cadastro/' style='text-decoration:none;color:#fff;'>Cadastro</a>
-  </div>
-<div class='menuitem'>
-<a href='{{ site.baseurl }}/sobre/' style='text-decoration:none;color:#fff;'>Sobre</a>
-  </div>
-<div class='menuitem'>
-<a href='{{ site.baseurl }}/contato/' style='text-decoration:none;color:#fff;'>Contato</a>
-  </div>
-  </div>
-</div>
-  
-  
+  {% include navbar.html %}
   <div class="pesquisatermo3">
       <div class="pesquisatermo2" id="search-demo-container">
       <input type="text" class="pesquisatermo" id="search-input" placeholder="Buscar...">
@@ -44,8 +25,6 @@
         exclude: ['Welcome']
       })
     </script>
-  
-</header>
 <div class="content">
       {{ content }}
     </div>
