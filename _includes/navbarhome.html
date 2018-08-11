@@ -1,46 +1,3 @@
-<header class="site-header">
-<div class='headercabecalho'>
-  <div class='menuheader' id="myTopnav">
-<div class='menuitem'>
-<a href='{{ site.baseurl }}/cadastro/' style='text-decoration:none;color:#fff;text-shadow: 2px 2px 3px #00000080;'>Cadastro</a>
-  </div>
-<div class='menuitem'>
-<a href='{{ site.baseurl }}/sobre/' style='text-decoration:none;color:#fff;text-shadow: 2px 2px 3px #00000080;'>Sobre</a>
-  </div>
-<div class='menuitem'>
-<a href='{{ site.baseurl }}/contato/' style='text-decoration:none;color:#fff;text-shadow: 2px 2px 3px #00000080;'>Contato</a>
-  </div>
-  </div>
-<div class='menuitem2' onclick="myTopnavfunction()">
-<i class="fas fa-bars"></i>
-   </div>
-</div>
-</header>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-.headercabecalho{width:100%;height:100px;}
-.menuheader{padding:2%;font-size:x-large;float:right;display:inline-block;vertical-align:bottom;}
-.menuitem{display:inline-block;width:fit-content;color:#fff;text-align:center;margin-left:40px;}
-.menuitem2{display:inline-block;width:fit-content;color:#fff;text-align:center;margin-left:40px;}
-.menuheaderresponsive{display:inline-block;}
-@media screen and (max-width: 500px) {
-.menuheader{display:none;}
-}
-</style>
-<script>
-function myTopnavfunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "menuheader") {
-        x.className += " menuheaderresponsive";
-    } else {
-        x.className = "topnav";
-    }
-}
-</script>
-
-
-
-
 <style>
 .topnav a {
   padding:2%;
@@ -84,9 +41,6 @@ function myTopnavfunction() {
   }
 }
 </style>
-</head>
-<body>
-
 <div class="topnav" id="myTopnav">
   <a href="{{ site.baseurl }}/cadastro/" style='text-decoration:none;color:#fff;text-shadow: 2px 2px 3px #00000080;'>Cadastro</a>
   <a href="{{ site.baseurl }}/sobre/" style='text-decoration:none;color:#fff;text-shadow: 2px 2px 3px #00000080;'>Sobre</a>
