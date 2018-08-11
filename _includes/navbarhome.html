@@ -1,6 +1,6 @@
 <header class="site-header">
 <div class='headercabecalho'>
-  <div class='menuheader'>
+  <div class='menuheader' id="myTopnav">
 <div class='menuitem'>
 <a href='{{ site.baseurl }}/cadastro/' style='text-decoration:none;color:#fff;text-shadow: 2px 2px 3px #00000080;'>Cadastro</a>
   </div>
@@ -13,3 +13,21 @@
   </div>
 </div>
 </header>
+<style>
+.headercabecalho{width:100%;height:100px;}
+.menuheader{padding:2%;font-size:x-large;float:right;display:inline-block;vertical-align:bottom;}
+.menuitem{display:inline-block;width:fit-content;color:#fff;text-align:center;margin-left:40px;}
+@media screen and (max-width: 500px) {
+.menuitem{display:none;}
+}
+</style>
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
