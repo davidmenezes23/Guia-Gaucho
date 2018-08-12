@@ -3,7 +3,7 @@ baseurl: ""
 url: "https://www.guiagaucho.com"
 
 # THEME-SPECIFIC CONFIGURATION
-include: ["_pages","_json"]
+include: ["_pages","_json","json"]
 
 theme_settings:
   # Meta
