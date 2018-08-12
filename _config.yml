@@ -4,7 +4,6 @@ url: "https://www.guiagaucho.com"
 
 # THEME-SPECIFIC CONFIGURATION
 include: ["_pages"]
-include: ["_json"]
 
 theme_settings:
   # Meta
