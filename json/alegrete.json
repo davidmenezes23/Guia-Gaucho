@@ -1,6 +1,5 @@
 ---
 layout: null
-permalink: "https://www.guiagaucho.com/json/alegrete.json"
 ---
 [
   {% for post in site.tags.alegretedestaque %}
