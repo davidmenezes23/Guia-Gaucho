@@ -7,6 +7,9 @@ layout: null
 {% for post in site.posts %}
   <url>
     <loc>{{ post.url }}</loc> 
+    <image:image>
+      <image:loc>{{ page.feature-img }}</image:loc>
+    </image:image> 
   </url>
 {% endfor %}
 </urlset>
