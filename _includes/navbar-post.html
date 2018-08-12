@@ -1,40 +1,62 @@
-<header class="site-header">
-<div class='headercabecalho'>
-<a href='{{ site.url }}'><img alt='Guia Gaúcho Logotipo' class='imagelogo' src='{{ site.url }}/assets/img/images/Guia-Gaucho-logo.png'/></a>
-<div class='menuheader'>
-<div class='menuitem'>
-<a href='{{ site.url }}/{{ page.categories }}/' style='text-decoration:none;color:#fff;'>Inicio</a>
-  </div>
-<div class='menuitem'>
-<a href='{{ site.url }}/cadastro/' style='text-decoration:none;color:#fff;'>Cadastro</a>
-  </div>
-<div class='menuitem'>
-<a href='{{ site.url }}/sobre/' style='text-decoration:none;color:#fff;'>Sobre</a>
-  </div>
-<div class='menuitem'>
-<a href='{{ site.url }}/contato/' style='text-decoration:none;color:#fff;'>Contato</a>
-  </div>
-  </div>
+<style>
+.topnav a {
+  padding:2%;
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: x-large;
+}
+.topnav {
+  float:right;
+  width:100%;
+  }
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.topnav .icon {
+  display: none;
+}
+@media screen and (max-width: 500px) {
+  .topnav a{display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+@media screen and (max-width: 500px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+</style>
+<div class="topnav" id="myTopnav">
+  <a href="{{ site.baseurl }}/cadastro/" style='text-decoration:none;color:#fff;text-shadow: 2px 2px 3px #00000080;'>Cadastro</a>
+  <a href="{{ site.baseurl }}/sobre/" style='text-decoration:none;color:#fff;text-shadow: 2px 2px 3px #00000080;'>Sobre</a>
+  <a href="{{ site.baseurl }}/contato/" style='text-decoration:none;color:#fff;text-shadow: 2px 2px 3px #00000080;'>Contato</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunctionNav()">
+    <i class="fa fa-bars"></i>
+  </a>
 </div>
-  
-  
-  <div class="pesquisatermo3">
-      <div class="pesquisatermo2" id="search-demo-container">
-      <input type="text" class="pesquisatermo" id="search-input" placeholder="Buscar...">
-      <ul class="resultados" id="results-container"></ul>
-    </div>
-  </div>
-    <script>
-      window.simpleJekyllSearch = new SimpleJekyllSearch({
-        searchInput: document.getElementById('search-input'),
-        resultsContainer: document.getElementById('results-container'),
-        json: '{{ site.baseurl }}/_pages/{{ page.categories }}.json',
-        searchResultTemplate: '<a class="searchlink" href="{url}"><li class="searchli">{title}</li></a>',
-        noResultsText: 'No results found',
-        limit: 10,
-        fuzzy: false,
-        exclude: ['Welcome']
-      })
-    </script>
-  
-</header>
+
+<script>
+function myFunctionNav() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
