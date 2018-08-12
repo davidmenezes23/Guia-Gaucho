@@ -6,3 +6,4 @@
     <loc>{{ post.url }}</loc> 
   </url>
 {% endfor %}
+</urlset>
