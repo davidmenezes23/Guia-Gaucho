@@ -12,6 +12,7 @@ layout: null
       <image:loc>{{ site.url }}/{{ post.thumbnail }}</image:loc>
     </image:image> 
   </url>
+{% endif %}
 {% endfor %}
 {% for post in site.posts %}
   <url>
