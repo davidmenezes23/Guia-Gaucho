@@ -15,4 +15,10 @@ ExpiresByType text/css "access plus 1 month"
 # Javascript
 ExpiresByType application/javascript "access plus 1 month"
 ExpiresByType application/json "access plus 1 month"
+# This part sets the expires for the fonts
+  ExpiresByType application/vnd.ms-fontobject "access plus 1 year"
+  ExpiresByType application/x-font-ttf "access plus 1 year"
+  ExpiresByType application/x-font-opentype "access plus 1 year"
+  ExpiresByType application/x-font-woff "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
 </IfModule>
