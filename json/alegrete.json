@@ -1,5 +1,7 @@
 ---
 layout: null
+title: alegrete
+permalink: /json/:title.json
 ---
 [
   {% for post in site.tags.alegretedestaque %}
