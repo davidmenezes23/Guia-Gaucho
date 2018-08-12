@@ -8,9 +8,6 @@ layout: null
 {% if post.layout == 'cidade' %}  
   <url>
     <loc>{{ site.url }}{{ post.url }}</loc> 
-    <image:image>
-      <image:loc>{{ site.url }}/{{ post.thumbnail }}</image:loc>
-    </image:image> 
   </url>
 {% endif %}
 {% endfor %}
