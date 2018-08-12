@@ -6,9 +6,9 @@ layout: null
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 {% for post in site.posts %}
   <url>
-    <loc>{{ post.url }}</loc> 
+    <loc>{{ site.baseurl }}/{{ post.url }}</loc> 
     <image:image>
-      <image:loc>{{ post.thumbnail }}</image:loc>
+      <image:loc>{{ site.baseurl }}/{{ post.thumbnail }}</image:loc>
     </image:image> 
   </url>
 {% endfor %}
