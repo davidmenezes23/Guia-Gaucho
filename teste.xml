@@ -8,7 +8,7 @@ layout: null
   <url>
     <loc>{{ post.url }}</loc> 
     <image:image>
-      <image:loc>{{ page.feature-img }}</image:loc>
+      <image:loc>{{ post.image }}</image:loc>
     </image:image> 
   </url>
 {% endfor %}
